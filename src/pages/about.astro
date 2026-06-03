@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 ---
 <Base title="About Social Security Bronx" description="About Social Security Bronx, an independent guide to Social Security services for residents of Bronx, New York.">
-  <div class="container-narrow article">
+  <div class="container article">
     <h1>About Social Security Bronx</h1>
     <p class="lead">Social Security Bronx is an independent informational website that explains how Social Security services work for residents of Bronx, New York. We turn the official rules into plain-English, step-by-step guides anyone can follow.</p>
     <h2>What you will find here</h2>
@@ -13,10 +13,19 @@ import Base from '../layouts/Base.astro';
     <p>Every guide is researched against official SSA publications and reviewed for accuracy. SSA rules change, so we date our guides and recommend verifying anything time-sensitive on the official site. If you find something incorrect, please let us know.</p>
   </div>
 </Base>
+
+
 <style>
-  .article { padding: var(--space-7) 0 var(--space-8); }
-  .article h1 { margin-bottom: var(--space-4); }
-  .article h2 { font-size: 1.6rem; margin: var(--space-6) 0 var(--space-3); }
-  .article .lead { font-size: 1.2rem; color: var(--color-text-muted); margin-bottom: var(--space-5); }
-  .article p { line-height: 1.8; margin-bottom: var(--space-4); }
+  .article-page { padding: var(--space-7) 0 var(--space-8); }
+  .article-page header { margin-bottom: var(--space-6); padding-bottom: var(--space-5); border-bottom: var(--border-w) solid var(--color-ink); }
+  .article-page h1 { font-family: var(--font-display); font-size: clamp(2rem, 6vw, 3rem); margin-bottom: var(--space-3); letter-spacing: -0.025em; }
+  .article-page .lead { font-family: var(--font-display); font-size: 1.15rem; line-height: 1.55; color: var(--color-text-muted); }
+  .article-page .body { font-size: 1rem; line-height: 1.75; }
+  .article-page .body h2 { font-family: var(--font-display); font-size: 1.4rem; margin-top: var(--space-6); margin-bottom: var(--space-3); padding-bottom: var(--space-2); border-bottom: 1.5px solid var(--color-ink); }
+  .article-page .body p { margin-bottom: var(--space-4); }
+  .article-page .body a { color: var(--color-primary); text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+  .article-page .body ul { padding-left: var(--space-5); }
+  .article-page .body li { margin-bottom: var(--space-2); }
+  .article-page .eyebrow-row { display: flex; gap: var(--space-3); margin-bottom: var(--space-4); flex-wrap: wrap; }
 </style>
+

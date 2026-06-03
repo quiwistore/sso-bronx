@@ -1,0 +1,37 @@
+---
+// Sello editorial circular - identidad del sitio
+// Props: size (px), invert (true = blanco sobre navy, false = navy sobre claro)
+interface Props {
+  size?: number;
+  invert?: boolean;
+}
+const { size = 200, invert = false } = Astro.props;
+const stroke = invert ? '#f5d04d' : '#1a3a6e';
+const muted = invert ? 'rgba(245,208,77,0.7)' : '#5a5d68';
+---
+<div class="editorial-seal" style={`width:${size}px;height:${size}px;`}>
+  <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <path id="circ-top" d="M 100,100 m -82,0 a 82,82 0 1,1 164,0" />
+      <path id="circ-bot" d="M 100,100 m -82,0 a 82,82 0 1,0 164,0" />
+    </defs>
+    <circle cx="100" cy="100" r="92" fill="none" stroke={stroke} stroke-width="1.5"/>
+    <circle cx="100" cy="100" r="88" fill="none" stroke={stroke} stroke-width="1"/>
+    <text font-family="Space Grotesk, sans-serif" font-size="11" font-weight="700" fill={stroke} letter-spacing="2.5">
+      <textPath href="#circ-top" startOffset="50%" text-anchor="middle">SOCIAL SECURITY BRONX</textPath>
+    </text>
+    <text font-family="JetBrains Mono, monospace" font-size="9" font-weight="500" fill={stroke} letter-spacing="3">
+      <textPath href="#circ-bot" startOffset="50%" text-anchor="middle">★ EST. 2026 · NEW YORK ★</textPath>
+    </text>
+    <text x="22" y="105" font-family="Source Serif 4, serif" font-size="14" fill={stroke}>★</text>
+    <text x="172" y="105" font-family="Source Serif 4, serif" font-size="14" fill={stroke}>★</text>
+    <text x="100" y="76" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="8" font-weight="500" fill={muted} letter-spacing="3">— VOL —</text>
+    <text x="100" y="120" text-anchor="middle" font-family="Source Serif 4, serif" font-style="italic" font-weight="500" font-size="48" fill={stroke} letter-spacing="-0.02em">01</text>
+    <text x="100" y="140" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="7" font-weight="500" fill={muted} letter-spacing="2.5">INDEPENDENT GUIDE</text>
+    <line x1="78" y1="80" x2="122" y2="80" stroke={stroke} stroke-width="0.8"/>
+  </svg>
+</div>
+<style>
+  .editorial-seal { flex-shrink: 0; }
+  .editorial-seal svg { width: 100%; height: 100%; display: block; }
+</style>

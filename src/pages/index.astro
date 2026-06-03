@@ -1,9 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
+import EditorialSeal from '../components/EditorialSeal.astro';
 import { services, office, learn } from '../data/datos.js';
 
-const title = 'Social Security in the Bronx, NY: Office Guide & Services (2026)';
-const meta = 'Plain-English guide to Social Security services in the Bronx, New York. SSN cards, SSI, disability benefits, retirement, Medicare, and the five Bronx SSA offices.';
+const title = 'Social Security in the Bronx, NY — An Independent Guide (2026)';
+const meta = 'Plain-English guides for SSN cards, SSI, disability, retirement and the six SSA field offices across the Bronx. Independent editorial guide, updated for 2026.';
 const schema = { "@context": "https://schema.org", "@type": "WebSite", "name": "Social Security Bronx", "url": "https://socialsecuritybronx.com/" };
 
 const popular = [
@@ -14,214 +15,678 @@ const popular = [
 ].filter(Boolean);
 
 const bronxOffices = [
-  { name: 'South Bronx', address: '820 Concourse Village West, 3rd Fl, Bronx, NY 10451', neighborhood: 'Mott Haven, Highbridge, Concourse, Melrose', slug: 'social-security-office-south-bronx' },
-  { name: 'East Bronx', address: '1380 Parker Street, 2nd Fl, Bronx, NY 10462', neighborhood: 'Parkchester, Castle Hill, Soundview', slug: 'social-security-office-east-bronx' },
-  { name: 'Hunts Point', address: '1029 East 163rd Street, 3rd Fl, Bronx, NY 10459', neighborhood: 'Hunts Point, Longwood, Foxhurst', slug: 'social-security-office-hunts-point-bronx' },
-  { name: 'Laconia Avenue', address: '3247 Laconia Avenue, Bronx, NY 10469', neighborhood: 'Wakefield, Williamsbridge, Eastchester', slug: 'social-security-office-laconia-avenue-bronx' },
-  { name: 'North Bronx', address: '2501 Grand Concourse, 2nd Fl, Bronx, NY 10468', neighborhood: 'Fordham, Mt Eden, Tremont, Bedford Park', slug: 'social-security-office-north-bronx' },
-  { name: 'West Farms', address: '1829 Southern Boulevard, Bronx, NY 10460', neighborhood: 'West Farms, Crotona, Belmont, Bronxdale', slug: 'social-security-office-west-farms-bronx' },
+  { num: '01', name: 'South Bronx', zip: '10451', address: '820 Concourse Village West, NY 10451', neighborhood: 'Mott Haven · Highbridge · Concourse · Melrose', phone: '855-531-1684', slug: 'social-security-office-south-bronx' },
+  { num: '02', name: 'East Bronx', zip: '10462', address: '1380 Parker Street, NY 10462', neighborhood: 'Parkchester · Castle Hill · Soundview · Westchester Sq', phone: '866-931-2526', slug: 'social-security-office-east-bronx' },
+  { num: '03', name: 'Hunts Point', zip: '10459', address: '1029 East 163rd Street, NY 10459', neighborhood: 'Hunts Point · Longwood · Foxhurst · Bronx River', phone: '866-220-7889', slug: 'social-security-office-hunts-point-bronx' },
+  { num: '04', name: 'Laconia Avenue', zip: '10469', address: '3247 Laconia Avenue, NY 10469', neighborhood: 'Wakefield · Williamsbridge · Eastchester · Edenwald', phone: '866-513-2391', slug: 'social-security-office-laconia-avenue-bronx' },
+  { num: '05', name: 'North Bronx', zip: '10468', address: '2501 Grand Concourse, NY 10468', neighborhood: 'Fordham · Mt Eden · Tremont · Bedford Park · Kingsbridge Hts', phone: '877-619-2852', slug: 'social-security-office-north-bronx' },
+  { num: '06', name: 'West Farms', zip: '10460', address: '1829 Southern Boulevard, NY 10460', neighborhood: 'West Farms · Crotona · East Tremont · Belmont · Bronxdale', phone: '866-964-2558', slug: 'social-security-office-west-farms-bronx' },
 ];
+
+const officeInfo = office.filter(r => ['social-security-office-hours-bronx','social-security-office-appointment-bronx','social-security-office-near-me-bronx','ssa-required-documents-bronx','ssa-spanish-services-bronx'].includes(r.slug));
 ---
 <Base title={title} description={meta} schema={schema}>
+  <!-- ============ HERO ============ -->
   <section class="hero">
     <div class="container">
       <div class="hero-grid">
         <div class="hero-left">
-          <span class="pill pill-blue">For residents of the Bronx, NY</span>
-          <h1 class="hero-title">Social Security<br>in <span class="hl">the Bronx.</span><br>Made simple.</h1>
-          <p class="hero-sub">Step-by-step guides for SSN cards, SSI, disability claims, retirement, and the six SSA offices across the borough. Free, plain-English, no government affiliation.</p>
+          <div class="eyebrow-row">
+            <span class="pill">For Bronx residents</span>
+            <span class="eyebrow-issue">A 2026 editorial guide</span>
+          </div>
+          <h1 class="hero-h1">Social Security in <span class="u">the Bronx</span>. Made plain.</h1>
+          <p class="hero-sub dropcap">Step-by-step guides for SSN cards, SSI, disability, retirement and the six SSA field offices across the borough — written for residents, updated for this year.</p>
           <div class="hero-cta">
-            <a href="/social-security-office-bronx/" class="btn btn-primary">Find your SSA office</a>
+            <a href="/social-security-office-bronx/" class="btn btn-primary">Find your SSA office →</a>
             <a href="/apply-for-ssi-bronx/" class="btn btn-ghost">Apply for SSI</a>
           </div>
-          <div class="hero-stats">
-            <div class="stat"><span class="stat-num">6</span><span class="stat-label">SSA offices in the Bronx</span></div>
-            <div class="stat"><span class="stat-num">23+</span><span class="stat-label">step-by-step guides</span></div>
-            <div class="stat"><span class="stat-num">2026</span><span class="stat-label">updated for this year</span></div>
+          <div class="hero-trust">
+            <div class="trust-item"><span class="trust-num">06</span><span class="trust-label">SSA offices in the Bronx</span></div>
+            <div class="trust-item"><span class="trust-num">23+</span><span class="trust-label">Step-by-step guides</span></div>
+            <div class="trust-item"><span class="trust-num">2026</span><span class="trust-label">Updated for this year</span></div>
           </div>
         </div>
-        <div class="hero-right">
+
+        <aside class="hero-right">
+          <EditorialSeal size={180} />
           <div class="hero-card">
-            <span class="hero-card-tag">Most searched</span>
+            <div class="hero-card-head">
+              <span class="hero-card-tag">Most searched</span>
+              <span class="hero-card-num">{popular.length} entries</span>
+            </div>
             <ul class="hero-card-list">
-              {popular.map(p => <li><a href={`/${p.slug}/`}>{p.h1}</a></li>)}
+              {popular.map((p, i) => (
+                <li>
+                  <span class="idx">0{i+1}</span>
+                  <a href={`/${p.slug}/`}>{p.h1}</a>
+                </li>
+              ))}
             </ul>
           </div>
-        </div>
+        </aside>
       </div>
     </div>
   </section>
 
-  <section class="container block">
-    <div class="block-head">
+  <!-- ============ DIVIDER ============ -->
+  <div class="container">
+    <div class="divider-rule">
+      <span class="num">§ 01</span>
+      <span class="label">Services</span>
+      <span class="line"></span>
+    </div>
+  </div>
+
+  <!-- ============ TILES SERVICIOS ============ -->
+  <section class="container tiles-wrap">
+    <header class="block-head">
       <h2>What do you need to do?</h2>
       <p>Every service the SSA offers in the Bronx, with the documents you need, the steps to follow, and whether you can do it online.</p>
-    </div>
-    <div class="card-grid">
+    </header>
+    <div class="tiles">
       {services.map((c, i) => (
-        <a href={`/${c.slug}/`} class={`tile ${i % 4 === 1 ? 'tile-accent' : i % 4 === 2 ? 'tile-yellow' : ''}`}>
-          <span class="tile-num">{String(i + 1).padStart(2, '0')}</span>
+        <a href={`/${c.slug}/`} class={`tile ${i === 1 ? 'tile-highlight' : ''}`}>
+          <span class="tile-num">No. {String(i+1).padStart(2,'0')} · Services</span>
           <h3>{c.h1}</h3>
-          <span class="tile-go">Guide &rarr;</span>
+          <span class="tile-go">Read the guide →</span>
         </a>
       ))}
     </div>
   </section>
 
-  <section class="band-cream">
-    <div class="container block">
-      <div class="block-head">
-        <span class="eyebrow">Five SSA offices</span>
-        <h2>Social Security offices in the Bronx</h2>
-        <p>The Bronx is served by five Social Security Administration field offices, each covering specific neighborhoods. Click any office for the full guide including transit, services, and tips.</p>
-      </div>
-      <div class="offices-list">
-        {bronxOffices.map(o => (
-          <a href={`/${o.slug}/`} class="office-row">
-            <div class="office-row-main">
-              <h3>{o.name}</h3>
-              <p class="office-addr">{o.address}</p>
-              <p class="office-area">Serves: {o.neighborhood}</p>
-            </div>
-            <span class="office-row-arrow">&rarr;</span>
-          </a>
-        ))}
-      </div>
+  <!-- ============ DIVIDER ============ -->
+  <div class="container">
+    <div class="divider-rule">
+      <span class="num">§ 02</span>
+      <span class="label">Six SSA Offices</span>
+      <span class="line"></span>
+    </div>
+  </div>
+
+  <!-- ============ OFFICES BAND ============ -->
+  <section class="offices-band">
+    <div class="container offices-head">
+      <h2>Six SSA offices, <em>one borough.</em></h2>
+      <p>The Bronx is served by six Social Security Administration field offices. Each covers specific neighborhoods — click any to see address, transit, and how to book.</p>
+    </div>
+    <div class="container offices-list">
+      {bronxOffices.map(o => (
+        <a href={`/${o.slug}/`} class="office">
+          <div class="office-main">
+            <div class="office-tag">Office <span class="num">№{o.num}</span> · ZIP {o.zip}</div>
+            <h3>{o.name}</h3>
+            <div class="office-addr">{o.address}</div>
+            <div class="office-meta">{o.neighborhood}</div>
+          </div>
+          <span class="office-phone">{o.phone}</span>
+          <span class="office-arrow">→</span>
+        </a>
+      ))}
     </div>
   </section>
 
-  <section class="band">
-    <div class="container">
-      <div class="block-head">
-        <span class="eyebrow eyebrow-light">Office info</span>
-        <h2 class="h-light">Before visiting any Bronx SSA office</h2>
-        <p class="p-light">Hours, how to book an appointment, what documents to bring, and the languages spoken — everything you need before you make the trip.</p>
-      </div>
-      <div class="office-grid">
-        {office.filter(r => ['social-security-office-hours-bronx','social-security-office-appointment-bronx','social-security-office-near-me-bronx','ssa-required-documents-bronx','ssa-spanish-services-bronx'].includes(r.slug)).map(r => (
-          <a href={`/${r.slug}/`} class="office-tile">
-            <h3>{r.h1}</h3>
-            <span class="office-go">Read &rarr;</span>
-          </a>
-        ))}
-        
-      </div>
+  <!-- ============ DIVIDER ============ -->
+  <div class="container">
+    <div class="divider-rule">
+      <span class="num">§ 03</span>
+      <span class="label">Office Info</span>
+      <span class="line"></span>
+    </div>
+  </div>
+
+  <!-- ============ OFFICE INFO LINKS ============ -->
+  <section class="container info-wrap">
+    <header class="block-head">
+      <h2>Before visiting any Bronx SSA office</h2>
+      <p>Hours, how to book an appointment, what documents to bring, and the languages spoken — everything you need before you make the trip.</p>
+    </header>
+    <div class="info-grid">
+      {officeInfo.map(r => (
+        <a href={`/${r.slug}/`} class="info-tile">
+          <h3>{r.h1}</h3>
+          <span class="info-go">Read →</span>
+        </a>
+      ))}
     </div>
   </section>
 
+  <!-- ============ DIVIDER ============ -->
+  <div class="container">
+    <div class="divider-rule">
+      <span class="num">§ 04</span>
+      <span class="label">Learn & Tools</span>
+      <span class="line"></span>
+    </div>
+  </div>
+
+  <!-- ============ LEARN + TOOLS ============ -->
+  <section class="container two-col">
+    <div>
+      <h2 class="col-title">Learn about Social Security</h2>
+      <ul class="link-list">
+        {learn.map(g => <li><a href={`/${g.slug}/`}>{g.h1}</a></li>)}
+      </ul>
+    </div>
+    <div>
+      <h2 class="col-title">Free calculators</h2>
+      <a href="/ssi-eligibility-checker/" class="tool-promo tool-promo-primary">
+        <span class="tool-tag">Tool · 01</span>
+        <h3>SSI Eligibility Checker</h3>
+        <p>Quick check whether you might qualify for Supplemental Security Income based on income, assets, and age.</p>
+        <span class="tool-go">Open calculator →</span>
+      </a>
+      <a href="/retirement-age-calculator/" class="tool-promo">
+        <span class="tool-tag">Tool · 02</span>
+        <h3>Retirement Age Calculator</h3>
+        <p>Find your Full Retirement Age and how your benefit changes by claiming age.</p>
+        <span class="tool-go">Open calculator →</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ INTRO / ABOUT ============ -->
   <section class="band-cream">
-    <div class="container-narrow block intro-text">
+    <div class="container-narrow intro-text">
       <h2>What this site does (and what it does not)</h2>
-      <p>Social Security Bronx is an independent guide for residents of the Bronx, New York, explaining how the U.S. Social Security Administration works locally. Every guide is written in plain English, focused on a specific question or service, and updated for 2026.</p>
-      <p>We are not affiliated with the SSA. For official applications, services, and the latest information, visit <a href="https://www.ssa.gov">ssa.gov</a>. What you find here is the practical, step-by-step explanation of what the official site tells you — including <a href="/apply-for-social-security-card-bronx/">applying for a Social Security card</a>, <a href="/apply-for-ssi-bronx/">applying for SSI</a>, and <a href="/apply-for-disability-benefits-bronx/">applying for disability benefits</a>.</p>
-    </div>
-  </section>
-
-  <section class="container block">
-    <div class="two-col">
-      <div>
-        <h2 class="col-title">Learn about Social Security</h2>
-        <ul class="link-list">
-          {learn.map(g => <li><a href={`/${g.slug}/`}>{g.h1}</a></li>)}
-        </ul>
-      </div>
-      <div>
-        <h2 class="col-title">Free calculators</h2>
-        <a href="/ssi-eligibility-checker/" class="tool-promo tool-promo-accent">
-          <h3>SSI Eligibility Checker</h3>
-          <p>Quick check whether you might qualify for Supplemental Security Income based on income, assets, and age.</p>
-          <span class="tile-go">Open calculator &rarr;</span>
-        </a>
-        <a href="/retirement-age-calculator/" class="tool-promo">
-          <h3>Retirement Age Calculator</h3>
-          <p>Find your Full Retirement Age and how much your benefit changes by claiming age.</p>
-          <span class="tile-go">Open calculator &rarr;</span>
-        </a>
-      </div>
+      <p class="dropcap">Social Security Bronx is an independent editorial guide for residents of the Bronx, New York, explaining how the U.S. Social Security Administration works locally. Every guide is written in plain English, focused on a specific question or service, and updated for 2026.</p>
+      <p>We are not affiliated with the SSA. For official applications, services and the latest information, visit <a href="https://www.ssa.gov">ssa.gov</a>. What you find here is the practical, step-by-step explanation of what the official site tells you — including <a href="/apply-for-social-security-card-bronx/">applying for a Social Security card</a>, <a href="/apply-for-ssi-bronx/">applying for SSI</a>, and <a href="/apply-for-disability-benefits-bronx/">applying for disability benefits</a>.</p>
     </div>
   </section>
 </Base>
 
 <style>
-  /* HERO */
-  .hero { padding: var(--space-8) 0 var(--space-7); }
-  .hero-grid { display: grid; grid-template-columns: 1.5fr 1fr; gap: var(--space-7); align-items: center; }
-  .hero-title { font-size: clamp(2.8rem, 7.5vw, 5rem); line-height: 0.98; letter-spacing: -0.03em; }
-  .hero-title .hl { background: var(--color-accent); color: #fff; padding: 0 0.18em; border-radius: 10px; display: inline-block; transform: rotate(-1.5deg); box-shadow: var(--shadow-hard-sm); border: 2.5px solid var(--color-ink); }
-  .hero-sub { font-size: 1.18rem; line-height: 1.6; color: var(--color-text-muted); max-width: 520px; margin: var(--space-5) 0; }
-  .hero-cta { display: flex; gap: var(--space-3); flex-wrap: wrap; margin-bottom: var(--space-7); }
-  .hero-stats { display: flex; gap: var(--space-6); flex-wrap: wrap; border-top: 2.5px solid var(--color-ink); padding-top: var(--space-4); }
-  .stat { display: flex; flex-direction: column; }
-  .stat-num { font-family: var(--font-display); font-weight: 700; font-size: 2rem; color: var(--color-primary); line-height: 1; }
-  .stat-label { font-size: 0.82rem; color: var(--color-text-muted); margin-top: 4px; max-width: 130px; }
-  .hero-card { background: var(--color-primary); color: #fff; border: 2.5px solid var(--color-ink); border-radius: var(--radius-lg); padding: var(--space-5); transform: rotate(1.5deg); box-shadow: var(--shadow-hard); }
-  .hero-card-tag { display: inline-block; font-family: var(--font-display); font-weight: 700; font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-yellow); margin-bottom: var(--space-3); }
+  /* ============ HERO ============ */
+  .hero { padding: var(--space-7) 0 var(--space-6); position: relative; }
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-7);
+    align-items: start;
+  }
+  .eyebrow-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    margin-bottom: var(--space-5);
+    flex-wrap: wrap;
+  }
+  .hero-h1 {
+    font-size: clamp(2.2rem, 8vw, 2.8rem);
+    line-height: 1.04;
+    letter-spacing: -0.025em;
+    margin-bottom: var(--space-5);
+  }
+  .hero-h1 .u {
+    position: relative;
+    display: inline-block;
+  }
+  .hero-h1 .u::after {
+    content: '';
+    position: absolute;
+    left: -2px; right: -2px; bottom: 6%;
+    height: 32%;
+    background: var(--color-highlight);
+    z-index: -1;
+  }
+  .hero-sub {
+    font-size: 1.04rem;
+    line-height: 1.65;
+    color: var(--color-text-muted);
+    max-width: 540px;
+    margin-bottom: var(--space-6);
+  }
+  .hero-cta {
+    display: flex;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+    margin-bottom: var(--space-6);
+  }
+  .hero-trust {
+    display: flex;
+    gap: var(--space-5);
+    padding-top: var(--space-4);
+    border-top: var(--border-w) solid var(--color-ink);
+    flex-wrap: wrap;
+  }
+  .trust-num {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: var(--color-primary);
+    line-height: 1;
+    display: block;
+  }
+  .trust-label {
+    font-family: var(--font-ui);
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    margin-top: 4px;
+    max-width: 100px;
+    display: block;
+    letter-spacing: 0.02em;
+  }
+
+  .hero-right {
+    display: flex;
+    flex-direction: row;
+    gap: var(--space-4);
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: var(--space-4);
+  }
+  .hero-card {
+    background: var(--color-surface);
+    border: var(--border-w) solid var(--color-ink);
+    border-radius: var(--radius-md);
+    padding: var(--space-4);
+    box-shadow: var(--shadow-hard-sm);
+    flex: 1;
+    min-width: 0;
+  }
+  .hero-card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-3);
+    padding-bottom: var(--space-2);
+    border-bottom: 1px solid var(--color-border-soft);
+  }
+  .hero-card-tag {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    font-weight: 500;
+    color: var(--color-text-muted);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .hero-card-num {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    color: var(--color-text-soft);
+  }
   .hero-card-list { list-style: none; padding: 0; margin: 0; }
-  .hero-card-list li { border-bottom: 1px solid rgba(255,255,255,0.2); }
+  .hero-card-list li {
+    padding: var(--space-2) 0;
+    border-bottom: 1px solid var(--color-border-soft);
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-3);
+  }
   .hero-card-list li:last-child { border-bottom: none; }
-  .hero-card-list a { display: block; padding: var(--space-3) 0; color: #fff; text-decoration: none; font-family: var(--font-display); font-weight: 600; font-size: 0.95rem; transition: padding 0.15s ease; }
-  .hero-card-list a:hover { padding-left: 8px; color: var(--color-yellow); }
-  /* BLOCKS */
-  .block { padding-top: var(--space-8); padding-bottom: var(--space-7); }
-  .block-head { max-width: 640px; margin-bottom: var(--space-6); }
-  .block-head h2 { font-size: clamp(1.8rem, 4vw, 2.8rem); margin-bottom: var(--space-3); }
-  .block-head p { font-size: 1.1rem; color: var(--color-text-muted); }
-  /* Card grid */
-  .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-4); }
-  .tile { display: flex; flex-direction: column; gap: var(--space-2); padding: var(--space-5); background: var(--color-surface); border: 2.5px solid var(--color-ink); border-radius: var(--radius-md); text-decoration: none; color: var(--color-ink); transition: transform 0.12s ease, box-shadow 0.12s ease; min-height: 170px; box-shadow: var(--shadow-hard-sm); }
-  .tile:hover { transform: translate(-3px,-3px); box-shadow: var(--shadow-hard); }
-  .tile-accent { background: var(--color-accent); color: #fff; }
-  .tile-accent h3 { color: #fff; }
-  .tile-yellow { background: var(--color-yellow); }
-  .tile-num { font-family: var(--font-display); font-weight: 700; font-size: 0.9rem; color: var(--color-primary); }
-  .tile-accent .tile-num { color: #fff; }
-  .tile-yellow .tile-num { color: var(--color-ink); }
-  .tile h3 { font-size: 1.1rem; margin: 0; flex: 1; }
-  .tile-go { font-family: var(--font-display); font-weight: 700; font-size: 0.85rem; color: var(--color-primary); }
-  .tile-accent .tile-go { color: #fff; }
-  .tile-yellow .tile-go { color: var(--color-ink); }
-  /* Offices list (cream band) */
-  .offices-list { display: flex; flex-direction: column; gap: var(--space-3); }
-  .office-row { display: flex; justify-content: space-between; align-items: center; gap: var(--space-5); padding: var(--space-5) var(--space-6); background: var(--color-surface); border: 2.5px solid var(--color-ink); border-radius: var(--radius-md); text-decoration: none; color: var(--color-ink); box-shadow: var(--shadow-hard-sm); transition: transform 0.12s ease, box-shadow 0.12s ease; }
-  .office-row:hover { transform: translate(-3px,-3px); box-shadow: var(--shadow-hard); color: var(--color-ink); }
-  .office-row-main { flex: 1; }
-  .office-row h3 { font-size: 1.2rem; margin-bottom: 4px; }
-  .office-addr { font-family: var(--font-display); font-weight: 600; color: var(--color-primary); margin-bottom: 4px; font-size: 0.95rem; }
-  .office-area { font-size: 0.88rem; color: var(--color-text-muted); margin: 0; }
-  .office-row-arrow { font-family: var(--font-display); font-weight: 700; font-size: 1.5rem; color: var(--color-accent); flex-shrink: 0; }
-  /* Office band (dark) */
-  .band { background: var(--color-ink); color: #fff; padding: var(--space-8) 0; }
-  .eyebrow-light { color: var(--color-yellow); }
-  .h-light { color: #fff; }
-  .p-light { color: rgba(255,255,255,0.8); }
-  .office-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-3); }
-  .office-tile { display: flex; justify-content: space-between; align-items: center; gap: var(--space-3); padding: var(--space-4) var(--space-5); background: rgba(255,255,255,0.06); border: 2px solid rgba(255,255,255,0.2); border-radius: var(--radius-md); text-decoration: none; color: #fff; transition: all 0.15s ease; }
-  .office-tile:hover { background: var(--color-accent); border-color: var(--color-accent); color: #fff; }
-  .office-tile h3 { font-size: 1.05rem; margin: 0; color: inherit; }
-  .office-go { font-family: var(--font-display); font-weight: 700; color: var(--color-yellow); white-space: nowrap; }
-  .office-tile:hover .office-go { color: #fff; }
-  /* Intro */
-  .band-cream { background: var(--color-bg-alt); }
-  .intro-text h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); margin-bottom: var(--space-4); }
-  .intro-text p { line-height: 1.8; margin-bottom: var(--space-4); font-size: 1.05rem; }
-  /* Two col */
-  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-7); }
-  .col-title { font-size: 1.5rem; margin-bottom: var(--space-4); padding-bottom: var(--space-3); border-bottom: 2.5px solid var(--color-ink); }
+  .hero-card-list .idx {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    color: var(--color-text-soft);
+    font-weight: 500;
+    flex-shrink: 0;
+    min-width: 18px;
+  }
+  .hero-card-list a {
+    font-family: var(--font-display);
+    font-size: 0.94rem;
+    font-weight: 500;
+    color: var(--color-ink);
+    text-decoration: none;
+    line-height: 1.3;
+  }
+  .hero-card-list a:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+  }
+
+  /* ============ BLOCK HEAD ============ */
+  .block-head { margin-bottom: var(--space-5); max-width: 620px; }
+  .block-head h2 { margin-bottom: var(--space-3); }
+  .block-head p { font-size: 0.98rem; color: var(--color-text-muted); }
+
+  /* ============ TILES (services) ============ */
+  .tiles-wrap { padding-bottom: var(--space-6); }
+  .tiles {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+  }
+  .tile {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    padding: var(--space-5);
+    background: var(--color-surface);
+    border: var(--border-w) solid var(--color-ink);
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    color: var(--color-ink);
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+  }
+  .tile:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: var(--shadow-hard);
+    color: var(--color-ink);
+  }
+  .tile-num {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--color-primary);
+    letter-spacing: 0.08em;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .tile-num::before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 1.5px;
+    background: var(--color-primary);
+  }
+  .tile h3 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.25;
+    flex: 1;
+  }
+  .tile-go {
+    font-family: var(--font-ui);
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: var(--color-primary);
+  }
+  .tile-highlight { background: var(--color-highlight); }
+  .tile-highlight .tile-num,
+  .tile-highlight .tile-go { color: var(--color-ink); }
+  .tile-highlight .tile-num::before { background: var(--color-ink); }
+
+  /* ============ OFFICES BAND ============ */
+  .offices-band {
+    background: var(--color-bg-alt);
+    padding: var(--space-7) 0;
+    border-top: var(--border-w) solid var(--color-ink);
+    border-bottom: var(--border-w) solid var(--color-ink);
+    margin-top: var(--space-6);
+  }
+  .offices-head {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+    margin-bottom: var(--space-5);
+  }
+  .offices-head h2 em {
+    font-style: italic;
+    color: var(--color-primary);
+    font-weight: 500;
+  }
+  .offices-head p { color: var(--color-text-muted); font-size: 0.95rem; }
+  .offices-list { display: flex; flex-direction: column; }
+  .office {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4px;
+    padding: var(--space-5) var(--space-4) var(--space-5) var(--space-5);
+    border-bottom: var(--border-w) solid var(--color-ink);
+    text-decoration: none;
+    color: var(--color-ink);
+    transition: background 0.15s, padding-left 0.15s;
+    position: relative;
+  }
+  .office:first-of-type { border-top: var(--border-w) solid var(--color-ink); }
+  .office::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: var(--space-4);
+    bottom: var(--space-4);
+    width: 4px;
+    background: var(--color-primary);
+    transition: width 0.15s;
+  }
+  .office:hover {
+    background: rgba(245, 208, 77, 0.18);
+    color: var(--color-ink);
+    padding-left: calc(var(--space-5) + 6px);
+  }
+  .office:hover::before { width: 8px; background: var(--color-ink); }
+  .office-tag {
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    font-weight: 500;
+    color: var(--color-text-soft);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: var(--space-2);
+  }
+  .office-tag .num {
+    color: var(--color-primary);
+    font-weight: 700;
+  }
+  .office-main h3 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 4px;
+  }
+  .office-addr {
+    font-family: var(--font-ui);
+    font-weight: 600;
+    font-size: 0.88rem;
+    color: var(--color-primary);
+    margin-bottom: 4px;
+  }
+  .office-meta {
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+  }
+  .office-phone, .office-arrow { display: none; }
+  .office::after {
+    content: '→';
+    position: absolute;
+    right: var(--space-4);
+    top: var(--space-5);
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    color: var(--color-primary);
+  }
+
+  /* ============ INFO TILES ============ */
+  .info-wrap { padding-bottom: var(--space-6); }
+  .info-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+  }
+  .info-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-4) var(--space-5);
+    background: var(--color-surface);
+    border: var(--border-w) solid var(--color-ink);
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    color: var(--color-ink);
+    transition: transform 0.12s, box-shadow 0.12s;
+  }
+  .info-tile:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: var(--shadow-hard-sm);
+    color: var(--color-ink);
+  }
+  .info-tile h3 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.02rem;
+    line-height: 1.25;
+    flex: 1;
+  }
+  .info-go {
+    font-family: var(--font-ui);
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--color-primary);
+  }
+
+  /* ============ TWO COL (learn + tools) ============ */
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-7);
+    padding: var(--space-5) var(--space-4) var(--space-7);
+  }
+  .col-title {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    margin-bottom: var(--space-4);
+    padding-bottom: var(--space-3);
+    border-bottom: var(--border-w) solid var(--color-ink);
+  }
   .link-list { list-style: none; padding: 0; margin: 0; }
   .link-list li { border-bottom: 1px solid var(--color-border-soft); }
-  .link-list a { display: block; padding: var(--space-3) 0; color: var(--color-text); text-decoration: none; font-weight: 500; transition: padding 0.15s ease, color 0.15s ease; }
-  .link-list a:hover { padding-left: 8px; color: var(--color-primary); }
-  .tool-promo { display: block; background: var(--color-yellow); padding: var(--space-5); border: 2.5px solid var(--color-ink); border-radius: var(--radius-md); text-decoration: none; color: var(--color-ink); box-shadow: var(--shadow-hard-sm); transition: transform 0.12s ease, box-shadow 0.12s ease; margin-bottom: var(--space-3); }
-  .tool-promo:hover { transform: translate(-3px,-3px); box-shadow: var(--shadow-hard); color: var(--color-ink); }
-  .tool-promo p { margin-bottom: var(--space-3); }
-  .tool-promo-accent { background: var(--color-accent); color: #fff; }
-  .tool-promo-accent:hover { color: #fff; }
-  .tool-promo-accent h3 { color: #fff; }
-  .tool-promo-accent .tile-go { color: #fff; }
-  @media (max-width: 880px) {
-    .hero-grid { grid-template-columns: 1fr; }
-    .hero-card { transform: none; }
-    .two-col { grid-template-columns: 1fr; gap: var(--space-6); }
-    .office-row { flex-direction: column; align-items: flex-start; gap: var(--space-3); }
+  .link-list a {
+    display: block;
+    padding: var(--space-3) 0;
+    color: var(--color-text);
+    text-decoration: none;
+    font-family: var(--font-display);
+    font-size: 1.02rem;
+    font-weight: 500;
+    transition: padding 0.15s, color 0.15s;
+  }
+  .link-list a:hover {
+    padding-left: var(--space-2);
+    color: var(--color-primary);
+  }
+  .tool-promo {
+    display: block;
+    background: var(--color-surface);
+    border: var(--border-w) solid var(--color-ink);
+    border-radius: var(--radius-md);
+    padding: var(--space-5);
+    margin-bottom: var(--space-3);
+    text-decoration: none;
+    color: var(--color-ink);
+    box-shadow: var(--shadow-hard-sm);
+    transition: transform 0.12s, box-shadow 0.12s;
+  }
+  .tool-promo:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: var(--shadow-hard);
+    color: var(--color-ink);
+  }
+  .tool-tag {
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    font-weight: 500;
+    color: var(--color-primary);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: var(--space-2);
+  }
+  .tool-promo h3 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: var(--space-2);
+  }
+  .tool-promo p {
+    font-size: 0.92rem;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-3);
+  }
+  .tool-go {
+    font-family: var(--font-ui);
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--color-primary);
+  }
+  .tool-promo-primary {
+    background: var(--color-primary);
+    color: #fff;
+  }
+  .tool-promo-primary h3 { color: #fff; }
+  .tool-promo-primary p { color: rgba(255,255,255,0.85); }
+  .tool-promo-primary .tool-tag { color: var(--color-highlight); }
+  .tool-promo-primary .tool-go { color: var(--color-highlight); }
+  .tool-promo-primary:hover { color: #fff; }
+
+  /* ============ INTRO BAND ============ */
+  .band-cream {
+    background: var(--color-bg-alt);
+    padding: var(--space-7) 0;
+    border-top: var(--border-w) solid var(--color-ink);
+  }
+  .intro-text h2 { margin-bottom: var(--space-4); }
+  .intro-text p { font-size: 1rem; line-height: 1.75; margin-bottom: var(--space-4); }
+
+  /* ============ TABLET 760px ============ */
+  @media (min-width: 760px) {
+    .hero { padding: var(--space-8) 0 var(--space-7); }
+    .hero-grid {
+      grid-template-columns: 1.4fr 1fr;
+      gap: var(--space-7);
+    }
+    .hero-h1 { font-size: clamp(2.6rem, 5vw, 3.4rem); }
+    .hero-sub { font-size: 1.1rem; }
+    .hero-right {
+      flex-direction: column;
+      gap: var(--space-5);
+      align-items: stretch;
+      margin-top: 0;
+    }
+    .hero-card { padding: var(--space-5); }
+    .trust-num { font-size: 1.8rem; }
+    .trust-label { font-size: 0.72rem; max-width: 120px; }
+
+    .tiles { grid-template-columns: repeat(2, 1fr); }
+
+    .offices-head {
+      grid-template-columns: 1.5fr 1fr;
+      gap: var(--space-6);
+      align-items: end;
+    }
+    .office {
+      grid-template-columns: 1fr auto auto;
+      gap: var(--space-5);
+      padding: var(--space-5) var(--space-5);
+    }
+    .office-phone {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      color: var(--color-ink);
+      font-weight: 500;
+      text-decoration: none;
+    }
+    .office-arrow {
+      display: inline-block;
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      color: var(--color-primary);
+    }
+    .office::after { display: none; }
+
+    .info-grid { grid-template-columns: repeat(2, 1fr); }
+
+    .two-col {
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-7);
+      padding: var(--space-5) var(--space-6) var(--space-8);
+    }
+  }
+
+  /* ============ DESKTOP 1024px ============ */
+  @media (min-width: 1024px) {
+    .hero { padding: var(--space-9) 0 var(--space-8); }
+    .hero-h1 { font-size: clamp(3rem, 4.5vw, 4.2rem); }
+    .tiles { grid-template-columns: repeat(3, 1fr); }
+    .info-grid { grid-template-columns: repeat(3, 1fr); }
   }
 </style>

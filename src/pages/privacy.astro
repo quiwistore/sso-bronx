@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 ---
 <Base title="Privacy Policy" description="Privacy policy for Social Security Bronx.">
-  <div class="container-narrow article">
+  <div class="container article">
     <h1>Privacy Policy</h1>
     <p class="lead">This privacy policy explains how Social Security Bronx handles information collected through this website.</p>
     <h2>Information we collect</h2>
@@ -17,10 +17,19 @@ import Base from '../layouts/Base.astro';
     <p>For privacy questions, contact us via the <a href="/contact/">contact page</a>.</p>
   </div>
 </Base>
+
+
 <style>
-  .article { padding: var(--space-7) 0 var(--space-8); }
-  .article h1 { margin-bottom: var(--space-4); }
-  .article h2 { font-size: 1.6rem; margin: var(--space-6) 0 var(--space-3); }
-  .article .lead { font-size: 1.2rem; color: var(--color-text-muted); margin-bottom: var(--space-5); }
-  .article p { line-height: 1.8; margin-bottom: var(--space-4); }
+  .article-page { padding: var(--space-7) 0 var(--space-8); }
+  .article-page header { margin-bottom: var(--space-6); padding-bottom: var(--space-5); border-bottom: var(--border-w) solid var(--color-ink); }
+  .article-page h1 { font-family: var(--font-display); font-size: clamp(2rem, 6vw, 3rem); margin-bottom: var(--space-3); letter-spacing: -0.025em; }
+  .article-page .lead { font-family: var(--font-display); font-size: 1.15rem; line-height: 1.55; color: var(--color-text-muted); }
+  .article-page .body { font-size: 1rem; line-height: 1.75; }
+  .article-page .body h2 { font-family: var(--font-display); font-size: 1.4rem; margin-top: var(--space-6); margin-bottom: var(--space-3); padding-bottom: var(--space-2); border-bottom: 1.5px solid var(--color-ink); }
+  .article-page .body p { margin-bottom: var(--space-4); }
+  .article-page .body a { color: var(--color-primary); text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+  .article-page .body ul { padding-left: var(--space-5); }
+  .article-page .body li { margin-bottom: var(--space-2); }
+  .article-page .eyebrow-row { display: flex; gap: var(--space-3); margin-bottom: var(--space-4); flex-wrap: wrap; }
 </style>
+

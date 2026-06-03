@@ -5,13 +5,14 @@ const year = new Date().getFullYear();
   <div class="container">
     <div class="footer-grid">
       <div class="footer-col footer-brand">
-        <span class="logo-text"><strong>Social Security</strong> Bronx</span>
-        <p>An independent guide for residents of Bronx, New York, on Social Security services, card applications, disability benefits and the local SSA office.</p>
+        <span class="logo-text"><strong>Social Security</strong> <em>Bronx</em></span>
+        <p>An independent editorial guide for residents of the Bronx, New York, on Social Security services, card applications, disability benefits, SSI and the six SSA field offices.</p>
       </div>
       <div class="footer-col">
         <h4>Services</h4>
         <ul>
           <li><a href="/apply-for-social-security-card-bronx/">Apply for SSN card</a></li>
+          <li><a href="/apply-for-ssi-bronx/">Apply for SSI</a></li>
           <li><a href="/replace-social-security-card-bronx/">Replace lost card</a></li>
           <li><a href="/apply-for-disability-benefits-bronx/">Disability benefits</a></li>
           <li><a href="/apply-for-medicare-bronx/">Medicare enrollment</a></li>
@@ -20,15 +21,18 @@ const year = new Date().getFullYear();
       <div class="footer-col">
         <h4>Office info</h4>
         <ul>
-          <li><a href="/social-security-office-bronx/">SSA office in the Bronx</a></li>
+          <li><a href="/social-security-office-bronx/">All Bronx SSA offices</a></li>
           <li><a href="/social-security-office-hours-bronx/">Office hours</a></li>
           <li><a href="/social-security-office-appointment-bronx/">Book an appointment</a></li>
-          <li><a href="/retirement-age-calculator/">Retirement age calculator</a></li>
+          <li><a href="/ssa-required-documents-bronx/">What documents to bring</a></li>
+          <li><a href="/ssa-spanish-services-bronx/">Spanish services</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>About</h4>
+        <h4>Tools & info</h4>
         <ul>
+          <li><a href="/retirement-age-calculator/">Retirement age calculator</a></li>
+          <li><a href="/ssi-eligibility-checker/">SSI eligibility checker</a></li>
           <li><a href="/about/">About this site</a></li>
           <li><a href="/contact/">Contact</a></li>
           <li><a href="/privacy/">Privacy policy</a></li>
@@ -36,34 +40,125 @@ const year = new Date().getFullYear();
       </div>
     </div>
 
-    <div class="footer-disclaimer">
-      <p><strong>Disclaimer:</strong> Social Security Bronx is an independent informational website. We are not affiliated with, endorsed by or operated by the U.S. Social Security Administration (SSA) or any other government agency. For official information, services and transactions, always visit <a href="https://www.ssa.gov">ssa.gov</a>.</p>
+    <div class="footer-strip">
+      <div class="footer-meta">
+        <span>Vol. 01</span>
+        <span>The Bronx, NY</span>
+        <span><strong>Independent guide</strong></span>
+        <span>{year}</span>
+      </div>
+      <span class="footer-tag">An editorial guide for borough residents.</span>
     </div>
-    <div class="footer-bottom">
-      &copy; {year} Social Security Bronx. All rights reserved.
-    </div>
+
+    <p class="footer-disclaimer">
+      <strong>Disclaimer:</strong> Social Security Bronx is an independent informational website. We are not affiliated with, endorsed by or operated by the U.S. Social Security Administration (SSA) or any other government agency. For official information, services and transactions, always visit <a href="https://www.ssa.gov">ssa.gov</a>.
+    </p>
   </div>
 </footer>
 
 <style>
-  .site-footer { background: var(--color-ink); color: rgba(255,255,255,0.85); padding: var(--space-8) 0 var(--space-5); margin-top: var(--space-9); }
-  .footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: var(--space-6); margin-bottom: var(--space-6); }
-  .footer-brand p { font-size: 0.92rem; color: rgba(255,255,255,0.65); max-width: 320px; margin-top: var(--space-3); }
-  .footer-col h4 { color: var(--color-yellow); font-size: 0.95rem; margin-bottom: var(--space-3); }
+  .site-footer {
+    background: var(--color-bg-alt);
+    border-top: var(--border-w) solid var(--color-ink);
+    padding: var(--space-7) 0 var(--space-5);
+    margin-top: var(--space-8);
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+    margin-bottom: var(--space-6);
+  }
+  .footer-brand { grid-column: 1 / -1; }
+  .footer-brand .logo-text {
+    font-family: var(--font-ui);
+    font-weight: 700;
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: var(--space-3);
+  }
+  .footer-brand em {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 500;
+    color: var(--color-primary);
+  }
+  .footer-brand p {
+    color: var(--color-text-muted);
+    font-size: 0.92rem;
+    max-width: 540px;
+    line-height: 1.6;
+  }
+  .footer-col h4 {
+    font-family: var(--font-ui);
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-ink);
+    margin-bottom: var(--space-3);
+    padding-bottom: var(--space-2);
+    border-bottom: var(--border-w) solid var(--color-ink);
+  }
   .footer-col ul { list-style: none; padding: 0; margin: 0; }
   .footer-col li { margin-bottom: var(--space-2); }
-  .footer-col a { color: rgba(255,255,255,0.75); text-decoration: none; font-size: 0.9rem; }
-  .footer-col a:hover { color: var(--color-accent); }
-  .footer-col .logo-text { color: #fff; font-size: 1.3rem; }
-  .footer-col .logo-text strong { color: var(--color-accent); }
-  .footer-disclaimer { background: rgba(255,255,255,0.06); border-left: 4px solid var(--color-accent); padding: var(--space-4) var(--space-5); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-bottom: var(--space-5); }
-  .footer-disclaimer p { font-size: 0.85rem; color: rgba(255,255,255,0.8); margin: 0; line-height: 1.6; }
-  .footer-disclaimer a { color: var(--color-yellow); }
-  .footer-bottom { font-size: 0.82rem; color: rgba(255,255,255,0.5); padding-top: var(--space-4); border-top: 1px solid rgba(255,255,255,0.1); }
-  @media (max-width: 860px) {
-    .footer-grid { grid-template-columns: 1fr 1fr; gap: var(--space-5); }
+  .footer-col a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 0.92rem;
+    font-weight: 500;
   }
-  @media (max-width: 500px) {
-    .footer-grid { grid-template-columns: 1fr; }
+  .footer-col a:hover { color: var(--color-primary); text-decoration: underline; }
+
+  .footer-strip {
+    background: var(--color-ink);
+    color: #fff;
+    padding: var(--space-4) var(--space-4);
+    margin: 0 calc(-1 * var(--space-4));
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    border-top: var(--border-w) solid var(--color-ink);
+    border-bottom: var(--border-w) solid var(--color-ink);
+  }
+  .footer-meta {
+    display: flex;
+    gap: var(--space-4);
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    color: rgba(255,255,255,0.7);
+    text-transform: uppercase;
+    flex-wrap: wrap;
+  }
+  .footer-meta strong { color: var(--color-highlight); font-weight: 500; }
+  .footer-tag {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 0.95rem;
+    color: rgba(255,255,255,0.85);
+  }
+  .footer-disclaimer {
+    margin-top: var(--space-5);
+    font-size: 0.82rem;
+    color: var(--color-text-muted);
+    line-height: 1.55;
+  }
+  .footer-disclaimer strong { color: var(--color-ink); }
+  .footer-disclaimer a { color: var(--color-primary); }
+
+  @media (min-width: 760px) {
+    .footer-grid {
+      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+      gap: var(--space-6);
+    }
+    .footer-brand { grid-column: auto; }
+    .footer-strip {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: var(--space-4) var(--space-6);
+      margin: 0 calc(-1 * var(--space-6));
+    }
   }
 </style>

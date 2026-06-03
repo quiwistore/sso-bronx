@@ -1,11 +1,17 @@
-node_modules/
+# Astro internals
 .astro/
+
+# Node
+node_modules/
+npm-debug.log
+.DS_Store
+
+# Env
 .env
+.env.local
 .env.production
-*.log
+
+# Editor
 .vscode/
 .idea/
-.DS_Store
-scripts/.scrape-progress.json
-._*
-.AppleDouble
+*.swp

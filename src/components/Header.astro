@@ -1,64 +1,239 @@
 ---
+import { silos } from '../data/datos.js';
 const path = Astro.url.pathname;
-const isActive = (prefix) => path === prefix || path.startsWith(prefix);
+const isActive = (href: string) => path === href || path.startsWith(href);
+
+// Top nav: las paginas mas buscadas
+const nav = [
+  { href: '/social-security-office-bronx/', label: 'SSA Office' },
+  { href: '/apply-for-social-security-card-bronx/', label: 'Card' },
+  { href: '/apply-for-ssi-bronx/', label: 'SSI' },
+  { href: '/apply-for-disability-benefits-bronx/', label: 'Disability' },
+  { href: '/apply-for-social-security-retirement-bronx/', label: 'Retirement' },
+];
 ---
+<!-- Top editorial strip -->
+<div class="top-strip">
+  <div class="top-strip-inner">
+    <span class="ts-meta"><strong>Independent guide</strong> · Not affiliated with the SSA</span>
+    <span class="ts-meta ts-hide-mobile">Vol. 01 · Updated 2026</span>
+    <span class="ts-meta ts-hide-mobile">The Bronx, New York</span>
+  </div>
+</div>
+
 <header class="site-header">
   <div class="container header-inner">
     <a href="/" class="logo" aria-label="Social Security Bronx home">
-      <span class="logo-mark">
-        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <rect x="2" y="2" width="24" height="24" rx="6" fill="#1e5acc" stroke="#0e1116" stroke-width="2"/>
-          <path d="M9 11 L13 15 L19 9" stroke="#fdd84d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <span class="logo-mark" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 12 L10 17 L19 8" stroke="#f5d04d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </span>
-      <span class="logo-text">Social Security<strong>Bronx</strong></span>
+      <span class="logo-text">Social Security <em>Bronx</em></span>
     </a>
 
-    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
 
     <nav class="main-nav" aria-label="Main navigation">
       <ul>
-        <li><a href="/social-security-office-bronx/" class={isActive('/social-security-office-bronx') ? 'active' : ''}>SSA Office</a></li>
-        <li><a href="/apply-for-social-security-card-bronx/" class={isActive('/apply-for-social-security-card-bronx') ? 'active' : ''}>Card</a></li>
-        <li><a href="/apply-for-disability-benefits-bronx/" class={isActive('/apply-for-disability-benefits-bronx') ? 'active' : ''}>Disability</a></li>
-        <li><a href="/apply-for-social-security-retirement-bronx/" class={isActive('/apply-for-social-security-retirement-bronx') ? 'active' : ''}>Retirement</a></li>
-        <li><a href="/retirement-age-calculator/" class={isActive('/retirement-age-calculator') ? 'active' : ''}>Calculator</a></li>
+        {nav.map(item => (
+          <li><a href={item.href} class={isActive(item.href) ? 'active' : ''}>{item.label}</a></li>
+        ))}
       </ul>
       <a href="/social-security-office-bronx/" class="btn btn-primary nav-btn">Find office</a>
     </nav>
   </div>
 </header>
 
-<script>
-  const toggle = document.querySelector('.menu-toggle');
-  const nav = document.querySelector('.main-nav');
-  toggle?.addEventListener('click', () => {
-    const open = nav?.classList.toggle('open');
-    toggle.setAttribute('aria-expanded', String(open));
-  });
+<script is:inline>
+  (function(){
+    var t = document.querySelector('.menu-toggle');
+    var n = document.querySelector('.main-nav');
+    if (!t || !n) return;
+    t.addEventListener('click', function(){
+      var open = n.classList.toggle('open');
+      t.classList.toggle('open', open);
+      t.setAttribute('aria-expanded', String(open));
+      document.body.classList.toggle('nav-open', open);
+    });
+  })();
 </script>
 
 <style>
-  .site-header { background: var(--color-bg); border-bottom: 2.5px solid var(--color-ink); position: sticky; top: 0; z-index: 50; }
-  .header-inner { display: flex; align-items: center; justify-content: space-between; padding-top: var(--space-3); padding-bottom: var(--space-3); gap: var(--space-4); }
-  .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
-  .logo-text { font-family: var(--font-display); font-weight: 600; font-size: 1.2rem; color: var(--color-ink); letter-spacing: -0.02em; }
-  .logo-text strong { font-weight: 700; color: var(--color-primary); margin-left: 4px; }
-  .main-nav { display: flex; align-items: center; gap: var(--space-5); }
-  .main-nav ul { display: flex; gap: var(--space-5); list-style: none; padding: 0; margin: 0; }
-  .main-nav li { margin: 0; }
-  .main-nav a { font-family: var(--font-display); font-weight: 600; font-size: 0.94rem; color: var(--color-ink); text-decoration: none; }
-  .main-nav a:hover, .main-nav a.active { color: var(--color-primary); }
-  .nav-btn { padding: 10px 20px; font-size: 0.88rem; }
-  .menu-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 6px; }
-  .menu-toggle span { width: 24px; height: 2.5px; background: var(--color-ink); border-radius: 2px; }
-  @media (max-width: 920px) {
-    .menu-toggle { display: flex; }
-    .main-nav { position: absolute; top: 100%; left: 0; right: 0; background: var(--color-bg); border-bottom: 2.5px solid var(--color-ink); flex-direction: column; align-items: stretch; gap: var(--space-3); padding: var(--space-4) var(--space-5); display: none; }
-    .main-nav.open { display: flex; }
-    .main-nav ul { flex-direction: column; gap: var(--space-3); }
-    .nav-btn { text-align: center; }
+  /* ============ TOP STRIP (editorial bar) ============ */
+  .top-strip {
+    background: var(--color-ink);
+    color: rgba(255,255,255,0.85);
+    padding: 7px 0;
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .top-strip-inner {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 var(--space-4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-4);
+    flex-wrap: wrap;
+  }
+  .ts-meta strong { color: var(--color-highlight); font-weight: 500; }
+  @media (max-width: 759px) {
+    .ts-hide-mobile { display: none; }
+    .top-strip-inner { justify-content: center; }
+  }
+  @media (min-width: 760px) {
+    .top-strip { font-size: 0.7rem; padding: 8px 0; }
+    .top-strip-inner { padding: 0 var(--space-6); }
+  }
+
+  /* ============ HEADER ============ */
+  .site-header {
+    background: var(--color-bg);
+    border-bottom: var(--border-w) solid var(--color-ink);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px var(--space-4);
+    gap: var(--space-4);
+  }
+  @media (min-width: 760px) {
+    .header-inner { padding: 14px var(--space-6); }
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--color-ink);
+    flex-shrink: 0;
+  }
+  .logo-mark {
+    width: 34px; height: 34px;
+    background: var(--color-primary);
+    border: var(--border-w) solid var(--color-ink);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo-text {
+    font-family: var(--font-ui);
+    font-weight: 700;
+    font-size: 0.95rem;
+    letter-spacing: -0.01em;
+  }
+  .logo-text em {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 500;
+    color: var(--color-primary);
+  }
+  @media (min-width: 760px) {
+    .logo-text { font-size: 1rem; }
+  }
+
+  /* ============ Menu toggle (mobile) ============ */
+  .menu-toggle {
+    width: 38px; height: 38px;
+    background: transparent;
+    border: var(--border-w) solid var(--color-ink);
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 0;
+  }
+  .menu-toggle span {
+    display: block;
+    width: 18px;
+    height: 2px;
+    background: var(--color-ink);
+    transition: transform 0.2s, opacity 0.2s;
+  }
+  .menu-toggle.open span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+  .menu-toggle.open span:nth-child(2) { opacity: 0; }
+  .menu-toggle.open span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+  /* ============ NAV ============ */
+  .main-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--color-bg);
+    border-bottom: var(--border-w) solid var(--color-ink);
+    padding: var(--space-4);
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+  .main-nav.open { display: flex; }
+  .main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .main-nav a {
+    color: var(--color-ink);
+    text-decoration: none;
+    font-family: var(--font-ui);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 10px 0;
+    display: block;
+    border-bottom: 1px solid var(--color-border-soft);
+  }
+  .main-nav a.active { color: var(--color-primary); }
+  .main-nav .nav-btn { align-self: stretch; text-align: center; margin-top: var(--space-2); }
+
+  @media (min-width: 760px) {
+    .menu-toggle { display: none; }
+    .main-nav {
+      display: flex !important;
+      position: static;
+      flex-direction: row;
+      align-items: center;
+      background: transparent;
+      border: none;
+      padding: 0;
+      gap: var(--space-5);
+    }
+    .main-nav ul {
+      flex-direction: row;
+      align-items: center;
+      gap: var(--space-5);
+    }
+    .main-nav li { margin: 0; }
+    .main-nav a {
+      font-size: 0.9rem;
+      padding: 4px 0;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.15s;
+    }
+    .main-nav a:hover, .main-nav a.active {
+      border-bottom-color: var(--color-primary);
+    }
+    .main-nav .nav-btn { margin-top: 0; padding: 9px 18px; font-size: 0.85rem; }
+  }
+  @media (min-width: 1024px) {
+    .main-nav ul { gap: var(--space-6); }
   }
 </style>

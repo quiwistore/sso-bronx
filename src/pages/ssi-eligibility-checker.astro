@@ -6,7 +6,7 @@ const meta = 'Quick eligibility checker for Supplemental Security Income (SSI) b
 const schema = { "@context": "https://schema.org", "@type": "WebApplication", "name": "SSI Eligibility Checker", "applicationCategory": "FinanceApplication", "operatingSystem": "Web" };
 ---
 <Base title={title} description={meta} schema={schema}>
-  <section class="container-narrow tool-page">
+  <section class="container tool-page">
     <a href="/" class="back-link">&larr; Back to home</a>
     <span class="eyebrow">Free tool</span>
     <h1>SSI Eligibility Checker</h1>
@@ -177,7 +177,7 @@ const schema = { "@context": "https://schema.org", "@type": "WebApplication", "n
 </script>
 
 <style>
-  .tool-page { padding: var(--space-7) 0 var(--space-9); }
+  .tool-page { padding: var(--space-7) 0 var(--space-9); max-width: 820px; margin: 0 auto; }
   .back-link { display: inline-block; margin-bottom: var(--space-5); font-family: var(--font-display); font-weight: 600; font-size: 0.9rem; color: var(--color-text-muted); text-decoration: none; }
   .back-link:hover { color: var(--color-ink); }
   h1 { font-size: clamp(2rem, 4.5vw, 3.2rem); margin-bottom: var(--space-4); }
