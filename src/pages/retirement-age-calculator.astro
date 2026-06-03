@@ -24,7 +24,7 @@ const schema = {
     <div class="calc-card">
       <label for="byear">Year you were born</label>
       <div class="calc-input-row">
-        <input type="number" id="byear" min="1900" max="2024" placeholder="e.g. 1965" />
+        <input type="number" id="byear" min="1900" max="2026" placeholder="e.g. 1965" />
         <button id="calc-btn" class="btn btn-primary">Calculate</button>
       </div>
       <p class="calc-hint">Your Full Retirement Age depends on your birth year and was set by Congress in 1983.</p>
@@ -101,7 +101,7 @@ const schema = {
   function render() {
     const yearInput = document.getElementById('byear');
     const year = parseInt(yearInput.value, 10);
-    if (!year || year < 1900 || year > 2024) {
+    if (!year || year < 1900 || year > 2026) {
       yearInput.focus(); return;
     }
     const fra = calculateFRA(year);

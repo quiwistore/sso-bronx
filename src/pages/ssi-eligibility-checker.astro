@@ -50,14 +50,14 @@ const schema = { "@context": "https://schema.org", "@type": "WebApplication", "n
           <p class="help">Cash, bank accounts, stocks, second properties, additional vehicles. Your primary home and one vehicle generally do NOT count.</p>
         </div>
 
-        <button type="button" id="check-btn" class="btn btn-blue">Check eligibility</button>
+        <button type="button" id="check-btn" class="btn btn-primary">Check eligibility</button>
       </form>
 
       <div id="result" class="result hidden"></div>
     </div>
 
     <div class="content-section">
-      <h2>How the SSI rules work in 2024</h2>
+      <h2>How the SSI rules work in 2026</h2>
       <p>Supplemental Security Income is a needs-based federal program for people who are <strong>disabled, blind, or age 65 or older</strong>, and who have very limited income and resources. Unlike SSDI, it does not require any work history.</p>
 
       <h3>The asset limits</h3>
@@ -69,8 +69,8 @@ const schema = { "@context": "https://schema.org", "@type": "WebApplication", "n
 
       <h3>The federal maximum benefit</h3>
       <ul>
-        <li><strong>Individual:</strong> up to about <strong>$943/month</strong> federal payment in 2024.</li>
-        <li><strong>Couple:</strong> up to about <strong>$1,415/month</strong> federal payment in 2024.</li>
+        <li><strong>Individual:</strong> up to about <strong>approximately <strong>$991/month</strong> federal payment in 2026.</li>
+        <li><strong>Couple:</strong> up to about <strong>approximately <strong>$1,486/month</strong> federal payment in 2026.</li>
         <li><strong>New York supplement:</strong> small additional amount on top, varies by living arrangement.</li>
       </ul>
 
@@ -88,7 +88,7 @@ const schema = { "@context": "https://schema.org", "@type": "WebApplication", "n
       <h3>Ready to apply for SSI?</h3>
       <p>Start the application online at ssa.gov, by phone at 1-800-772-1213, or in person at any of the five Bronx SSA offices.</p>
       <div class="cta-actions">
-        <a href="/apply-for-ssi-bronx/" class="btn btn-blue">How to apply (full guide)</a>
+        <a href="/apply-for-ssi-bronx/" class="btn btn-primary">How to apply (full guide)</a>
         <a href="/social-security-office-bronx/" class="btn btn-ghost">Find a Bronx office</a>
       </div>
     </div>
@@ -97,8 +97,8 @@ const schema = { "@context": "https://schema.org", "@type": "WebApplication", "n
 
 <script is:inline>
 (function(){
-  const FEDERAL_INDIVIDUAL = 943;
-  const FEDERAL_COUPLE = 1415;
+  const FEDERAL_INDIVIDUAL = 991;
+  const FEDERAL_COUPLE = 1486;
   const RESOURCE_LIMIT_INDIVIDUAL = 2000;
   const RESOURCE_LIMIT_COUPLE = 3000;
   const NY_SUPPLEMENT_INDIVIDUAL = 87;
@@ -230,4 +230,25 @@ const schema = { "@context": "https://schema.org", "@type": "WebApplication", "n
     .tool-box { padding: var(--space-5); }
     .result-numbers { grid-template-columns: 1fr; }
   }
+
+  /* CTA box: botones legibles sobre fondo navy */
+  .cta-box .btn-primary,
+  .cta-box a.btn-primary {
+    background: var(--color-highlight) !important;
+    color: var(--color-ink) !important;
+    border-color: var(--color-ink);
+  }
+  .cta-box .btn-ghost,
+  .cta-box a.btn-ghost {
+    background: transparent;
+    color: #fff !important;
+    border-color: rgba(255,255,255,0.5);
+    box-shadow: none;
+  }
+  .cta-box .btn-ghost:hover,
+  .cta-box a.btn-ghost:hover {
+    background: rgba(255,255,255,0.1);
+    color: #fff !important;
+  }
+
 </style>

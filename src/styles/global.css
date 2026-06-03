@@ -144,8 +144,8 @@ img { max-width: 100%; height: auto; display: block; }
 }
 a.btn-primary,
 .btn-primary {
-  background: var(--color-primary);
-  color: #fff;
+  background: var(--color-primary) !important;
+  color: #fff !important;
   border-color: var(--color-primary);
   box-shadow: var(--shadow-hard-sm);
 }
@@ -157,8 +157,8 @@ a.btn-primary:hover,
 }
 a.btn-dark,
 .btn-dark {
-  background: var(--color-ink);
-  color: #fff;
+  background: var(--color-ink) !important;
+  color: #fff !important;
   box-shadow: var(--shadow-hard-sm);
 }
 a.btn-dark:hover,
