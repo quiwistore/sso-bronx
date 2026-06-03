@@ -101,7 +101,7 @@
         {
           "type": "quick_answer",
           "heading": "The quick answer",
-          "body": "To apply for SSI in the Bronx, start the application at ssa.gov, call 1-800-772-1213, or visit any Bronx SSA office. SSI requires being disabled, blind, or age 65 or older, AND meeting strict financial limits: countable resources generally under $2,000 for an individual ($3,000 for a couple). The federal SSI maximum is about $943/month for an individual in 2026, often plus a New York State supplement. SSI recipients in New York are generally also eligible for Medicaid automatically."
+          "body": "To apply for SSI in the Bronx, start the application at ssa.gov, call 1-800-772-1213, or visit any Bronx SSA office. SSI requires being disabled, blind, or age 65 or older, AND meeting strict financial limits: countable resources generally under $2,000 for an individual ($3,000 for a couple). The federal SSI maximum is about $994/month for an individual in 2026, often plus a New York State supplement. SSI recipients in New York are generally also eligible for Medicaid automatically."
         },
         {
           "type": "section",
@@ -174,7 +174,7 @@
             },
             {
               "q": "How much will I receive?",
-              "a": "The federal maximum for an individual in 2026 was about $943/month, with New York adding a small state supplement. Earned and unearned income reduces this amount based on specific exclusion formulas."
+              "a": "The federal maximum for an individual in 2026 was about $994/month, with New York adding a small state supplement. Earned and unearned income reduces this amount based on specific exclusion formulas."
             }
           ]
         }
@@ -326,7 +326,7 @@
             },
             {
               "q": "Can I work while my application is pending?",
-              "a": "You can earn up to a small amount (the Substantial Gainful Activity threshold, around $1,550/month in 2026) without disqualifying yourself. Earning above that level is treated as evidence you are not disabled."
+              "a": "You can earn up to a small amount (the Substantial Gainful Activity threshold, around approximately $1,550/month in 2026) without disqualifying yourself. Earning above that level is treated as evidence you are not disabled."
             },
             {
               "q": "Should I hire a disability attorney in the Bronx?",
@@ -334,7 +334,7 @@
             },
             {
               "q": "How much will I receive?",
-              "a": "For SSDI, the amount depends on work history (average around $1,500/month nationally). For SSI, the federal maximum is about $943/month for an individual in 2026, with a small New York State supplement."
+              "a": "For SSDI, the amount depends on work history (average around $1,500/month nationally). For SSI, the federal maximum is about $994/month for an individual in 2026, with a small New York State supplement."
             }
           ]
         }
@@ -404,7 +404,7 @@
           "items": [
             {
               "q": "What is the maximum Social Security retirement benefit?",
-              "a": "In 2026 the maximum monthly benefit at Full Retirement Age was around $3,822. The maximum at age 70 was around $4,873. These figures are for high earners with 35+ years at the maximum taxable earnings, and they adjust each year with the cost-of-living adjustment."
+              "a": "In 2026 the maximum monthly benefit at Full Retirement Age was around approximately $3,822. The maximum at age 70 was around approximately $4,873. These figures are for high earners with 35+ years at the maximum taxable earnings, and they adjust each year with the cost-of-living adjustment."
             },
             {
               "q": "Can I work while receiving retirement benefits?",
@@ -453,7 +453,7 @@
             },
             {
               "q": "Part B (Medical Insurance)",
-              "a": "Covers doctor visits, outpatient care, preventive services, and durable medical equipment. The standard premium in 2026 was around $174.70/month. Late enrollment without qualifying alternative coverage adds 10% to your premium for each 12-month delay — permanently."
+              "a": "Covers doctor visits, outpatient care, preventive services, and durable medical equipment. The standard premium in 2026 was around approximately $174.70/month. Late enrollment without qualifying alternative coverage adds 10% to your premium for each 12-month delay — permanently."
             },
             {
               "q": "Part C (Medicare Advantage)",
@@ -490,7 +490,7 @@
             },
             {
               "q": "How much does Medicare cost?",
-              "a": "Part A is free for most people who worked enough. Part B was about $174.70/month in 2026 (higher for high earners). Part D premiums vary by plan. Total monthly cost typically ranges from $174 to $400+ depending on coverage choices."
+              "a": "Part A is free for most people who worked enough. Part B was about approximately $174.70/month in 2026 (higher for high earners). Part D premiums vary by plan. Total monthly cost typically ranges from $174 to $400+ depending on coverage choices."
             }
           ]
         }

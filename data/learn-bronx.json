@@ -93,7 +93,7 @@
             },
             {
               "q": "Benefit amount",
-              "a": "SSDI is based on your past earnings (average around $1,500/month nationally). SSI federal maximum is about $943/month for an individual in 2026, plus a small New York State supplement."
+              "a": "SSDI is based on your past earnings (average around $1,500/month nationally). SSI federal maximum is about $994/month for an individual in 2026, plus a small New York State supplement."
             },
             {
               "q": "Health coverage",
@@ -138,7 +138,7 @@
             },
             {
               "q": "Can I work while on SSDI or SSI?",
-              "a": "You can work small amounts under both programs without losing benefits. There are different rules — SSDI uses the Substantial Gainful Activity threshold (~$1,550/month in 2026), while SSI reduces your benefit gradually as you earn more."
+              "a": "You can work small amounts under both programs without losing benefits. There are different rules — SSDI uses the Substantial Gainful Activity threshold (~approximately $1,550/month in 2026), while SSI reduces your benefit gradually as you earn more."
             },
             {
               "q": "Do SSI recipients automatically get Medicaid in New York?",
@@ -225,7 +225,7 @@
             },
             {
               "q": "Can I work while my appeal is pending?",
-              "a": "You can earn up to the Substantial Gainful Activity threshold (~$1,550/month in 2026) without disqualifying yourself. Earning above that level is treated as evidence you are not disabled."
+              "a": "You can earn up to the Substantial Gainful Activity threshold (~approximately $1,550/month in 2026) without disqualifying yourself. Earning above that level is treated as evidence you are not disabled."
             },
             {
               "q": "What happens if I get approved on appeal?",
