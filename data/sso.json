@@ -1,0 +1,1761 @@
+{
+  "site": {
+    "name": "Social Security Bronx",
+    "domain": "socialsecuritybronx.com",
+    "tagline": "Your guide to Social Security services in the Bronx, NY.",
+    "office": {
+      "address": "820 Concourse Village West, Bronx, NY 10451",
+      "phone_national": "1-800-772-1213",
+      "tty": "1-800-325-0778",
+      "hours_general": "Monday-Friday business hours (Wednesdays often close earlier)",
+      "closed": "Federal holidays and weekends",
+      "online": "ssa.gov / my Social Security account at ssa.gov/myaccount"
+    }
+  },
+  "services": [
+    {
+      "slug": "apply-for-social-security-card-bronx",
+      "silo": "services",
+      "h1": "How to Apply for a Social Security Card in the Bronx",
+      "title": "Apply for a Social Security Card in the Bronx, NY (2026 Guide)",
+      "meta": "Step-by-step guide to applying for a Social Security card in the Bronx, NY. Required documents, where to apply, and how long it takes in 2026.",
+      "intro": "Getting a Social Security Number (SSN) and card is one of the first administrative steps for new residents, new workers, and parents of newborns in the Bronx. Because New York is a major immigration gateway, this application is common across the borough. This guide walks through every step: what documents are required, which Bronx office to visit, and what to expect in 2026.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "To apply for a first-time Social Security card in the Bronx, complete Form SS-5, gather <a href=\"/ssa-required-documents-bronx/\">original documents</a> proving identity, age, and U.S. citizenship or lawful immigration status, and visit any SSA office in the Bronx in person. The service is free and the card arrives by mail within 7-14 business days. First-time SSN applications cannot be done online — they must be in person. Spanish-speaking representatives are available at most Bronx offices."
+        },
+        {
+          "type": "section",
+          "heading": "Who needs to apply for an SSN in person",
+          "body": [
+            "Three groups of Bronx residents typically apply for a first-time Social Security card: U.S. citizens applying for the first time (often parents getting an SSN for a <a href=\"/get-social-security-number-for-newborn-bronx/\">newborn</a>), lawful permanent residents and work-authorized immigrants who need an SSN for employment, and individuals who have never been issued an SSN. Every initial application must be made in person — there is no online option for a first SSN, regardless of citizenship status.",
+            "If you already have an SSN and need a replacement card, the process is different — see our guide on replacing a Social Security card. This page covers first-time applications only."
+          ]
+        },
+        {
+          "type": "checklist",
+          "heading": "Required documents",
+          "items": [
+            "Completed Form SS-5 (download from ssa.gov or pick up at any Bronx SSA office).",
+            "Proof of U.S. citizenship for citizens: original birth certificate, U.S. passport, or Certificate of Naturalization (originals only).",
+            "Proof of identity: state-issued ID, driver's license, or U.S. passport.",
+            "For non-citizens: current immigration documents (Form I-551 green card, I-94 record, EAD card) and unexpired foreign passport.",
+            "For children under 12: birth certificate plus proof of the parent's identity.",
+            "For children age 12 or older: the child must be present at the interview."
+          ]
+        },
+        {
+          "type": "troubleshoot",
+          "heading": "The step-by-step process",
+          "items": [
+            {
+              "q": "Step 1 - Complete Form SS-5",
+              "a": "Download the Application for a Social Security Card (Form SS-5) from ssa.gov, or pick one up at any Bronx office. Fill it out completely before the visit to save time. Forms are available in English and Spanish."
+            },
+            {
+              "q": "Step 2 - Gather original documents",
+              "a": "Bring <a href=\"/ssa-required-documents-bronx/\">ORIGINAL documents</a>, not copies. SSA staff will photocopy them on site and hand the originals back the same day. Do not mail originals for a first-time application."
+            },
+            {
+              "q": "Step 3 - Visit a Bronx SSA office",
+              "a": "Walk in or call <a href=\"tel:+18007721213\">1-800-772-1213</a> to <a href=\"/social-security-office-appointment-bronx/\">schedule an appointment</a> at the office that serves your address (Concourse Village, Tremont, Fordham, South Bronx, or White Plains Rd). Appointments reduce wait time significantly."
+            },
+            {
+              "q": "Step 4 - The interview",
+              "a": "An SSA representative will review the form and documents. The interview takes 15-30 minutes when paperwork is complete. <a href=\"/ssa-spanish-services-bronx/\">Bilingual service</a> is available — request a <a href=\"/ssa-spanish-services-bronx/\">Spanish-speaking representative</a> when you book or check in."
+            },
+            {
+              "q": "Step 5 - Receive your card by mail",
+              "a": "The Social Security card arrives by U.S. mail at the address provided on Form SS-5, typically within 7-14 business days. The SSA does not issue cards on the spot under any circumstance."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "What if you are not a U.S. citizen",
+          "body": [
+            "Non-citizens can apply for an SSN if they are authorized to work in the United States. This includes lawful permanent residents (green card holders), work-authorized non-immigrants (H-1B, L-1, F-1 students with OPT authorization, and similar categories), and other specific groups. You must show your current immigration documents and unexpired foreign passport in addition to Form SS-5.",
+            "If you are not authorized to work but need an SSN for a specific federal benefit or state law requirement, a separate process applies. Most non-work-authorized individuals will not qualify for an SSN and should apply for an Individual Taxpayer Identification Number (ITIN) from the IRS instead."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "How much does it cost to apply for a Social Security card?",
+              "a": "It is completely free. The Social Security Administration never charges a fee for issuing or replacing a card. Any third party that asks for payment to obtain an SSN is operating outside the official process."
+            },
+            {
+              "q": "Can I apply for my first SSN online?",
+              "a": "No. First-time SSN applications must be done in person at an SSA office. Only certain replacement cards (not first-time applications) can be requested online for qualifying applicants."
+            },
+            {
+              "q": "Are Spanish-speaking representatives available?",
+              "a": "Yes. Bronx SSA offices provide <a href=\"/ssa-spanish-services-bronx/\">bilingual service</a> in English and Spanish, given the borough's demographics. You can request a <a href=\"/ssa-spanish-services-bronx/\">Spanish-speaking representative</a> when scheduling your appointment or upon arrival."
+            },
+            {
+              "q": "What if my documents are in another language?",
+              "a": "Foreign documents must be accompanied by a certified English translation. Bronx offices have Spanish-language support but written documents in other languages still need certified translations."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "apply-for-ssi-bronx",
+      "silo": "services",
+      "h1": "How to Apply for Supplemental Security Income (SSI) in the Bronx",
+      "title": "Apply for SSI in the Bronx, NY (2026 Guide)",
+      "meta": "Step-by-step guide to applying for Supplemental Security Income (SSI) in the Bronx, NY in 2026. Income limits, required documents, and the difference from SSDI.",
+      "intro": "The Bronx has one of the highest rates of SSI eligibility in the United States, given its demographics and median household income. Supplemental Security Income is a needs-based federal benefit for people who are disabled, blind, or age 65 and older with very limited income and resources. This guide explains how SSI works in the Bronx, who qualifies, and the application process — including the strict income and asset limits that catch many applicants by surprise.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "To apply for SSI in the Bronx, start the application at ssa.gov, call <a href=\"tel:+18007721213\">1-800-772-1213</a>, or visit <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a>. SSI requires being disabled, blind, or age 65 or older, AND meeting strict financial limits: countable resources generally under $2,000 for an individual ($3,000 for a couple). The federal SSI maximum is about $943/month for an individual in 2024, often plus a New York State supplement. SSI recipients in New York are generally also eligible for Medicaid automatically."
+        },
+        {
+          "type": "section",
+          "heading": "How SSI differs from SSDI",
+          "body": [
+            "SSI and SSDI are often confused because both are administered by the SSA and both pay benefits to disabled people. The key difference: SSDI is based on work history and the Social Security taxes paid through employment; SSI is based on financial need with no work history requirement at all.",
+            "This distinction matters in the Bronx because many residents qualify for SSI but not SSDI, often because they were disabled before building substantial work history (young adults), they are elderly without enough Social Security credits, or they care for children with disabilities. Concurrent benefits — qualifying for both SSI and SSDI simultaneously — are also common when SSDI alone falls below the SSI maximum."
+          ]
+        },
+        {
+          "type": "checklist",
+          "heading": "The income and asset limits",
+          "items": [
+            "Countable resources must generally be below $2,000 for an individual or $3,000 for a couple.",
+            "Your home (if you own it) and one vehicle generally do not count toward the resource limit.",
+            "Most income reduces SSI dollar-for-dollar after a small monthly exclusion.",
+            "Non-cash support (such as free housing or food from family) is treated as 'in-kind support' and reduces SSI.",
+            "New York State pays a small SSI supplement on top of the federal amount.",
+            "Burial plots, household belongings, and certain other assets are excluded from the resource limit."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How to apply step by step",
+          "body": [
+            "SSI applications cannot be completed entirely online. You can start the application on ssa.gov, but you must usually follow up with a phone interview or visit to an SSA office to complete the financial portion. <a href=\"/social-security-office-bronx/\">Any Bronx SSA office</a> can help walk you through the process — Concourse Village West, Tremont, Fordham, South Bronx, or White Plains Road.",
+            "When applying, be prepared to document not just your medical condition (if applying based on disability) but also your full financial picture: bank statements, property, vehicles, income sources, household composition, and any non-cash support you receive. SSI applications most often go wrong because financial disclosure was incomplete — leading to denials or, worse, later overpayment claims demanding money back."
+          ]
+        },
+        {
+          "type": "troubleshoot",
+          "heading": "The application process",
+          "items": [
+            {
+              "q": "Step 1 - Confirm eligibility",
+              "a": "Verify you meet both medical criteria (disabled, blind, or 65+) and the financial criteria (limited income and resources). Use our <a href=\"/ssi-eligibility-checker/\">SSI Eligibility Checker</a> for a quick assessment."
+            },
+            {
+              "q": "Step 2 - Gather documentation",
+              "a": "Collect medical records, financial statements (bank, property, vehicles), and proof of income for everyone in your household. SSI requires far more financial documentation than SSDI."
+            },
+            {
+              "q": "Step 3 - Start the application",
+              "a": "Begin online at ssa.gov, call <a href=\"tel:+18007721213\">1-800-772-1213</a>, or visit <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a>. SSI cannot be completed entirely online — you will need at least one phone or in-person interview."
+            },
+            {
+              "q": "Step 4 - The interview",
+              "a": "An SSA representative will go through your application in detail. Be honest and thorough about income and assets — undisclosed resources discovered later result in overpayment claims."
+            },
+            {
+              "q": "Step 5 - Wait for decision",
+              "a": "Disability-based SSI decisions take 3-6 months. Age-based SSI (for those 65+) is faster, often 1-3 months, because no medical review is needed."
+            }
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "Can children get SSI?",
+              "a": "Yes. Disabled children whose family income and resources fall within SSI limits can qualify. The medical standard for children focuses on functional limitations in age-appropriate activities rather than work."
+            },
+            {
+              "q": "Will SSI automatically give me Medicaid in New York?",
+              "a": "In most cases, yes. New York is a 1634 state, meaning SSI eligibility generally confers automatic Medicaid eligibility. This is one of the most important practical benefits of receiving SSI in the Bronx."
+            },
+            {
+              "q": "What happens if my income changes?",
+              "a": "You must report changes in income, assets, household, or living situation to the SSA promptly. Unreported changes are the leading cause of SSI overpayments — which the SSA later demands back, often years after the fact."
+            },
+            {
+              "q": "How much will I receive?",
+              "a": "The federal maximum for an individual in 2024 was about $943/month, with New York adding a small state supplement. Earned and unearned income reduces this amount based on specific exclusion formulas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "replace-social-security-card-bronx",
+      "silo": "services",
+      "h1": "How to Replace a Lost Social Security Card in the Bronx",
+      "title": "Replace a Lost Social Security Card in the Bronx, NY (2026)",
+      "meta": "Lost your Social Security card in the Bronx? Learn how to replace it free in 2026, online or in person, and the lifetime limits on replacement cards.",
+      "intro": "Losing a Social Security card is common, and replacing it is free and straightforward. Many Bronx residents qualify to replace the card entirely online without visiting an SSA office, while others must apply in person. This guide explains both routes, the documents required, and the lifetime replacement limits that surprise many applicants.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "To replace a lost Social Security card in the Bronx, the fastest path is the online request through my Social Security at ssa.gov for those who qualify. If you cannot use the online option, visit <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a> with proof of identity. Replacement is always free. You are limited to 3 replacement cards in a year and 10 over your lifetime, though legal name changes do not count toward these limits."
+        },
+        {
+          "type": "section",
+          "heading": "Who can replace their card online",
+          "body": [
+            "The SSA expanded online replacement substantially in recent years. You qualify for online replacement if you are a U.S. citizen age 18 or older, have a valid New York State driver's license or state-issued ID, have a U.S. mailing address, and are not requesting any changes to the card (a name change still requires an in-person visit).",
+            "If any of these conditions does not apply, you will need to visit a Bronx SSA office in person. Non-citizens, even with valid documents, generally cannot use the online process."
+          ]
+        },
+        {
+          "type": "troubleshoot",
+          "heading": "Two routes to replace your card",
+          "items": [
+            {
+              "q": "Online (fastest, if you qualify)",
+              "a": "Sign in to your my Social Security account at ssa.gov/myaccount, request a replacement, and verify your identity with your driver's license or state ID. The card arrives by mail in 7-14 business days. No appointment, no documents to bring physically."
+            },
+            {
+              "q": "In person at a Bronx SSA office",
+              "a": "If you do not qualify for the online process, visit the office serving your area (Concourse Village West, Tremont, Fordham, South Bronx, or White Plains Rd). Bring original proof of identity. Form SS-5 is required but can be completed at the office. <a href=\"/social-security-office-appointment-bronx/\">Scheduling an appointment</a> by calling <a href=\"tel:+18007721213\">1-800-772-1213</a> is strongly recommended."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "The replacement limits most people do not know",
+          "body": [
+            "Federal regulations limit you to 3 replacement Social Security cards in any 12-month period and 10 cards over your lifetime. These limits exist to deter abuse and identity theft. Important exceptions exist — legal name changes and certain immigration status changes do NOT count toward the limit — but ordinary lost-or-stolen replacements do.",
+            "If you are approaching the lifetime limit, consider whether you actually need the physical card. For most uses (tax filing, opening a bank account, applying for jobs), you only need to know the number. Carrying the physical card in a wallet is widely discouraged because it raises identity theft risk substantially."
+          ]
+        },
+        {
+          "type": "checklist",
+          "heading": "Documents you need (in-person)",
+          "items": [
+            "Original proof of identity: unexpired New York driver's license, New York State ID, or U.S. passport.",
+            "Form SS-5, completed (can be filled at the office, but pre-filling at home saves time).",
+            "If your name has changed since your last card: legal name-change document (marriage certificate, divorce decree, or court order).",
+            "For non-citizens: current immigration documents in addition to identity proof."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "How much does a replacement card cost?",
+              "a": "It is free. The SSA never charges for replacement cards. Any service charging a fee for this is a third party, not the SSA."
+            },
+            {
+              "q": "Do I really need the physical card?",
+              "a": "For most purposes, no. Tax forms, employer paperwork, and bank accounts ask for the SSN number, not the physical card. Keep your card secure at home and avoid carrying it in your wallet — identity theft risk in NYC is real."
+            },
+            {
+              "q": "What if my card was stolen and I am worried about identity theft?",
+              "a": "Replace the card normally and also place a fraud alert with all three credit bureaus. Monitor your credit reports. The SSA does not change your SSN simply because the card was stolen, but a new SSN can be requested in extreme cases of ongoing identity fraud."
+            },
+            {
+              "q": "How long does the replacement actually take?",
+              "a": "The card arrives 7-14 business days after the request is approved. Online requests are processed automatically; in-person requests are typically processed the same or next day."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "apply-for-disability-benefits-bronx",
+      "silo": "services",
+      "h1": "How to Apply for Social Security Disability Benefits in the Bronx",
+      "title": "Apply for Disability Benefits (SSDI/SSI) in the Bronx, NY (2026)",
+      "meta": "Step-by-step guide to applying for Social Security disability benefits in the Bronx. SSDI vs SSI, required medical evidence, and what to expect in 2026.",
+      "intro": "Applying for Social Security disability benefits is one of the most consequential financial processes a Bronx resident can face. Many people who qualify never apply, and many who do are denied initially because of incomplete medical evidence. This guide explains how to apply from the Bronx, the difference between SSDI and SSI, what medical documentation matters most, and realistic expectations for timing.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "To apply for Social Security disability benefits in the Bronx, start online at ssa.gov/applyfordisability, by phone at <a href=\"tel:+18007721213\">1-800-772-1213</a>, or in person at <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a>. The two main programs are SSDI (based on work history) and SSI (needs-based, no work history required). Both require strong medical evidence proving the disability prevents substantial work. Initial decisions take 3-6 months, and around 65% of initial applications are denied."
+        },
+        {
+          "type": "section",
+          "heading": "SSDI vs SSI: which one applies to you",
+          "body": [
+            "This is the first thing to understand, and where many Bronx applicants get tripped up. Social Security Disability Insurance (SSDI) is funded by payroll taxes and requires that you have worked enough recent quarters (typically 5 of the last 10 years) while paying Social Security taxes. The benefit amount depends on your earnings history.",
+            "<a href=\"/apply-for-ssi-bronx/\">Supplemental Security Income</a> (SSI), by contrast, is needs-based. It does not require work history but does require very limited income and resources (generally under $2,000 for an individual). Many Bronx residents qualify for SSI rather than SSDI because of work history gaps or low recent earnings. Some qualify for both simultaneously — concurrent benefits.",
+            "When you apply, the SSA evaluates eligibility for both programs automatically. You do not need to choose in advance."
+          ]
+        },
+        {
+          "type": "troubleshoot",
+          "heading": "How to apply: three options",
+          "items": [
+            {
+              "q": "Online (recommended for SSDI)",
+              "a": "The online application at ssa.gov/applyfordisability is the most convenient route. You can save progress and return. It takes most applicants 1-2 hours to complete. SSI applications can start online but generally require a follow-up phone or in-person interview."
+            },
+            {
+              "q": "By phone",
+              "a": "Call <a href=\"tel:+18007721213\">1-800-772-1213</a> to begin a phone application. A representative will help complete the forms over the phone. This is useful if completing the online form is difficult due to health or technology barriers."
+            },
+            {
+              "q": "In person at a Bronx SSA office",
+              "a": "Visit any of the borough's SSA offices to apply with help from a representative. Appointments are strongly recommended — call ahead. Bring all your medical records, list of doctors, and employment history."
+            }
+          ]
+        },
+        {
+          "type": "checklist",
+          "heading": "What you need to apply",
+          "items": [
+            "Medical records: every doctor, hospital, clinic that has treated your condition (names, addresses, dates of treatment).",
+            "Medications: full list with dosages and prescribing doctors.",
+            "Work history for the last 15 years: jobs, dates, duties, earnings.",
+            "Most recent W-2 or self-employment tax return.",
+            "Birth certificate or proof of U.S. citizenship/lawful status.",
+            "Bank account information for direct deposit.",
+            "For SSI: detailed financial information on income, assets, and living arrangements."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Timing and the appeals process",
+          "body": [
+            "Initial disability decisions take 3-6 months in most cases, sometimes longer. Around 65% of initial applications are denied — often because of incomplete medical evidence rather than because the applicant is not actually disabled. This is the single most important fact to know: a denial is not the end of the road, and many people who eventually receive benefits were denied at the initial stage.",
+            "If denied, you have 60 days to file a Request for Reconsideration. If denied again, you can request a hearing before an Administrative Law Judge — where many cases are won. The full <a href=\"/how-to-appeal-disability-denial/\">appeals process</a> can take 1-2 years. Many Bronx applicants work with a Social Security disability attorney, who typically gets paid (a capped percentage of back-benefits) only if you win."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "What conditions qualify for disability?",
+              "a": "There is no fixed list. The SSA evaluates whether your condition prevents substantial work and is expected to last at least 12 months or result in death. Conditions ranging from physical injuries to mental health disorders, cancer, chronic illnesses, and developmental disabilities can all qualify with sufficient medical evidence."
+            },
+            {
+              "q": "Can I work while my application is pending?",
+              "a": "You can earn up to a small amount (the Substantial Gainful Activity threshold, around $1,550/month in 2024) without disqualifying yourself. Earning above that level is treated as evidence you are not disabled."
+            },
+            {
+              "q": "Should I hire a disability attorney in the Bronx?",
+              "a": "For initial applications, many people apply on their own. For appeals — especially hearings — having an attorney significantly improves chances of success. Most work on contingency, capped at 25% of back-benefits up to a federal limit. No payment if you lose."
+            },
+            {
+              "q": "How much will I receive?",
+              "a": "For SSDI, the amount depends on work history (average around $1,500/month nationally). For SSI, the federal maximum is about $943/month for an individual in 2024, with a small New York State supplement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "apply-for-social-security-retirement-bronx",
+      "silo": "services",
+      "h1": "How to Apply for Social Security Retirement in the Bronx",
+      "title": "Apply for Social Security Retirement in the Bronx, NY (2026)",
+      "meta": "Step-by-step guide to applying for Social Security retirement benefits in the Bronx, NY. When to apply, how much you will receive, and online vs in-person options.",
+      "intro": "Applying for Social Security retirement is one of the most important financial decisions any Bronx resident will make — and the age at which you start benefits affects how much you receive for the rest of your life. This guide explains how to apply from the Bronx, the trade-offs between starting early and waiting, and what documents are required.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "You can apply for Social Security retirement online at ssa.gov, by phone at <a href=\"tel:+18007721213\">1-800-772-1213</a>, or in person at <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a>. Apply 3-4 months before you want benefits to start. The earliest claiming age is 62 (with permanently reduced benefits), Full Retirement Age is 66-67 depending on your birth year, and waiting until 70 maximizes the monthly benefit at about 8% per year of delay between FRA and 70."
+        },
+        {
+          "type": "section",
+          "heading": "When to apply: the timing question",
+          "body": [
+            "The single most important retirement decision is when to start benefits, not how to apply. Starting at 62 permanently reduces the monthly benefit by 25-30% compared to Full Retirement Age. Waiting from FRA to age 70 increases the benefit by about 8% per year. Over a typical 20-30 year retirement, these differences add up to tens of thousands of dollars.",
+            "There is no universally right answer. Starting early can make sense for shorter-than-average life expectancy, immediate income needs, or specific tax-planning reasons. Waiting makes sense for healthy people with other income to bridge the gap and who want the largest possible inflation-protected monthly benefit. Use our <a href=\"/retirement-age-calculator/\">retirement age calculator</a> to find your Full Retirement Age."
+          ]
+        },
+        {
+          "type": "troubleshoot",
+          "heading": "How to apply in the Bronx",
+          "items": [
+            {
+              "q": "Online (easiest)",
+              "a": "The online application at ssa.gov/retirement takes about 15 minutes if you already have a my Social Security account set up. You can save and return, and most applications are approved without an in-person visit."
+            },
+            {
+              "q": "By phone",
+              "a": "Call <a href=\"tel:+18007721213\">1-800-772-1213</a>. A representative will complete the application over the phone. Useful when you have questions or prefer not to use online forms."
+            },
+            {
+              "q": "In person at a Bronx SSA office",
+              "a": "Visit any of the Bronx offices (Concourse Village, Tremont, Fordham, South Bronx, White Plains Rd). <a href=\"/social-security-office-appointment-bronx/\">Schedule an appointment</a> in advance for shorter wait times. Most useful for complex situations involving spousal benefits, divorced-spouse benefits, or non-citizen status."
+            }
+          ]
+        },
+        {
+          "type": "checklist",
+          "heading": "Documents you need",
+          "items": [
+            "Birth certificate or other proof of age.",
+            "Proof of U.S. citizenship or lawful immigration status.",
+            "W-2 or self-employment tax return from the previous year.",
+            "Military service papers if you served before 1968.",
+            "Marriage and divorce documents if applying for spousal benefits.",
+            "Bank account information for direct deposit (paper checks are no longer issued)."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "What about Medicare?",
+          "body": [
+            "If you are 65 or older and applying for Social Security retirement, <a href=\"/apply-for-medicare-bronx/\">Medicare enrollment</a> is typically automatic when you apply for retirement benefits. If you want Medicare but plan to delay Social Security past 65, you need to enroll separately during your Initial Enrollment Period to avoid late-enrollment penalties.",
+            "See our guide on <a href=\"/apply-for-medicare-bronx/\">applying for Medicare</a> in the Bronx for the full process, including Part A, Part B, and Part D enrollment details."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "What is the maximum Social Security retirement benefit?",
+              "a": "In 2024 the maximum monthly benefit at Full Retirement Age was around $3,822. The maximum at age 70 was around $4,873. These figures are for high earners with 35+ years at the maximum taxable earnings, and they adjust each year with the cost-of-living adjustment."
+            },
+            {
+              "q": "Can I work while receiving retirement benefits?",
+              "a": "Yes. Before Full Retirement Age there is an annual earnings limit — earning above it reduces your benefit temporarily. Once you reach FRA, you can earn any amount with no reduction. See our guide on when to apply for Social Security retirement."
+            },
+            {
+              "q": "What if I am divorced — can I claim on my ex-spouse's record?",
+              "a": "Yes, if your marriage lasted at least 10 years, you are at least 62, and you are currently unmarried. You can claim up to 50% of your ex-spouse's full benefit. Your ex is not notified and your claim does not reduce their benefit."
+            },
+            {
+              "q": "How long does the application take to process?",
+              "a": "Most retirement applications are processed within a few weeks. Apply 3-4 months before you want benefits to start to ensure timely first payment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "apply-for-medicare-bronx",
+      "silo": "services",
+      "h1": "How to Apply for Medicare in the Bronx, NY",
+      "title": "Apply for Medicare in the Bronx, NY (2026 Enrollment Guide)",
+      "meta": "How to enroll in Medicare in the Bronx, NY. Initial enrollment period, automatic enrollment, Parts A, B, and D explained, and how to avoid late penalties.",
+      "intro": "Medicare is the federal health insurance program for people 65 and older, plus certain younger people with disabilities. The enrollment rules are surprisingly complex, and missing key deadlines can mean paying late-enrollment penalties for the rest of your life. This guide explains how to enroll from the Bronx, what is automatic versus what requires action, and the most common mistakes to avoid.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "Most people become eligible for Medicare at age 65. If you already receive <a href=\"/apply-for-social-security-retirement-bronx/\">Social Security retirement</a>, enrollment in Medicare Part A and Part B is automatic — the card arrives by mail. If you are not yet on Social Security, you must actively enroll during your Initial Enrollment Period (a 7-month window around your 65th birthday) at ssa.gov/medicare or by calling <a href=\"tel:+18007721213\">1-800-772-1213</a>. Missing this window can mean lifelong late penalties."
+        },
+        {
+          "type": "section",
+          "heading": "Automatic enrollment vs active enrollment",
+          "body": [
+            "If you already collect <a href=\"/apply-for-social-security-retirement-bronx/\">Social Security retirement</a> or SSDI when you turn 65, the SSA automatically enrolls you in Medicare Part A (hospital insurance) and Part B (medical insurance). Your Medicare card arrives in the mail about 3 months before your 65th birthday. No application required.",
+            "If you are not yet collecting Social Security at 65 — common for people who plan to delay benefits to age 67 or 70 — Medicare is NOT automatic. You must actively enroll. This is where many people get into trouble: they assume Medicare comes with turning 65, miss the enrollment window, and face permanent late-enrollment penalties added to their premiums for life."
+          ]
+        },
+        {
+          "type": "troubleshoot",
+          "heading": "The four parts of Medicare",
+          "items": [
+            {
+              "q": "Part A (Hospital Insurance)",
+              "a": "Covers inpatient hospital care, skilled nursing facility care, and some home health care. Free for most people who paid Medicare taxes for at least 10 years. Enroll during your Initial Enrollment Period even with other coverage."
+            },
+            {
+              "q": "Part B (Medical Insurance)",
+              "a": "Covers doctor visits, outpatient care, preventive services, and durable medical equipment. The standard premium in 2024 was around $174.70/month. Late enrollment without qualifying alternative coverage adds 10% to your premium for each 12-month delay — permanently."
+            },
+            {
+              "q": "Part C (Medicare Advantage)",
+              "a": "Private plans that bundle Parts A, B, and usually D, often with extra benefits like dental or vision. Offered by private insurers approved by Medicare. You can switch between Original Medicare and Part C during annual open enrollment."
+            },
+            {
+              "q": "Part D (Prescription Drug Coverage)",
+              "a": "Optional but recommended for most people. Late enrollment without qualifying alternative drug coverage adds 1% to your premium for each month delayed — permanently."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Your Initial Enrollment Period",
+          "body": [
+            "The Initial Enrollment Period is a 7-month window: it begins 3 months before the month you turn 65, includes your birthday month, and continues for 3 months after. Enrolling in the first 3 months means coverage starts on the first day of your birthday month. Enrolling later means coverage starts later, and missing the entire window means waiting for the General Enrollment Period (January 1 - March 31) with coverage starting July 1, plus likely permanent late penalties.",
+            "If you are still working at 65 and have qualifying employer health insurance, you may qualify for a Special Enrollment Period when that coverage ends, with no late penalty. Confirm with the SSA before relying on this exception."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "Can I apply for Medicare in person at a Bronx SSA office?",
+              "a": "Yes. You can also enroll online at ssa.gov/medicare or by phone at <a href=\"tel:+18007721213\">1-800-772-1213</a>. Online is fastest for straightforward cases. In-person is best for complex situations or when you have many questions."
+            },
+            {
+              "q": "What if I am still working at 65?",
+              "a": "If you have qualifying employer group health insurance through current employment (yours or your spouse's), you may delay Part B without penalty. Confirm this in advance and document it. When the employer coverage ends, you have an 8-month Special Enrollment Period."
+            },
+            {
+              "q": "Does Medicare cover everything?",
+              "a": "No. Original Medicare leaves significant gaps: copays, deductibles, no dental, vision, hearing aids, or long-term custodial care. Many people buy a Medicare Supplement (Medigap) policy or join a Medicare Advantage plan to fill these gaps."
+            },
+            {
+              "q": "How much does Medicare cost?",
+              "a": "Part A is free for most people who worked enough. Part B was about $174.70/month in 2024 (higher for high earners). Part D premiums vary by plan. Total monthly cost typically ranges from $174 to $400+ depending on coverage choices."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "change-name-on-social-security-card-bronx",
+      "silo": "services",
+      "h1": "How to Change Your Name on a Social Security Card in the Bronx",
+      "title": "Change Your Name on Social Security Card in the Bronx (2026)",
+      "meta": "Got married, divorced, or legally changed your name? Step-by-step guide to updating your Social Security card in the Bronx in 2026.",
+      "intro": "Whether you got married, divorced, or completed a legal name change in court, updating your Social Security record is one of the most important administrative steps to take afterward. This guide walks through exactly how to change your name on the Social Security card from the Bronx, the documents required, and why doing this promptly matters for your tax return and Social Security earnings record.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "To change the name on your Social Security card in the Bronx, you must apply in person at <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a>. Online and mail-in requests are not accepted for name changes. Bring Form SS-5, original proof of identity, and the original legal name-change document (marriage certificate, divorce decree, or court order). The new card is free and arrives by mail in 7-14 business days. A name change does not count toward your 10-lifetime replacement limit."
+        },
+        {
+          "type": "section",
+          "heading": "Why you should change it promptly",
+          "body": [
+            "Your name on file with the SSA must match the name on your W-2 and your tax return, or the IRS may reject your filing or your refund. If your name changed and you have not updated the SSA, your wages may not be properly credited to your earnings record — which can affect your future Social Security benefit amount.",
+            "There is no legal deadline to update the name, but the practical recommendation is to do it as soon as possible after the legal change, especially before tax season. Doing it within a month or two of the marriage or court order is common."
+          ]
+        },
+        {
+          "type": "checklist",
+          "heading": "Documents you need",
+          "items": [
+            "Completed Form SS-5.",
+            "Original or certified legal name-change document (marriage certificate, divorce decree showing name change, or court order).",
+            "Original proof of identity, ideally in your NEW name (driver's license, state ID, passport).",
+            "If your identity proof is still in the old name, you also need the legal name change document linking the two names.",
+            "Proof of U.S. citizenship if not already on file with the SSA.",
+            "For non-citizens: current immigration documents."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Step by step",
+          "body": [
+            "Gather your <a href=\"/ssa-required-documents-bronx/\">original documents</a> — not copies. The SSA will photocopy them at the office and hand the originals back the same day. Complete Form SS-5 in advance, available at ssa.gov.",
+            "Visit <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a> (Concourse Village West, Tremont, Fordham, South Bronx, or White Plains Rd). <a href=\"/social-security-office-appointment-bronx/\">Scheduling an appointment</a> in advance significantly reduces wait time. A representative will review the documents and process the request. The new card with the updated name arrives by mail in 7-14 business days.",
+            "Important to know: the Social Security number itself stays the same. Only the name on file changes. Destroy the old card once the new one arrives to prevent confusion."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "Does a name change count toward the 10-card lifetime limit?",
+              "a": "No. Cards issued due to legal name changes do not count toward the 10-replacement lifetime limit. Certain immigration-status-related changes also do not count."
+            },
+            {
+              "q": "What if I changed my name informally?",
+              "a": "The SSA only accepts legal name changes documented by marriage certificate, divorce decree, or court order. Simply going by a different name informally is not sufficient."
+            },
+            {
+              "q": "Do I need to change my name everywhere else first?",
+              "a": "No. The SSA does not require that your driver's license or other IDs already show the new name. Practically, however, it is often easier to update the SSA after your photo ID has been updated."
+            },
+            {
+              "q": "How long after marriage should I update it?",
+              "a": "There is no deadline, but doing it within a month or two after the wedding is common and avoids tax-season complications the following year."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "get-social-security-number-for-newborn-bronx",
+      "silo": "services",
+      "h1": "How to Get a Social Security Number for a Newborn in the Bronx",
+      "title": "Social Security Number for Newborn in the Bronx, NY (2026)",
+      "meta": "How to get a Social Security number for a newborn in the Bronx. Hospital application process, what to do if you decline, and how long it takes in 2026.",
+      "intro": "Getting a Social Security number for a newborn is one of the first administrative tasks after birth — and it is easier than most parents expect, because in most cases the hospital handles the paperwork directly. This guide explains exactly what happens at Bronx hospitals, what to do if you declined at the hospital or were not asked, and why having the SSN early matters for your taxes.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "In most cases, you can apply for your newborn's Social Security number directly at the hospital when completing the birth registration paperwork. You check a box, provide your information, and the card arrives by mail in 6-12 weeks. If you declined at the hospital or need to apply later, visit <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a> in person with the child's birth certificate and your own identification."
+        },
+        {
+          "type": "section",
+          "heading": "The hospital route (the easiest path)",
+          "body": [
+            "When you give birth at a Bronx hospital and complete the birth registration paperwork, one of the questions asks whether you want a Social Security number for the child. Saying yes is the simplest possible application: the hospital forwards the information to the New York State vital records office, which sends it to the SSA, which mails the card to the address you provided. No SSA office visit, no separate form, no fee.",
+            "The card typically arrives 6-12 weeks after birth — often slower than the birth certificate itself. The SSN is assigned during processing and printed on the card."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "If you did not apply at the hospital",
+          "body": [
+            "If you declined or were not asked at the hospital, you can still apply for your child's SSN later. This requires visiting a Bronx SSA office in person. You will need the child's certified birth certificate from the New York State Department of Health (not a hospital souvenir copy), proof of the child's identity (which can be challenging for very young children — medical records, daycare records, or a passport can work), and your own proof of identity as the parent.",
+            "If the child is age 12 or older, the child must be present at the interview for the SSA to verify identity."
+          ]
+        },
+        {
+          "type": "checklist",
+          "heading": "Why getting it early matters",
+          "items": [
+            "You need the child's SSN to claim them as a dependent on your federal tax return.",
+            "Many medical insurance plans require the SSN to add the child to coverage.",
+            "529 college savings plans and other financial accounts for the child require the SSN.",
+            "Getting it at the hospital avoids a later in-person visit to an SSA office.",
+            "There is no legal deadline, but doing it within the first few months simplifies tax season."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "How much does it cost?",
+              "a": "It is free, like all SSN applications. Be wary of any service that charges to obtain an SSN for your child."
+            },
+            {
+              "q": "Can I apply online for my baby's SSN?",
+              "a": "No. First-time SSN applications cannot be done online for anyone, including newborns. The hospital route or in-person at an SSA office are the only options."
+            },
+            {
+              "q": "What if my baby was born outside the U.S.?",
+              "a": "A child born abroad to U.S. citizen parents typically gets a Consular Report of Birth Abroad (CRBA) and can then apply for an SSN. The process is more involved and is generally handled in person at an SSA office."
+            },
+            {
+              "q": "How long does it take to receive the card?",
+              "a": "From the hospital application, typically 6-12 weeks. From an in-person SSA office application, 7-14 business days like other applications."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "office": [
+    {
+      "slug": "social-security-office-bronx",
+      "silo": "office",
+      "h1": "Social Security Offices in the Bronx, NY",
+      "title": "Social Security Office in the Bronx, NY: All 6 Locations (2026)",
+      "meta": "Complete directory of the six Social Security Administration field offices in the Bronx, NY. Real addresses, local phone lines, transit access, and services.",
+      "intro": "The Bronx is served by six Social Security Administration field offices: South Bronx, East Bronx, Hunts Point, Laconia Avenue, North Bronx, and West Farms. Each serves specific neighborhoods and ZIP codes. This page lists all six with verified addresses, transit, and local phone lines, plus information on which office serves your address.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "The Bronx has six SSA field offices, each serving specific neighborhoods: <a href=\"/social-security-office-south-bronx/\"><strong>South Bronx</strong></a> (820 Concourse Village West, 10451), <a href=\"/social-security-office-east-bronx/\"><strong>East Bronx</strong></a> (1380 Parker St, 10462), <a href=\"/social-security-office-hunts-point-bronx/\"><strong>Hunts Point</strong></a> (1029 E 163rd St, 10459), <a href=\"/social-security-office-laconia-avenue-bronx/\"><strong>Laconia Avenue</strong></a> (3247 Laconia Ave, 10469), <a href=\"/social-security-office-north-bronx/\"><strong>North Bronx</strong></a> (2501 Grand Concourse, 10468), and <a href=\"/social-security-office-west-farms-bronx/\"><strong>West Farms</strong></a> (1829 Southern Blvd, 10460). Each office handles all SSA services. The office assigned to your address depends on your ZIP — check ssa.gov/locator or call <a href=\"tel:+18007721213\">1-800-772-1213</a>."
+        },
+        {
+          "type": "section",
+          "heading": "The six SSA field offices in the Bronx",
+          "body": [
+            "<a href=\"/social-security-office-south-bronx/\"><strong>South Bronx</strong></a> — 820 Concourse Village West, 3rd Fl, Bronx, NY 10451. Serves Mott Haven, Highbridge, Concourse, Melrose. Local line: <a href=\"tel:+18555311684\">1-855-531-1684</a>. Closest subway: Yankee Stadium-161st St (B, D, 4).",
+            "<a href=\"/social-security-office-east-bronx/\"><strong>East Bronx</strong></a> — 1380 Parker Street, 2nd Fl, Bronx, NY 10462. Serves Parkchester, Castle Hill, Soundview, Westchester Square. Local line: <a href=\"tel:+18669312526\">1-866-931-2526</a>. Closest subway: Parkchester (6).",
+            "<a href=\"/social-security-office-hunts-point-bronx/\"><strong>Hunts Point</strong></a> — 1029 East 163rd Street, 3rd Fl, Bronx, NY 10459. Serves Hunts Point, Longwood, Foxhurst, Bronx River. Local line: <a href=\"tel:+18662207889\">1-866-220-7889</a>. Closest subway: Hunts Point Av (6).",
+            "<a href=\"/social-security-office-laconia-avenue-bronx/\"><strong>Laconia Avenue</strong></a> — 3247 Laconia Avenue, Bronx, NY 10469. Serves Wakefield, Williamsbridge, Eastchester, Edenwald, Pelham Gardens. Local line: <a href=\"tel:+18665132391\">1-866-513-2391</a>. Closest subway: Baychester Av (5).",
+            "<a href=\"/social-security-office-north-bronx/\"><strong>North Bronx</strong></a> — 2501 Grand Concourse, 2nd Fl, Bronx, NY 10468. Serves Fordham, Mt Eden, Tremont, Bedford Park, University Heights, Kingsbridge Heights. Local line: <a href=\"tel:+18776192852\">1-877-619-2852</a>. Closest subway: Burnside Av (4) or Fordham Rd (B, D).",
+            "<a href=\"/social-security-office-west-farms-bronx/\"><strong>West Farms</strong></a> — 1829 Southern Boulevard, Bronx, NY 10460. Serves West Farms, Crotona, East Tremont, Belmont, Bronxdale. Local line: <a href=\"tel:+18669642558\">1-866-964-2558</a>. Closest subway: 174th St or West Farms Sq (2, 5)."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Which office serves your address",
+          "body": [
+            "The SSA assigns each ZIP code in the Bronx to one of the six offices. Generally you must visit the office that serves your address, though for most routine services any office can help. Use the official locator at ssa.gov/locator to confirm — enter your ZIP and it returns the assigned office.",
+            "If you live near the Bronx but in Manhattan, Westchester, or Queens, your assigned office will be elsewhere. The Bronx offices specifically serve Bronx ZIPs."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Appointments are now required (2025 change)",
+          "body": [
+            "Effective January 6, 2025, the SSA requires customers to <a href=\"/social-security-office-appointment-bronx/\">schedule an appointment</a> for most in-person services at any field office, including all six Bronx locations. Walk-ins for limited services may still be accepted but expect long waits.",
+            "Schedule by calling the national number <a href=\"tel:+18007721213\">1-800-772-1213</a> or the local line of the specific office. Appointments are typically available within 2-4 weeks."
+          ]
+        },
+        {
+          "type": "checklist",
+          "heading": "Common to all six Bronx offices",
+          "items": [
+            "National SSA phone: <a href=\"tel:+18007721213\">1-800-772-1213</a> (works for all offices).",
+            "TTY: <a href=\"tel:+18003250778\">1-800-325-0778</a>.",
+            "Hours: Monday-Friday 9:00 AM to 4:00 PM (subject to change).",
+            "Closed: weekends and all federal holidays.",
+            "Appointments now required for most services (2025).",
+            "Bilingual service (English/Spanish) at all Bronx offices.",
+            "Bring ORIGINAL documents — never photocopies."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "Can I visit any Bronx SSA office or only my assigned one?",
+              "a": "For most services, any office can help regardless of which one is assigned to your ZIP. For complex matters tied to your record, the assigned office may need to handle it. When in doubt, call <a href=\"tel:+18007721213\">1-800-772-1213</a> first."
+            },
+            {
+              "q": "Which Bronx SSA office is the largest?",
+              "a": "The <a href=\"/social-security-office-south-bronx/\">South Bronx office</a> at 820 Concourse Village West is the largest and most centrally located, near Yankee Stadium. It is also the most-connected to the subway network."
+            },
+            {
+              "q": "How do I know which office serves my ZIP code?",
+              "a": "Use the official SSA office locator at ssa.gov/locator. Enter your ZIP code and the assigned field office is returned. You can also call <a href=\"tel:+18007721213\">1-800-772-1213</a> to ask."
+            },
+            {
+              "q": "Are all six Bronx offices wheelchair accessible?",
+              "a": "Yes. All SSA field offices meet federal accessibility standards. If you need additional assistance for your visit, mention it when you schedule the appointment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "social-security-office-hours-bronx",
+      "silo": "office",
+      "h1": "Social Security Office Hours in the Bronx",
+      "title": "SSA Office Hours in the Bronx, NY (2026 Schedule)",
+      "meta": "Current Social Security office hours for all five Bronx offices. Days open, federal holiday closures, and Wednesday early-close schedule for 2026.",
+      "intro": "Knowing the Social Security office hours in the Bronx saves a wasted trip across the borough. The SSA's schedule has a few quirks — including Wednesday early closes and a long list of federal holiday closures — that catch many people out. This page explains the current hours for all five Bronx offices, the federal holidays when they close, and how to confirm hours before visiting.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "All <a href=\"/social-security-office-bronx/\">five Bronx SSA offices</a> are generally open Monday through Friday during standard business hours, with Wednesdays often closing earlier (around noon) for staff casework time. All offices are closed on weekends and every federal holiday. Hours can change without notice, so confirm by calling <a href=\"tel:+18007721213\">1-800-772-1213</a> before any visit."
+        },
+        {
+          "type": "section",
+          "heading": "The Wednesday early-close",
+          "body": [
+            "Most SSA field offices nationwide — including all Bronx offices — close earlier on Wednesdays, typically around noon. This is to give staff time to process the casework backlog without the pressure of walk-in visits. A Wednesday afternoon visit will almost always find the office closed.",
+            "If you need afternoon service, plan for Monday, Tuesday, Thursday, or Friday. Mornings are universally busier than afternoons, so a Tuesday or Thursday afternoon generally has the shortest wait time."
+          ]
+        },
+        {
+          "type": "checklist",
+          "heading": "Federal holidays when all Bronx offices are closed",
+          "items": [
+            "New Year's Day (January 1).",
+            "Martin Luther King Jr. Day (third Monday in January).",
+            "Presidents Day (third Monday in February).",
+            "Memorial Day (last Monday in May).",
+            "Juneteenth National Independence Day (June 19).",
+            "Independence Day (July 4).",
+            "Labor Day (first Monday in September).",
+            "Columbus Day (second Monday in October).",
+            "Veterans Day (November 11).",
+            "Thanksgiving Day (fourth Thursday in November).",
+            "Christmas Day (December 25)."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How to use the hours efficiently",
+          "body": [
+            "Best practice: <a href=\"/social-security-office-appointment-bronx/\">schedule an appointment</a> in advance by calling <a href=\"tel:+18007721213\">1-800-772-1213</a>. With an appointment you will be seen close to your scheduled time even on busy days. Walk-ins are accepted but mean 1-2 hour waits at peak times.",
+            "For quick services (updating an address, requesting a benefit verification letter), check first whether the request can be completed online at ssa.gov — many of these no longer require an office visit at all, eliminating the hours question entirely."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "Are any Bronx SSA offices open on weekends?",
+              "a": "No. All SSA field offices, including every Bronx location, are closed on Saturdays and Sundays. Use ssa.gov for any service available online."
+            },
+            {
+              "q": "What if I arrive close to closing time?",
+              "a": "You may be turned away if there is not enough time to process your visit. Plan to arrive at least 30 minutes before closing — and earlier on Wednesdays when offices close around noon."
+            },
+            {
+              "q": "Can I call my Bronx office directly to confirm hours?",
+              "a": "Direct local phone lines for field offices have been replaced by the national line at <a href=\"tel:+18007721213\">1-800-772-1213</a>. That number can confirm current hours for any specific Bronx office."
+            },
+            {
+              "q": "Are hours different around holidays?",
+              "a": "Yes. Around major holidays, offices may have modified hours in addition to the holiday closure itself. Always confirm before visiting during holiday weeks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "social-security-office-appointment-bronx",
+      "silo": "office",
+      "h1": "How to Book an Appointment at a Bronx SSA Office",
+      "title": "Book a Social Security Appointment in the Bronx, NY (2026)",
+      "meta": "How to schedule an appointment at any Bronx Social Security office. Why appointments save hours of waiting, and what documents to bring.",
+      "intro": "Walking into a Bronx SSA office without an appointment can mean waiting 1-2 hours during busy periods. With an appointment, the same visit typically takes 15-30 minutes total. This page explains how to schedule one, why it makes such a difference in the Bronx specifically, and what to be ready to say when you call.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "To book an appointment at <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a>, call the national SSA line at <a href=\"tel:+18007721213\">1-800-772-1213</a> (TTY: <a href=\"tel:+18003250778\">1-800-325-0778</a>) Monday through Friday during business hours. Tell the representative you want an appointment at a specific Bronx office and what service you need. Appointments are usually available within 2-4 weeks. There is no online appointment booking for general services at the time of writing."
+        },
+        {
+          "type": "section",
+          "heading": "Why an appointment matters in the Bronx",
+          "body": [
+            "Bronx SSA offices serve one of the densest, most demand-heavy populations of any borough. Walk-in waits of 1-2 hours are routine at peak times. With an appointment, you are typically seen within 5-15 minutes of your scheduled slot, and the visit itself takes 15-30 minutes.",
+            "Beyond time savings, an appointment also lets you know exactly what documents to bring — the representative who books your slot will tell you precisely what is needed for your specific service. That eliminates the most common cause of wasted trips: arriving without the right documents."
+          ]
+        },
+        {
+          "type": "troubleshoot",
+          "heading": "How to book step by step",
+          "items": [
+            {
+              "q": "Step 1 - Call 1-800-772-1213",
+              "a": "This is the national SSA line and the only way to book an appointment at a Bronx field office. Have a pen ready to write down the appointment time and the required documents."
+            },
+            {
+              "q": "Step 2 - Specify the Bronx office",
+              "a": "State clearly which Bronx office you want (Concourse Village, South Bronx, Tremont, Fordham, or Wakefield) and what service you need. The representative will check availability across nearby offices if needed."
+            },
+            {
+              "q": "Step 3 - Confirm what to bring",
+              "a": "Once your appointment is confirmed, the representative will list exactly which documents are required. Write everything down — bringing the wrong documents wastes the trip."
+            },
+            {
+              "q": "Step 4 - Arrive 15 minutes early",
+              "a": "On the day, arrive at the office at least 15 minutes before your slot to allow for security screening and check-in."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "What to do if you cannot get an appointment soon enough",
+          "body": [
+            "If the wait for an appointment is too long for your situation, consider whether your need can be handled online or by phone. Many SSA services do not require an in-person visit at all: retirement applications, replacement card requests, benefit verifications, address changes, and direct deposit updates can be done at ssa.gov.",
+            "If you genuinely need an in-person visit and cannot wait, walk-ins are accepted. Try to arrive at opening on a non-Monday, non-Wednesday morning for the shortest typical wait."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "Can I book online?",
+              "a": "At the time of writing, the SSA does not offer online appointment booking for most general services. Appointments are scheduled by calling <a href=\"tel:+18007721213\">1-800-772-1213</a>."
+            },
+            {
+              "q": "How far in advance should I call?",
+              "a": "2-4 weeks is typical, but availability varies by office and season. Call as soon as you know you need an appointment, especially during tax season or year-end."
+            },
+            {
+              "q": "What if I miss my appointment?",
+              "a": "Call <a href=\"tel:+18007721213\">1-800-772-1213</a> to reschedule. Missing without rescheduling can mean a longer wait for the next available slot."
+            },
+            {
+              "q": "Can I request bilingual service?",
+              "a": "Yes. When you book, tell the representative you need a <a href=\"/ssa-spanish-services-bronx/\">Spanish-speaking representative</a>. All Bronx offices provide <a href=\"/ssa-spanish-services-bronx/\">bilingual service</a> given the borough's demographics."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "social-security-office-near-me-bronx",
+      "silo": "office",
+      "h1": "Social Security Office Near Me in the Bronx",
+      "title": "Social Security Office Near Me in the Bronx, NY (2026)",
+      "meta": "Find the closest Social Security office in the Bronx based on your neighborhood. Five SSA offices serving distinct areas of the borough in 2026.",
+      "intro": "'Social Security office near me' is one of the most-searched queries by Bronx residents, and the answer depends on which neighborhood you live in. The borough has six SSA field offices, each covering specific areas. This page explains which office is nearest by neighborhood and how to confirm the right one for your exact address.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "The Bronx has six SSA field offices: <a href=\"/social-security-office-south-bronx/\"><strong>South Bronx</strong></a> (820 Concourse Village W, 10451), <a href=\"/social-security-office-east-bronx/\"><strong>East Bronx</strong></a> (1380 Parker St, 10462), <a href=\"/social-security-office-hunts-point-bronx/\"><strong>Hunts Point</strong></a> (1029 E 163rd St, 10459), <a href=\"/social-security-office-laconia-avenue-bronx/\"><strong>Laconia Avenue</strong></a> (3247 Laconia Ave, 10469), <a href=\"/social-security-office-north-bronx/\"><strong>North Bronx</strong></a> (2501 Grand Concourse, 10468), and <a href=\"/social-security-office-west-farms-bronx/\"><strong>West Farms</strong></a> (1829 Southern Blvd, 10460). Each covers specific ZIPs. Use ssa.gov/locator with your ZIP to find your assigned office."
+        },
+        {
+          "type": "section",
+          "heading": "Which office is nearest by neighborhood",
+          "body": [
+            "<strong>Mott Haven, Highbridge, Concourse, Melrose</strong> → <a href=\"/social-security-office-south-bronx/\">South Bronx office</a> at 820 Concourse Village West.",
+            "<strong>Hunts Point, Longwood, Foxhurst, Bronx River</strong> → <a href=\"/social-security-office-hunts-point-bronx/\">Hunts Point office</a> at 1029 East 163rd Street.",
+            "<strong>Parkchester, Castle Hill, Soundview, Westchester Square</strong> → <a href=\"/social-security-office-east-bronx/\">East Bronx office</a> at 1380 Parker Street.",
+            "<strong>West Farms, Crotona, East Tremont, Belmont, Bronxdale</strong> → <a href=\"/social-security-office-west-farms-bronx/\">West Farms office</a> at 1829 Southern Boulevard.",
+            "<strong>Fordham, Mt Eden, Tremont, Bedford Park, University Heights, Kingsbridge Heights</strong> → <a href=\"/social-security-office-north-bronx/\">North Bronx office</a> at 2501 Grand Concourse.",
+            "<strong>Wakefield, Williamsbridge, Eastchester, Edenwald, Co-op City, Pelham Gardens</strong> → <a href=\"/social-security-office-laconia-avenue-bronx/\">Laconia Avenue office</a> at 3247 Laconia Avenue."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "What if you live near the Bronx but not in it",
+          "body": [
+            "Residents of nearby Westchester County (Yonkers, Mount Vernon, New Rochelle) generally have their own SSA offices closer to home. Upper Manhattan (Inwood, Washington Heights, Harlem) has its own offices and is not served by Bronx locations. Use ssa.gov/locator to confirm which office is assigned to your address.",
+            "The SSA assigns each ZIP code to a specific field office — there is no choice. You go to whichever office covers your address, regardless of which is closer to your workplace."
+          ]
+        },
+        {
+          "type": "checklist",
+          "heading": "Tips for finding your nearest office",
+          "items": [
+            "Use ssa.gov/locator with your ZIP code — official tool from the SSA.",
+            "Call <a href=\"tel:+18007721213\">1-800-772-1213</a> to ask which office is assigned to your address.",
+            "Note your address's specific neighborhood (Bronx has many) to map it to one of the six offices.",
+            "Use the subway — parking near Bronx SSA offices is generally limited.",
+            "All six Bronx offices are wheelchair accessible."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "Can I visit any Bronx office or only the one for my ZIP code?",
+              "a": "For most services, any Bronx office can help regardless of your assigned office. For some local matters tied to your record, your assigned office may need to handle it. Confirm with <a href=\"tel:+18007721213\">1-800-772-1213</a> if in doubt."
+            },
+            {
+              "q": "What about residents of upper Manhattan?",
+              "a": "Upper Manhattan has its own SSA offices and is not served by Bronx offices. Residents of Inwood, Washington Heights, and Harlem should check ssa.gov/locator for the right office."
+            },
+            {
+              "q": "How do I get to the offices without a car?",
+              "a": "All <a href=\"/social-security-office-bronx/\">six Bronx SSA offices</a> are accessible by subway and bus. The <a href=\"/social-security-office-south-bronx/\">South Bronx office</a> at 820 Concourse Village West is the most-connected (B, D, 4 trains at Yankee Stadium-161st Street)."
+            },
+            {
+              "q": "Is there parking at any office?",
+              "a": "Street parking near Bronx SSA offices is limited and time-restricted in most areas. The <a href=\"/social-security-office-laconia-avenue-bronx/\">Laconia Avenue office</a> (in the more residential northern Bronx) tends to have more parking availability than the central offices. Public transit is still strongly recommended."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ssa-required-documents-bronx",
+      "silo": "office",
+      "h1": "What Documents to Bring to a Bronx SSA Office",
+      "title": "SSA Required Documents Checklist for Bronx Offices (2026)",
+      "meta": "Complete checklist of what to bring to a Bronx Social Security office visit. Originals only, common mistakes, and what each service requires in 2026.",
+      "intro": "The most common reason a trip to a Bronx SSA office is wasted is bringing the wrong documents — or photocopies instead of originals. This guide breaks down exactly what to bring for each common service, the rules that catch people out, and the gotchas specific to New York State documentation.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "The SSA requires ORIGINAL documents — not photocopies — for almost every service. They will photocopy them on the spot and hand the originals back. The exact documents depend on the service: SSN applications need proof of citizenship/status and identity; name changes need legal name-change documents; disability requires medical records; retirement needs birth certificate and proof of citizenship. When in doubt, bring more than you think you need."
+        },
+        {
+          "type": "section",
+          "heading": "The cardinal rules",
+          "body": [
+            "<strong>Rule 1: ORIGINALS ONLY.</strong> The SSA does not accept photocopies for almost any document. They will photocopy your originals while you wait and return them in the same visit. Do not mail originals unless explicitly instructed.",
+            "<strong>Rule 2: UNEXPIRED.</strong> IDs and passports must be current, not expired. Birth certificates are an exception — they do not expire and originals are fine.",
+            "<strong>Rule 3: CERTIFIED, NOT NOTARIZED.</strong> For birth certificates, divorce decrees, and similar documents, you need a CERTIFIED copy with the official seal of the issuing agency — not a notarized photocopy. In New York, certified birth certificates come from the New York State Department of Health or the NYC Department of Health and Mental Hygiene."
+          ]
+        },
+        {
+          "type": "troubleshoot",
+          "heading": "What to bring by service",
+          "items": [
+            {
+              "q": "First-time Social Security card",
+              "a": "Form SS-5, original birth certificate (for U.S. citizens) or current immigration documents (for non-citizens), and original photo ID. For minors, parent's ID is required."
+            },
+            {
+              "q": "Replacement card",
+              "a": "Form SS-5 and original unexpired photo ID (NYS driver's license, NYS ID, or U.S. passport). If your name has changed since the last card, also bring the legal name-change document."
+            },
+            {
+              "q": "Name change",
+              "a": "Form SS-5, original legal name-change document (marriage certificate, divorce decree with name change, court order), and original photo ID — ideally in the new name already."
+            },
+            {
+              "q": "Apply for retirement",
+              "a": "Birth certificate, proof of U.S. citizenship/lawful status, last year's W-2 or tax return, military discharge papers if pre-1968 service, and bank info for direct deposit."
+            },
+            {
+              "q": "Apply for disability",
+              "a": "Medical records and provider list, medications list, work history (15 years), recent W-2, birth certificate, and bank info for direct deposit. SSI applications need detailed financial records in addition."
+            },
+            {
+              "q": "Apply for Medicare (without already on Social Security)",
+              "a": "Birth certificate, proof of U.S. citizenship, and proof of any prior creditable coverage if delaying parts."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Common mistakes in the Bronx",
+          "body": [
+            "Bringing photocopies instead of originals. This is the number-one wasted trip across every Bronx office.",
+            "Expired IDs. A NYS driver's license that expired last month will be rejected. Renew at a DMV first, then visit SSA.",
+            "Notarized copies instead of certified copies. A notary stamp on a photocopy is not the same as a certified document from the issuing agency.",
+            "Forgetting Form SS-5 for SSN-related services. You can complete it at the office, but pre-filling at home saves time.",
+            "Not bringing supporting documents 'just in case.' If a service might need extra documentation, bring it. Going home to retrieve something is far worse than carrying an extra envelope."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "Will the SSA accept a digital copy on my phone?",
+              "a": "Generally no. Original physical documents are required. Some limited exceptions exist for specific situations — ask when you book your appointment."
+            },
+            {
+              "q": "What if my documents are in another language?",
+              "a": "Foreign documents must be accompanied by a certified English translation. Bronx offices have Spanish-language support but written documents in other languages still need certified translations."
+            },
+            {
+              "q": "How do I get a certified New York birth certificate?",
+              "a": "For births in New York City: NYC Department of Health and Mental Hygiene (vital records). For births elsewhere in New York State: the New York State Department of Health. Certified copies cost a small fee and arrive by mail in a few days to weeks."
+            },
+            {
+              "q": "Can someone else bring my documents for me?",
+              "a": "For most services, no. You must appear in person with your own documents. The SSA does not accept third-party representatives without specific legal authority such as a Power of Attorney for certain situations."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ssa-spanish-services-bronx",
+      "silo": "office",
+      "h1": "Social Security Services in Spanish in the Bronx",
+      "title": "SSA Spanish-Language Services in the Bronx, NY (2026)",
+      "meta": "Bilingual Spanish/English Social Security services in the Bronx. Spanish-speaking representatives, translated forms, and call line at 1-800-772-1213.",
+      "intro": "Spanish is a primary language for a significant portion of Bronx residents, and the Social Security Administration offers full Spanish-language service at every Bronx office. This page explains how to access Spanish-speaking representatives, request bilingual support, and find SSA materials in Spanish. Knowing how to navigate Social Security in Spanish from the Bronx is essential for many borough residents.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "Every Bronx SSA office provides full bilingual service in English and Spanish. The national SSA phone line at <a href=\"tel:+18007721213\">1-800-772-1213</a> also offers Spanish service — press the option for Español when prompted. Forms, brochures, and the SSA website are all available in Spanish at ssa.gov/espanol. When <a href=\"/social-security-office-appointment-bronx/\">scheduling an appointment</a>, request a Spanish-speaking representative."
+        },
+        {
+          "type": "section",
+          "heading": "How to request a Spanish-speaking representative",
+          "body": [
+            "When calling <a href=\"tel:+18007721213\">1-800-772-1213</a>, the system prompts in English first but follows with the Spanish option. Press or say the Spanish option to be routed to a bilingual representative. The phone line offers full Spanish service for any question or request that can be handled by phone.",
+            "When <a href=\"/social-security-office-appointment-bronx/\">scheduling an appointment</a> at any Bronx office, request a Spanish-speaking representative explicitly: 'I need an appointment with a Spanish-speaking representative.' This ensures bilingual support during your visit. Walk-ins requesting Spanish service may experience longer waits than English-only walk-ins, depending on the day."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "SSA Spanish website and materials",
+          "body": [
+            "The SSA maintains a full Spanish-language website at ssa.gov/espanol with all the major services translated: applying for benefits, replacing cards, requesting verification letters, understanding eligibility. Forms commonly used in the Bronx — Form SS-5 (SSN card application), benefit verification, address change — are available in Spanish from the SSA.",
+            "Educational materials on programs like SSDI, SSI, and Medicare are also available in Spanish, including printed brochures distributed at Bronx offices and downloadable PDFs from ssa.gov/espanol."
+          ]
+        },
+        {
+          "type": "checklist",
+          "heading": "Spanish-language services at Bronx offices",
+          "items": [
+            "Bilingual representatives available at all five Bronx SSA offices.",
+            "Spanish phone service via <a href=\"tel:+18007721213\">1-800-772-1213</a>.",
+            "Forms in Spanish, including SS-5 (card application).",
+            "Brochures and educational materials in Spanish at all offices.",
+            "Bilingual signage at most office entrances.",
+            "Online services at ssa.gov/espanol for those who prefer digital."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "If your primary language is neither English nor Spanish",
+          "body": [
+            "The SSA offers free interpreter services in dozens of languages by phone. When you call <a href=\"tel:+18007721213\">1-800-772-1213</a> or visit a Bronx office, request an interpreter for your language. Interpreter services are free and confidential. Common languages with interpreter availability include Bengali, Chinese (Mandarin and Cantonese), French, Arabic, Russian, Albanian, and many others — all relevant for the diverse population of the Bronx.",
+            "Written documents in languages other than English or Spanish still require a certified English translation when submitted to the SSA. Verbal interpretation during the appointment is free; written translations of your supporting documents are your responsibility."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "Are SSA Spanish-language services the same quality as English?",
+              "a": "Yes. Bilingual representatives are trained on the same procedures and have access to the same information. Documents submitted in Spanish are handled with the same processing time as English."
+            },
+            {
+              "q": "Can I bring a family member or friend to translate?",
+              "a": "You can bring someone to support you, but the SSA prefers to use official interpreter services for accuracy in benefit-related conversations. Family members may translate but the SSA may verify key details directly through their interpreter service."
+            },
+            {
+              "q": "Are all SSA forms available in Spanish?",
+              "a": "Most major forms are, including Form SS-5 for card applications. Less common forms may only be in English, but Spanish-speaking representatives can help complete them."
+            },
+            {
+              "q": "Can I do everything in Spanish at ssa.gov?",
+              "a": "Yes — ssa.gov/espanol mirrors the main site in Spanish for major services. Some less-used pages may still be English-only, but all primary applications and account services are available in Spanish."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "social-security-office-south-bronx",
+      "silo": "office",
+      "h1": "SSA Office in the South Bronx (Concourse Village West), Bronx",
+      "title": "South Bronx Social Security Office, Bronx NY (820 Concourse Village West, 3rd Fl, Bronx, NY 10451)",
+      "meta": "Complete guide to the South Bronx Social Security office at 820 Concourse Village West, 3rd Fl, Bronx, NY 10451. Hours, transit, services, and how to book an appointment.",
+      "intro": "The South Bronx Social Security Administration field office is located at 820 Concourse Village West, 3rd Floor, Bronx, NY 10451. It serves residents of Mott Haven, Highbridge, Concourse, Melrose, and the south-central Bronx. This page covers the address, subway access, neighborhoods served, services available, and tips for making your visit efficient.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "The South Bronx SSA office is located at <strong>820 Concourse Village West, 3rd Floor, Bronx, NY 10451</strong>. Closest subway: Yankee Stadium-161st Street (B, D, 4 trains). It serves Mott Haven, Highbridge, Concourse and surrounding areas. The office handles all SSA services including SSN cards, SSDI, SSI, retirement, and Medicare. Open Monday-Friday 9:00 AM to 4:00 PM. Local appointment line: <a href=\"tel:+18555311684\">1-855-531-1684</a>; national: <a href=\"tel:+18007721213\">1-800-772-1213</a>. Appointments are now required for most in-person services as of 2025."
+        },
+        {
+          "type": "section",
+          "heading": "Neighborhoods served",
+          "body": [
+            "The South Bronx field office at 820 Concourse Village West, 3rd Fl, Bronx, NY 10451 primarily serves residents of Mott Haven, Highbridge, Concourse, Melrose, and the south-central Bronx. Each Bronx SSA office is assigned specific ZIP codes; this office covers ZIP 10451 and adjacent ones. To confirm whether this is your assigned office for a specific service, enter your ZIP code at ssa.gov/locator or call <a href=\"tel:+18007721213\">1-800-772-1213</a>.",
+            "That said, for most routine services <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a> can help — you do not strictly need to visit the one assigned to your ZIP, though more complex local cases may require it."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How to get there by subway",
+          "body": [
+            "The closest subway access is Yankee Stadium-161st Street (B, D, 4 trains), then a short walk to the office at 820 Concourse Village West, 3rd Fl, Bronx, NY 10451. New York City's subway is the most reliable way to reach <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a> — street parking in the area is limited and time-restricted.",
+            "If you are coming from outside the Bronx, allow extra time during weekday rush hours (7-9 AM and 4-6 PM) when service is more variable. Plan for half a day total when traveling from another borough: most appointments take 15-30 minutes, but travel plus security screening adds up."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Services available at the South Bronx office",
+          "body": [
+            "Every Bronx SSA field office handles the full range of Social Security services. At the South Bronx location you can apply for a <a href=\"/apply-for-social-security-card-bronx/\">first-time Social Security card</a>, <a href=\"/replace-social-security-card-bronx/\">replace a lost card</a>, <a href=\"/change-name-on-social-security-card-bronx/\">change the name</a> on your card, apply for <a href=\"/apply-for-disability-benefits-bronx/\">disability benefits</a> (SSDI and SSI), apply for retirement, enroll in Medicare, get a Social Security number for a <a href=\"/get-social-security-number-for-newborn-bronx/\">newborn</a>, and handle most immigration-related changes to your record.",
+            "Some services can also be completed entirely online at ssa.gov without visiting any office — replacement cards for qualifying applicants, retirement applications, address changes, and benefit verification letters. Visit the office in person for services that require <a href=\"/ssa-required-documents-bronx/\">original documents</a> or for situations where face-to-face guidance is helpful."
+          ]
+        },
+        {
+          "type": "checklist",
+          "heading": "Before visiting this office",
+          "items": [
+            "Call <strong>1-855-531-1684</strong> (local line for the South Bronx office) or <strong>1-800-772-1213</strong> (national) to <a href=\"/social-security-office-appointment-bronx/\">schedule an appointment</a>. As of January 2025, the SSA requires appointments for most in-person services.",
+            "Bring <a href=\"/ssa-required-documents-bronx/\">ORIGINAL documents</a> — never photocopies. They will be photocopied at the office and originals returned the same day.",
+            "Arrive 15 minutes early for federal building security screening.",
+            "Mondays and the day after a federal holiday are the busiest — Tuesday-Friday mid-morning has shorter waits.",
+            "If you need <a href=\"/ssa-spanish-services-bronx/\">bilingual service</a>, request a <a href=\"/ssa-spanish-services-bronx/\">Spanish-speaking representative</a> when you book the appointment."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "What is the local phone number for the South Bronx office?",
+              "a": "The local number is <a href=\"tel:+18555311684\">1-855-531-1684</a>, which routes to the South Bronx field office. You can also use the national SSA line at <a href=\"tel:+18007721213\">1-800-772-1213</a> to schedule appointments or get general information."
+            },
+            {
+              "q": "What if I cannot get to the South Bronx office?",
+              "a": "The other Bronx SSA field offices are: East Bronx (1380 Parker St), Hunts Point (1029 E 163rd St), Laconia Avenue (3247 Laconia Ave), and others. For most services, any Bronx office can help — confirm by calling <a href=\"tel:+18007721213\">1-800-772-1213</a> or using ssa.gov/locator."
+            },
+            {
+              "q": "Are appointments now required?",
+              "a": "As of January 6, 2025, the SSA requires appointments for most in-person services at all field offices, including the Bronx locations. Walk-ins for limited services may still be accepted but expect long waits. Schedule by calling <a href=\"tel:+18007721213\">1-800-772-1213</a> or the local office line."
+            },
+            {
+              "q": "Is the office wheelchair accessible?",
+              "a": "Yes. All SSA field offices, including this one, meet federal accessibility standards. If you need additional assistance, mention it when scheduling the appointment."
+            }
+          ]
+        }
+      ],
+      "embed_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47119.10202947708!2d-73.99516495136719!3d40.81371230000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f432d35b7b8d%3A0x3c183c8dbcaf4bf5!2sU.S.%20Social%20Security%20Administration!5e1!3m2!1ses-419!2sar!4v1780457754837!5m2!1ses-419!2sar"
+    },
+    {
+      "slug": "social-security-office-east-bronx",
+      "silo": "office",
+      "h1": "SSA Office in the East Bronx (Parker Street), Bronx",
+      "title": "East Bronx Social Security Office, Bronx NY (1380 Parker St, 2nd Fl, Bronx, NY 10462)",
+      "meta": "Complete guide to the East Bronx Social Security office at 1380 Parker St, 2nd Fl, Bronx, NY 10462. Hours, transit, services, and how to book an appointment.",
+      "intro": "The East Bronx Social Security Administration field office is located at 1380 Parker Street, 2nd Floor, Bronx, NY 10462. It serves residents of Parkchester, Castle Hill, Soundview, Westchester Square, and the central-east Bronx. This page covers the address, subway access, neighborhoods served, services available, and tips for making your visit efficient.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "The East Bronx SSA office is located at <strong>1380 Parker Street, 2nd Floor, Bronx, NY 10462</strong>. Closest subway: Parkchester or Castle Hill Avenue (6 train). It serves Parkchester, Castle Hill, Soundview and surrounding areas. The office handles all SSA services including SSN cards, SSDI, SSI, retirement, and Medicare. Open Monday-Friday 9:00 AM to 4:00 PM. Local appointment line: <a href=\"tel:+18669312526\">1-866-931-2526</a>; national: <a href=\"tel:+18007721213\">1-800-772-1213</a>. Appointments are now required for most in-person services as of 2025."
+        },
+        {
+          "type": "section",
+          "heading": "Neighborhoods served",
+          "body": [
+            "The East Bronx field office at 1380 Parker St, 2nd Fl, Bronx, NY 10462 primarily serves residents of Parkchester, Castle Hill, Soundview, Westchester Square, and the central-east Bronx. Each Bronx SSA office is assigned specific ZIP codes; this office covers ZIP 10462 and adjacent ones. To confirm whether this is your assigned office for a specific service, enter your ZIP code at ssa.gov/locator or call <a href=\"tel:+18007721213\">1-800-772-1213</a>.",
+            "That said, for most routine services <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a> can help — you do not strictly need to visit the one assigned to your ZIP, though more complex local cases may require it."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How to get there by subway",
+          "body": [
+            "The closest subway access is Parkchester or Castle Hill Avenue (6 train), then a short walk to the office at 1380 Parker St, 2nd Fl, Bronx, NY 10462. New York City's subway is the most reliable way to reach <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a> — street parking in the area is limited and time-restricted.",
+            "If you are coming from outside the Bronx, allow extra time during weekday rush hours (7-9 AM and 4-6 PM) when service is more variable. Plan for half a day total when traveling from another borough: most appointments take 15-30 minutes, but travel plus security screening adds up."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Services available at the East Bronx office",
+          "body": [
+            "Every Bronx SSA field office handles the full range of Social Security services. At the East Bronx location you can apply for a <a href=\"/apply-for-social-security-card-bronx/\">first-time Social Security card</a>, <a href=\"/replace-social-security-card-bronx/\">replace a lost card</a>, <a href=\"/change-name-on-social-security-card-bronx/\">change the name</a> on your card, apply for <a href=\"/apply-for-disability-benefits-bronx/\">disability benefits</a> (SSDI and SSI), apply for retirement, enroll in Medicare, get a Social Security number for a <a href=\"/get-social-security-number-for-newborn-bronx/\">newborn</a>, and handle most immigration-related changes to your record.",
+            "Some services can also be completed entirely online at ssa.gov without visiting any office — replacement cards for qualifying applicants, retirement applications, address changes, and benefit verification letters. Visit the office in person for services that require <a href=\"/ssa-required-documents-bronx/\">original documents</a> or for situations where face-to-face guidance is helpful."
+          ]
+        },
+        {
+          "type": "checklist",
+          "heading": "Before visiting this office",
+          "items": [
+            "Call <strong>1-866-931-2526</strong> (local line for the East Bronx office) or <strong>1-800-772-1213</strong> (national) to <a href=\"/social-security-office-appointment-bronx/\">schedule an appointment</a>. As of January 2025, the SSA requires appointments for most in-person services.",
+            "Bring <a href=\"/ssa-required-documents-bronx/\">ORIGINAL documents</a> — never photocopies. They will be photocopied at the office and originals returned the same day.",
+            "Arrive 15 minutes early for federal building security screening.",
+            "Mondays and the day after a federal holiday are the busiest — Tuesday-Friday mid-morning has shorter waits.",
+            "If you need <a href=\"/ssa-spanish-services-bronx/\">bilingual service</a>, request a <a href=\"/ssa-spanish-services-bronx/\">Spanish-speaking representative</a> when you book the appointment."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "What is the local phone number for the East Bronx office?",
+              "a": "The local number is <a href=\"tel:+18669312526\">1-866-931-2526</a>, which routes to the East Bronx field office. You can also use the national SSA line at <a href=\"tel:+18007721213\">1-800-772-1213</a> to schedule appointments or get general information."
+            },
+            {
+              "q": "What if I cannot get to the East Bronx office?",
+              "a": "The other Bronx SSA field offices are: South Bronx (820 Concourse Village West), Hunts Point (1029 E 163rd St), Laconia Avenue (3247 Laconia Ave), and others. For most services, any Bronx office can help — confirm by calling <a href=\"tel:+18007721213\">1-800-772-1213</a> or using ssa.gov/locator."
+            },
+            {
+              "q": "Are appointments now required?",
+              "a": "As of January 6, 2025, the SSA requires appointments for most in-person services at all field offices, including the Bronx locations. Walk-ins for limited services may still be accepted but expect long waits. Schedule by calling <a href=\"tel:+18007721213\">1-800-772-1213</a> or the local office line."
+            },
+            {
+              "q": "Is the office wheelchair accessible?",
+              "a": "Yes. All SSA field offices, including this one, meet federal accessibility standards. If you need additional assistance, mention it when scheduling the appointment."
+            }
+          ]
+        }
+      ],
+      "embed_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47119.10202947708!2d-73.99516495136717!3d40.81371230000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f4b5c50022e9%3A0x4153ac3f27dbb735!2sU.S.%20Social%20Security%20Administration!5e1!3m2!1ses-419!2sar!4v1780457811069!5m2!1ses-419!2sar"
+    },
+    {
+      "slug": "social-security-office-hunts-point-bronx",
+      "silo": "office",
+      "h1": "SSA Office in the Hunts Point (East 163rd Street), Bronx",
+      "title": "Hunts Point Social Security Office, Bronx NY (1029 E 163rd St, 3rd Fl, Bronx, NY 10459)",
+      "meta": "Complete guide to the Hunts Point Social Security office at 1029 E 163rd St, 3rd Fl, Bronx, NY 10459. Hours, transit, services, and how to book an appointment.",
+      "intro": "The Hunts Point Social Security Administration field office is located at 1029 East 163rd Street, 3rd Floor, Bronx, NY 10459. It serves residents of Hunts Point, Longwood, Foxhurst, Bronx River, and the south-eastern Bronx. This page covers the address, subway access, neighborhoods served, services available, and tips for making your visit efficient.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "The Hunts Point SSA office is located at <strong>1029 East 163rd Street, 3rd Floor, Bronx, NY 10459</strong>. Closest subway: Hunts Point Avenue (6 train). It serves Hunts Point, Longwood, Foxhurst and surrounding areas. The office handles all SSA services including SSN cards, SSDI, SSI, retirement, and Medicare. Open Monday-Friday 9:00 AM to 4:00 PM. Local appointment line: <a href=\"tel:+18662207889\">1-866-220-7889</a>; national: <a href=\"tel:+18007721213\">1-800-772-1213</a>. Appointments are now required for most in-person services as of 2025."
+        },
+        {
+          "type": "section",
+          "heading": "Neighborhoods served",
+          "body": [
+            "The Hunts Point field office at 1029 E 163rd St, 3rd Fl, Bronx, NY 10459 primarily serves residents of Hunts Point, Longwood, Foxhurst, Bronx River, and the south-eastern Bronx. Each Bronx SSA office is assigned specific ZIP codes; this office covers ZIP 10459 and adjacent ones. To confirm whether this is your assigned office for a specific service, enter your ZIP code at ssa.gov/locator or call <a href=\"tel:+18007721213\">1-800-772-1213</a>.",
+            "That said, for most routine services <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a> can help — you do not strictly need to visit the one assigned to your ZIP, though more complex local cases may require it."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How to get there by subway",
+          "body": [
+            "The closest subway access is Hunts Point Avenue (6 train), then a short walk to the office at 1029 E 163rd St, 3rd Fl, Bronx, NY 10459. New York City's subway is the most reliable way to reach <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a> — street parking in the area is limited and time-restricted.",
+            "If you are coming from outside the Bronx, allow extra time during weekday rush hours (7-9 AM and 4-6 PM) when service is more variable. Plan for half a day total when traveling from another borough: most appointments take 15-30 minutes, but travel plus security screening adds up."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Services available at the Hunts Point office",
+          "body": [
+            "Every Bronx SSA field office handles the full range of Social Security services. At the Hunts Point location you can apply for a <a href=\"/apply-for-social-security-card-bronx/\">first-time Social Security card</a>, <a href=\"/replace-social-security-card-bronx/\">replace a lost card</a>, <a href=\"/change-name-on-social-security-card-bronx/\">change the name</a> on your card, apply for <a href=\"/apply-for-disability-benefits-bronx/\">disability benefits</a> (SSDI and SSI), apply for retirement, enroll in Medicare, get a Social Security number for a <a href=\"/get-social-security-number-for-newborn-bronx/\">newborn</a>, and handle most immigration-related changes to your record.",
+            "Some services can also be completed entirely online at ssa.gov without visiting any office — replacement cards for qualifying applicants, retirement applications, address changes, and benefit verification letters. Visit the office in person for services that require <a href=\"/ssa-required-documents-bronx/\">original documents</a> or for situations where face-to-face guidance is helpful."
+          ]
+        },
+        {
+          "type": "checklist",
+          "heading": "Before visiting this office",
+          "items": [
+            "Call <strong>1-866-220-7889</strong> (local line for the Hunts Point office) or <strong>1-800-772-1213</strong> (national) to <a href=\"/social-security-office-appointment-bronx/\">schedule an appointment</a>. As of January 2025, the SSA requires appointments for most in-person services.",
+            "Bring <a href=\"/ssa-required-documents-bronx/\">ORIGINAL documents</a> — never photocopies. They will be photocopied at the office and originals returned the same day.",
+            "Arrive 15 minutes early for federal building security screening.",
+            "Mondays and the day after a federal holiday are the busiest — Tuesday-Friday mid-morning has shorter waits.",
+            "If you need <a href=\"/ssa-spanish-services-bronx/\">bilingual service</a>, request a <a href=\"/ssa-spanish-services-bronx/\">Spanish-speaking representative</a> when you book the appointment."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "What is the local phone number for the Hunts Point office?",
+              "a": "The local number is <a href=\"tel:+18662207889\">1-866-220-7889</a>, which routes to the Hunts Point field office. You can also use the national SSA line at <a href=\"tel:+18007721213\">1-800-772-1213</a> to schedule appointments or get general information."
+            },
+            {
+              "q": "What if I cannot get to the Hunts Point office?",
+              "a": "The other Bronx SSA field offices are: South Bronx (820 Concourse Village West), East Bronx (1380 Parker St), Laconia Avenue (3247 Laconia Ave), and others. For most services, any Bronx office can help — confirm by calling <a href=\"tel:+18007721213\">1-800-772-1213</a> or using ssa.gov/locator."
+            },
+            {
+              "q": "Are appointments now required?",
+              "a": "As of January 6, 2025, the SSA requires appointments for most in-person services at all field offices, including the Bronx locations. Walk-ins for limited services may still be accepted but expect long waits. Schedule by calling <a href=\"tel:+18007721213\">1-800-772-1213</a> or the local office line."
+            },
+            {
+              "q": "Is the office wheelchair accessible?",
+              "a": "Yes. All SSA field offices, including this one, meet federal accessibility standards. If you need additional assistance, mention it when scheduling the appointment."
+            }
+          ]
+        }
+      ],
+      "embed_src": "https://maps.google.com/maps?q=1029+East+163rd+Street,+Bronx,+NY+10459&t=&z=15&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "slug": "social-security-office-laconia-avenue-bronx",
+      "silo": "office",
+      "h1": "SSA Office in the Laconia Avenue (Wakefield / Eastchester), Bronx",
+      "title": "Laconia Avenue Social Security Office, Bronx NY (3247 Laconia Ave, Bronx, NY 10469)",
+      "meta": "Complete guide to the Laconia Avenue Social Security office at 3247 Laconia Ave, Bronx, NY 10469. Hours, transit, services, and how to book an appointment.",
+      "intro": "The Laconia Avenue Social Security Administration field office is located at 3247 Laconia Avenue, Bronx, NY 10469. It serves residents of Wakefield, Williamsbridge, Eastchester, Edenwald, Pelham Gardens, and the northern Bronx. This page covers the address, subway access, neighborhoods served, services available, and tips for making your visit efficient.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "The Laconia Avenue SSA office is located at <strong>3247 Laconia Avenue, Bronx, NY 10469</strong>. Closest subway: Baychester Avenue or Eastchester-Dyre Avenue (5 train). It serves Wakefield, Williamsbridge, Eastchester and surrounding areas. The office handles all SSA services including SSN cards, SSDI, SSI, retirement, and Medicare. Open Monday-Friday 9:00 AM to 4:00 PM. Local appointment line: <a href=\"tel:+18665132391\">1-866-513-2391</a>; national: <a href=\"tel:+18007721213\">1-800-772-1213</a>. Appointments are now required for most in-person services as of 2025."
+        },
+        {
+          "type": "section",
+          "heading": "Neighborhoods served",
+          "body": [
+            "The Laconia Avenue field office at 3247 Laconia Ave, Bronx, NY 10469 primarily serves residents of Wakefield, Williamsbridge, Eastchester, Edenwald, Pelham Gardens, and the northern Bronx. Each Bronx SSA office is assigned specific ZIP codes; this office covers ZIP 10469 and adjacent ones. To confirm whether this is your assigned office for a specific service, enter your ZIP code at ssa.gov/locator or call <a href=\"tel:+18007721213\">1-800-772-1213</a>.",
+            "That said, for most routine services <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a> can help — you do not strictly need to visit the one assigned to your ZIP, though more complex local cases may require it."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How to get there by subway",
+          "body": [
+            "The closest subway access is Baychester Avenue or Eastchester-Dyre Avenue (5 train), then a short walk to the office at 3247 Laconia Ave, Bronx, NY 10469. New York City's subway is the most reliable way to reach <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a> — street parking in the area is limited and time-restricted.",
+            "If you are coming from outside the Bronx, allow extra time during weekday rush hours (7-9 AM and 4-6 PM) when service is more variable. Plan for half a day total when traveling from another borough: most appointments take 15-30 minutes, but travel plus security screening adds up."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Services available at the Laconia Avenue office",
+          "body": [
+            "Every Bronx SSA field office handles the full range of Social Security services. At the Laconia Avenue location you can apply for a <a href=\"/apply-for-social-security-card-bronx/\">first-time Social Security card</a>, <a href=\"/replace-social-security-card-bronx/\">replace a lost card</a>, <a href=\"/change-name-on-social-security-card-bronx/\">change the name</a> on your card, apply for <a href=\"/apply-for-disability-benefits-bronx/\">disability benefits</a> (SSDI and SSI), apply for retirement, enroll in Medicare, get a Social Security number for a <a href=\"/get-social-security-number-for-newborn-bronx/\">newborn</a>, and handle most immigration-related changes to your record.",
+            "Some services can also be completed entirely online at ssa.gov without visiting any office — replacement cards for qualifying applicants, retirement applications, address changes, and benefit verification letters. Visit the office in person for services that require <a href=\"/ssa-required-documents-bronx/\">original documents</a> or for situations where face-to-face guidance is helpful."
+          ]
+        },
+        {
+          "type": "checklist",
+          "heading": "Before visiting this office",
+          "items": [
+            "Call <strong>1-866-513-2391</strong> (local line for the Laconia Avenue office) or <strong>1-800-772-1213</strong> (national) to <a href=\"/social-security-office-appointment-bronx/\">schedule an appointment</a>. As of January 2025, the SSA requires appointments for most in-person services.",
+            "Bring <a href=\"/ssa-required-documents-bronx/\">ORIGINAL documents</a> — never photocopies. They will be photocopied at the office and originals returned the same day.",
+            "Arrive 15 minutes early for federal building security screening.",
+            "Mondays and the day after a federal holiday are the busiest — Tuesday-Friday mid-morning has shorter waits.",
+            "If you need <a href=\"/ssa-spanish-services-bronx/\">bilingual service</a>, request a <a href=\"/ssa-spanish-services-bronx/\">Spanish-speaking representative</a> when you book the appointment."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "What is the local phone number for the Laconia Avenue office?",
+              "a": "The local number is <a href=\"tel:+18665132391\">1-866-513-2391</a>, which routes to the Laconia Avenue field office. You can also use the national SSA line at <a href=\"tel:+18007721213\">1-800-772-1213</a> to schedule appointments or get general information."
+            },
+            {
+              "q": "What if I cannot get to the Laconia Avenue office?",
+              "a": "The other Bronx SSA field offices are: South Bronx (820 Concourse Village West), East Bronx (1380 Parker St), Hunts Point (1029 E 163rd St), and others. For most services, any Bronx office can help — confirm by calling <a href=\"tel:+18007721213\">1-800-772-1213</a> or using ssa.gov/locator."
+            },
+            {
+              "q": "Are appointments now required?",
+              "a": "As of January 6, 2025, the SSA requires appointments for most in-person services at all field offices, including the Bronx locations. Walk-ins for limited services may still be accepted but expect long waits. Schedule by calling <a href=\"tel:+18007721213\">1-800-772-1213</a> or the local office line."
+            },
+            {
+              "q": "Is the office wheelchair accessible?",
+              "a": "Yes. All SSA field offices, including this one, meet federal accessibility standards. If you need additional assistance, mention it when scheduling the appointment."
+            }
+          ]
+        }
+      ],
+      "embed_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47084.06681917391!2d-73.97336605136715!3d40.86301879999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f3465299fac7%3A0x776da2f32e8129a3!2sUS%20Social%20Security%20Administration!5e1!3m2!1ses-419!2sar!4v1780457774748!5m2!1ses-419!2sar"
+    },
+    {
+      "slug": "social-security-office-north-bronx",
+      "silo": "office",
+      "h1": "SSA Office in the North Bronx (Grand Concourse / Fordham), Bronx",
+      "title": "North Bronx Social Security Office, Bronx NY (2501 Grand Concourse, 2nd Fl, Bronx, NY 10468)",
+      "meta": "Complete guide to the North Bronx Social Security office at 2501 Grand Concourse, 2nd Fl, Bronx, NY 10468. Hours, transit, services, and how to book an appointment.",
+      "intro": "The North Bronx Social Security Administration field office is located at 2501 Grand Concourse, 2nd Floor, Bronx, NY 10468. It serves residents of Fordham, Mt Eden, Mt Hope, Tremont, Bedford Park, University Heights, and Kingsbridge Heights. This page covers the address, subway access, neighborhoods served, services available, and tips for making your visit efficient.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "The North Bronx SSA office is located at <strong>2501 Grand Concourse, 2nd Floor, Bronx, NY 10468</strong>. Closest subway: Burnside Avenue or 183rd Street (4 train), or Fordham Road (B, D). It serves Fordham, Mt Eden, Tremont, Bedford Park and surrounding areas. The office handles all SSA services including SSN cards, SSDI, SSI, retirement, and Medicare. Open Monday-Friday 9:00 AM to 4:00 PM. Local appointment line: <a href=\"tel:+18776192852\">1-877-619-2852</a>; national: <a href=\"tel:+18007721213\">1-800-772-1213</a>. Appointments are now required for most in-person services as of 2025."
+        },
+        {
+          "type": "section",
+          "heading": "Neighborhoods served",
+          "body": [
+            "The North Bronx field office at 2501 Grand Concourse, 2nd Fl, Bronx, NY 10468 primarily serves residents of Fordham, Mt Eden, Mt Hope, Tremont, Bedford Park, University Heights, and Kingsbridge Heights. Each Bronx SSA office is assigned specific ZIP codes; this office covers ZIP 10468 and adjacent ones. To confirm whether this is your assigned office for a specific service, enter your ZIP code at ssa.gov/locator or call <a href=\"tel:+18007721213\">1-800-772-1213</a>.",
+            "That said, for most routine services <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a> can help — you do not strictly need to visit the one assigned to your ZIP, though more complex local cases may require it."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How to get there by subway",
+          "body": [
+            "The closest subway access is Burnside Avenue or 183rd Street (4 train), or Fordham Road (B, D), then a short walk to the office at 2501 Grand Concourse, 2nd Fl, Bronx, NY 10468. New York City's subway is the most reliable way to reach <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a> — street parking in the area is limited and time-restricted.",
+            "If you are coming from outside the Bronx, allow extra time during weekday rush hours (7-9 AM and 4-6 PM) when service is more variable. Plan for half a day total when traveling from another borough: most appointments take 15-30 minutes, but travel plus security screening adds up."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Services available at the North Bronx office",
+          "body": [
+            "Every Bronx SSA field office handles the full range of Social Security services. At the North Bronx location you can apply for a <a href=\"/apply-for-social-security-card-bronx/\">first-time Social Security card</a>, <a href=\"/replace-social-security-card-bronx/\">replace a lost card</a>, <a href=\"/change-name-on-social-security-card-bronx/\">change the name</a> on your card, apply for <a href=\"/apply-for-disability-benefits-bronx/\">disability benefits</a> (SSDI and SSI), apply for retirement, enroll in Medicare, get a Social Security number for a <a href=\"/get-social-security-number-for-newborn-bronx/\">newborn</a>, and handle most immigration-related changes to your record.",
+            "Some services can also be completed entirely online at ssa.gov without visiting any office — replacement cards for qualifying applicants, retirement applications, address changes, and benefit verification letters. Visit the office in person for services that require <a href=\"/ssa-required-documents-bronx/\">original documents</a> or for situations where face-to-face guidance is helpful."
+          ]
+        },
+        {
+          "type": "checklist",
+          "heading": "Before visiting this office",
+          "items": [
+            "Call <strong>1-877-619-2852</strong> (local line for the North Bronx office) or <strong>1-800-772-1213</strong> (national) to <a href=\"/social-security-office-appointment-bronx/\">schedule an appointment</a>. As of January 2025, the SSA requires appointments for most in-person services.",
+            "Bring <a href=\"/ssa-required-documents-bronx/\">ORIGINAL documents</a> — never photocopies. They will be photocopied at the office and originals returned the same day.",
+            "Arrive 15 minutes early for federal building security screening.",
+            "Mondays and the day after a federal holiday are the busiest — Tuesday-Friday mid-morning has shorter waits.",
+            "If you need <a href=\"/ssa-spanish-services-bronx/\">bilingual service</a>, request a <a href=\"/ssa-spanish-services-bronx/\">Spanish-speaking representative</a> when you book the appointment."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "What is the local phone number for the North Bronx office?",
+              "a": "The local number is <a href=\"tel:+18776192852\">1-877-619-2852</a>, which routes to the North Bronx field office. You can also use the national SSA line at <a href=\"tel:+18007721213\">1-800-772-1213</a> to schedule appointments or get general information."
+            },
+            {
+              "q": "What if I cannot get to the North Bronx office?",
+              "a": "The other Bronx SSA field offices are: South Bronx (820 Concourse Village West), East Bronx (1380 Parker St), Hunts Point (1029 E 163rd St), and others. For most services, any Bronx office can help — confirm by calling <a href=\"tel:+18007721213\">1-800-772-1213</a> or using ssa.gov/locator."
+            },
+            {
+              "q": "Are appointments now required?",
+              "a": "As of January 6, 2025, the SSA requires appointments for most in-person services at all field offices, including the Bronx locations. Walk-ins for limited services may still be accepted but expect long waits. Schedule by calling <a href=\"tel:+18007721213\">1-800-772-1213</a> or the local office line."
+            },
+            {
+              "q": "Is the office wheelchair accessible?",
+              "a": "Yes. All SSA field offices, including this one, meet federal accessibility standards. If you need additional assistance, mention it when scheduling the appointment."
+            }
+          ]
+        }
+      ],
+      "embed_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47084.06681917391!2d-73.97336605136715!3d40.86301879999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f37fc8d615b7%3A0x32264aad0af1b38c!2sNew%20York%20Social%20Security%20Office!5e1!3m2!1ses-419!2sar!4v1780457765819!5m2!1ses-419!2sar"
+    },
+    {
+      "slug": "social-security-office-west-farms-bronx",
+      "silo": "office",
+      "h1": "SSA Office in the West Farms (Southern Boulevard), Bronx",
+      "title": "West Farms Social Security Office, Bronx NY (1829 Southern Blvd, Bronx, NY 10460)",
+      "meta": "Complete guide to the West Farms Social Security office at 1829 Southern Blvd, Bronx, NY 10460. Hours, transit, services, and how to book an appointment.",
+      "intro": "The West Farms Social Security Administration field office is located at 1829 Southern Boulevard, Bronx, NY 10460. It serves residents of West Farms, Crotona, East Tremont, Belmont, Bronxdale, and the central-west Bronx. This page covers the address, subway access, neighborhoods served, services available, and tips for making your visit efficient.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "The West Farms SSA office is located at <strong>1829 Southern Boulevard, Bronx, NY 10460</strong>. Closest subway: 174th Street or West Farms Sq-East Tremont (2, 5 trains). It serves West Farms, Crotona, Belmont, Bronxdale and surrounding areas. The office handles all SSA services including SSN cards, SSDI, SSI, retirement, and Medicare. Open Monday-Friday 9:00 AM to 4:00 PM. Local appointment line: <a href=\"tel:+18669642558\">1-866-964-2558</a>; national: <a href=\"tel:+18007721213\">1-800-772-1213</a>. Appointments are now required for most in-person services as of 2025."
+        },
+        {
+          "type": "section",
+          "heading": "Neighborhoods served",
+          "body": [
+            "The West Farms field office at 1829 Southern Blvd, Bronx, NY 10460 primarily serves residents of West Farms, Crotona, East Tremont, Belmont, Bronxdale, and the central-west Bronx. Each Bronx SSA office is assigned specific ZIP codes; this office covers ZIP 10460 and adjacent ones. To confirm whether this is your assigned office for a specific service, enter your ZIP code at ssa.gov/locator or call <a href=\"tel:+18007721213\">1-800-772-1213</a>.",
+            "That said, for most routine services <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a> can help — you do not strictly need to visit the one assigned to your ZIP, though more complex local cases may require it."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How to get there by subway",
+          "body": [
+            "The closest subway access is 174th Street or West Farms Sq-East Tremont (2, 5 trains), then a short walk to the office at 1829 Southern Blvd, Bronx, NY 10460. New York City's subway is the most reliable way to reach <a href=\"/social-security-office-bronx/\">any Bronx SSA office</a> — street parking in the area is limited and time-restricted.",
+            "If you are coming from outside the Bronx, allow extra time during weekday rush hours (7-9 AM and 4-6 PM) when service is more variable. Plan for half a day total when traveling from another borough: most appointments take 15-30 minutes, but travel plus security screening adds up."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Services available at the West Farms office",
+          "body": [
+            "Every Bronx SSA field office handles the full range of Social Security services. At the West Farms location you can apply for a <a href=\"/apply-for-social-security-card-bronx/\">first-time Social Security card</a>, <a href=\"/replace-social-security-card-bronx/\">replace a lost card</a>, <a href=\"/change-name-on-social-security-card-bronx/\">change the name</a> on your card, apply for <a href=\"/apply-for-disability-benefits-bronx/\">disability benefits</a> (SSDI and SSI), apply for retirement, enroll in Medicare, get a Social Security number for a <a href=\"/get-social-security-number-for-newborn-bronx/\">newborn</a>, and handle most immigration-related changes to your record.",
+            "Some services can also be completed entirely online at ssa.gov without visiting any office — replacement cards for qualifying applicants, retirement applications, address changes, and benefit verification letters. Visit the office in person for services that require <a href=\"/ssa-required-documents-bronx/\">original documents</a> or for situations where face-to-face guidance is helpful."
+          ]
+        },
+        {
+          "type": "checklist",
+          "heading": "Before visiting this office",
+          "items": [
+            "Call <strong>1-866-964-2558</strong> (local line for the West Farms office) or <strong>1-800-772-1213</strong> (national) to <a href=\"/social-security-office-appointment-bronx/\">schedule an appointment</a>. As of January 2025, the SSA requires appointments for most in-person services.",
+            "Bring <a href=\"/ssa-required-documents-bronx/\">ORIGINAL documents</a> — never photocopies. They will be photocopied at the office and originals returned the same day.",
+            "Arrive 15 minutes early for federal building security screening.",
+            "Mondays and the day after a federal holiday are the busiest — Tuesday-Friday mid-morning has shorter waits.",
+            "If you need <a href=\"/ssa-spanish-services-bronx/\">bilingual service</a>, request a <a href=\"/ssa-spanish-services-bronx/\">Spanish-speaking representative</a> when you book the appointment."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "What is the local phone number for the West Farms office?",
+              "a": "The local number is <a href=\"tel:+18669642558\">1-866-964-2558</a>, which routes to the West Farms field office. You can also use the national SSA line at <a href=\"tel:+18007721213\">1-800-772-1213</a> to schedule appointments or get general information."
+            },
+            {
+              "q": "What if I cannot get to the West Farms office?",
+              "a": "The other Bronx SSA field offices are: South Bronx (820 Concourse Village West), East Bronx (1380 Parker St), Hunts Point (1029 E 163rd St), and others. For most services, any Bronx office can help — confirm by calling <a href=\"tel:+18007721213\">1-800-772-1213</a> or using ssa.gov/locator."
+            },
+            {
+              "q": "Are appointments now required?",
+              "a": "As of January 6, 2025, the SSA requires appointments for most in-person services at all field offices, including the Bronx locations. Walk-ins for limited services may still be accepted but expect long waits. Schedule by calling <a href=\"tel:+18007721213\">1-800-772-1213</a> or the local office line."
+            },
+            {
+              "q": "Is the office wheelchair accessible?",
+              "a": "Yes. All SSA field offices, including this one, meet federal accessibility standards. If you need additional assistance, mention it when scheduling the appointment."
+            }
+          ]
+        }
+      ],
+      "embed_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47103.181432523255!2d-73.92281045136716!3d40.83612409999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f531bf9e849d%3A0xef5cb6efaba6062e!2sSocial%20Security%20office!5e1!3m2!1ses-419!2sar!4v1780457830236!5m2!1ses-419!2sar"
+    }
+  ],
+  "learn": [
+    {
+      "slug": "what-is-social-security",
+      "silo": "learn",
+      "h1": "What Is Social Security? A Plain-English Guide",
+      "title": "What Is Social Security? Complete Guide (2026)",
+      "meta": "What is Social Security and how does it work? A plain-English guide to the program, who qualifies, how benefits are calculated, and what it covers in 2026.",
+      "intro": "Social Security is the largest federal program in the United States, paying benefits to over 70 million people every month. Despite that, most workers do not really understand how it works until they need it. This guide explains the program in plain English: what it is, what it pays for, who qualifies, and the basic mechanics of how a benefit is calculated.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "In one sentence",
+          "body": "Social Security is a federal program funded by payroll taxes that pays monthly benefits to retired workers, disabled workers, and the families of deceased workers, with eligibility and benefit amounts based on your earnings history."
+        },
+        {
+          "type": "section",
+          "heading": "The four major programs Social Security runs",
+          "body": [
+            "<strong>Retirement Insurance</strong> is the largest and best-known program: monthly benefits to retired workers who paid into the system through payroll taxes. You can start as early as 62 (with reduced benefits) or wait until 70 (for maximum benefits).",
+            "<strong>Disability Insurance (SSDI)</strong> pays workers who cannot work due to a medically-determinable disability expected to last at least 12 months or result in death. It is funded by the same payroll taxes as retirement.",
+            "<strong>Survivors Insurance</strong> pays the spouse, ex-spouse, children, and sometimes parents of a deceased worker. This is the least-known major program but pays significant benefits to millions of families.",
+            "<strong><a href=\"/apply-for-ssi-bronx/\">Supplemental Security Income</a> (SSI)</strong> is administered by the SSA but is a separate, needs-based program funded by general tax revenue rather than payroll taxes. It pays disabled, blind, or elderly people with very limited income and resources. SSI is particularly relevant in the Bronx given the borough's demographics."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How your benefit is calculated",
+          "body": [
+            "Social Security calculates your benefit using your highest 35 years of earnings, indexed for inflation. The formula is progressive: lower earners replace a higher percentage of their working income than higher earners. This is why Social Security is sometimes called insurance against poverty in old age, rather than a pure investment return.",
+            "Your benefit is fixed at Full Retirement Age (between 66 and 67 depending on birth year). Starting earlier (as young as 62) permanently reduces your benefit by up to 30%. Delaying past FRA increases your benefit by about 8% per year until age 70. After 70 there is no additional gain from delaying."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How the program is funded",
+          "body": [
+            "Social Security is funded primarily by FICA payroll taxes: 6.2% from the employee and 6.2% from the employer (12.4% total), up to a wage base limit that adjusts each year. Self-employed people pay the full 12.4% themselves through SECA tax. There is also a small Medicare portion on top.",
+            "The taxes go into the Social Security Trust Funds, which currently hold enough reserves to keep paying full benefits for many years. Long-term funding challenges have been debated for decades; current projections show the trust funds depleting in the 2030s, after which incoming taxes would fund roughly 80% of scheduled benefits unless Congress acts. The program has been adjusted many times in its history and is widely expected to continue, though future benefits could change."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "How do I see my future Social Security benefits?",
+              "a": "Create an account at ssa.gov/myaccount. The SSA provides personalized estimates based on your actual earnings history and various claiming ages."
+            },
+            {
+              "q": "Will Social Security run out before I retire?",
+              "a": "The trust funds are projected to deplete in the 2030s unless Congress acts. Even in that scenario, incoming payroll taxes would still fund roughly 80% of scheduled benefits. Social Security itself does not 'go bankrupt' — but benefit levels could be adjusted."
+            },
+            {
+              "q": "Do I have to be a U.S. citizen?",
+              "a": "No. Lawful permanent residents and certain other legal residents can qualify based on their work history paying into Social Security. Citizenship is not required."
+            },
+            {
+              "q": "Can my Social Security benefit be taxed?",
+              "a": "Possibly. If your combined income (Social Security + other income) exceeds certain thresholds, up to 85% of your benefit may be subject to federal income tax. New York State exempts Social Security from state income tax, so most New York residents pay no state tax on Social Security benefits."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ssi-vs-ssdi-difference",
+      "silo": "learn",
+      "h1": "SSI vs SSDI: What Is the Difference?",
+      "title": "SSI vs SSDI: Differences, Eligibility, and Which You Qualify For (2026)",
+      "meta": "Confused about SSI vs SSDI? Plain-English guide to the two main Social Security disability programs, eligibility rules, and how to know which one applies to you in 2026.",
+      "intro": "SSI and SSDI both pay <a href=\"/apply-for-disability-benefits-bronx/\">disability benefits</a>, and both are run by the SSA, but they work very differently and have totally different eligibility rules. Mixing them up is one of the most common mistakes Bronx residents make when applying. This guide explains the differences clearly and helps you understand which program (or both) might apply to you.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "SSDI (Social Security Disability Insurance) is for people who became disabled and have a sufficient work history paying Social Security taxes. SSI (<a href=\"/apply-for-ssi-bronx/\">Supplemental Security Income</a>) is for people who are disabled, blind, or 65+ and have very limited income and assets, regardless of work history. SSDI is based on what you paid in; SSI is needs-based. Some people qualify for both at the same time, which is called concurrent benefits."
+        },
+        {
+          "type": "troubleshoot",
+          "heading": "Side by side comparison",
+          "items": [
+            {
+              "q": "Funding",
+              "a": "SSDI is funded by Social Security payroll taxes (FICA). SSI is funded by general U.S. tax revenue, not payroll taxes."
+            },
+            {
+              "q": "Eligibility",
+              "a": "SSDI requires a substantial work history (generally 5 of the last 10 years for adults). SSI requires no work history but has strict income and asset limits."
+            },
+            {
+              "q": "Disability standard",
+              "a": "Both use the same medical standard for adults — a disability preventing substantial work, expected to last 12+ months or result in death. SSI for children uses a slightly different standard based on functional limitations."
+            },
+            {
+              "q": "Benefit amount",
+              "a": "SSDI is based on your past earnings (average around $1,500/month nationally). SSI federal maximum is about $943/month for an individual in 2024, plus a small New York State supplement."
+            },
+            {
+              "q": "Health coverage",
+              "a": "SSDI recipients become eligible for Medicare after a 24-month waiting period. SSI recipients in New York are generally automatically eligible for Medicaid."
+            },
+            {
+              "q": "Asset limits",
+              "a": "SSDI has no asset limit. SSI has strict limits (generally under $2,000 for individuals, $3,000 for couples)."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Who typically applies for SSDI",
+          "body": [
+            "SSDI is the right program for adults who became disabled after building a meaningful work history. The classic case: someone who worked for 10-20 years, then developed a serious illness or had an accident that prevents them from continuing to work. Because they paid into Social Security through their job, they qualify for SSDI regardless of how much money they have in the bank or whether they own their home.",
+            "SSDI benefits are also generally higher than SSI because they are based on past earnings rather than a fixed federal amount."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Who typically applies for SSI",
+          "body": [
+            "SSI is the right program for people without enough work history to qualify for SSDI, but who meet the financial limits. The classic cases: young adults who became disabled before working much, elderly people without enough Social Security credits, and children with disabilities in low-income families. The Bronx has one of the highest concentrations of SSI recipients in the United States, given the borough's demographics.",
+            "Because SSI is needs-based, it can be lost or reduced if your financial situation changes — receiving an inheritance, marrying someone with assets, or earning above the limits can all affect SSI."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Can you get both? (Concurrent benefits)",
+          "body": [
+            "Yes, you can sometimes qualify for both SSDI and SSI at the same time, which is called concurrent benefits. This typically happens when your SSDI benefit is low (because you had limited earnings before becoming disabled) and you also meet the SSI financial limits.",
+            "When you apply for disability, the SSA automatically evaluates you for both programs. You do not need to choose in advance. If you qualify for both, you receive the SSDI amount plus enough SSI to bring you up to the SSI maximum, and you get both Medicare (after the SSDI waiting period) and Medicaid coverage."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "Which program is faster to qualify for?",
+              "a": "Decisions on both programs take roughly the same time (3-6 months for the initial decision). SSI sometimes pays first because the 5-month waiting period that applies to SSDI does not apply to SSI."
+            },
+            {
+              "q": "Can I work while on SSDI or SSI?",
+              "a": "You can work small amounts under both programs without losing benefits. There are different rules — SSDI uses the Substantial Gainful Activity threshold (~$1,550/month in 2024), while SSI reduces your benefit gradually as you earn more."
+            },
+            {
+              "q": "Do SSI recipients automatically get Medicaid in New York?",
+              "a": "In most cases, yes. New York is a 1634 state, which means SSI eligibility automatically conveys Medicaid eligibility. This is one of the most important practical benefits of SSI in the Bronx."
+            },
+            {
+              "q": "Can my children get benefits if I qualify?",
+              "a": "Under SSDI, your minor children may qualify for dependent benefits on your record. SSI does not have a dependent benefit, but disabled children can qualify for SSI on their own based on the family's income and resources."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "how-to-appeal-disability-denial",
+      "silo": "learn",
+      "h1": "How to Appeal a Social Security Disability Denial",
+      "title": "How to Appeal a Disability Denial in New York (2026)",
+      "meta": "Step-by-step guide to appealing a Social Security disability denial in New York. 60-day deadline, four levels of appeal, and how to maximize your chances.",
+      "intro": "Around 65% of initial Social Security disability applications are denied — and many of those who eventually receive benefits were denied at first. A denial is not the end of the road. This guide walks through the four-stage appeals process, the strict 60-day deadlines, and how to maximize your chances of approval on appeal in New York.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "If your Social Security disability application was denied, you have 60 days from the date of the denial letter to file an appeal. The appeals process has four levels: Reconsideration, Hearing before an Administrative Law Judge, Appeals Council Review, and Federal Court. Many denied applicants are eventually approved — especially at the Hearing stage. Hiring a disability attorney significantly improves your odds of winning, and most work on contingency (no payment if you lose)."
+        },
+        {
+          "type": "section",
+          "heading": "The 60-day deadline is critical",
+          "body": [
+            "The single most important fact about appealing a Social Security disability denial: you have <strong>60 days from the date on your denial letter</strong> to file your appeal. Missing this deadline almost always means starting over with a new application, losing months of potential back-benefits.",
+            "If you miss the deadline because of a genuine emergency (hospitalization, etc.), you can sometimes request an extension by showing good cause — but this is granted sparingly. The safer path is to file immediately or within a week of receiving the denial."
+          ]
+        },
+        {
+          "type": "troubleshoot",
+          "heading": "The four levels of appeal",
+          "items": [
+            {
+              "q": "Level 1 - Reconsideration",
+              "a": "A different SSA reviewer looks at your case along with any new evidence. About 13% of reconsiderations are approved. File within 60 days of denial. This level is fast but not where most cases are won."
+            },
+            {
+              "q": "Level 2 - Hearing before an Administrative Law Judge",
+              "a": "This is where many appeals are won. You appear (in person, by video, or by phone) before a federal judge who hears your case. Approval rates at hearings are around 45-55%, dramatically higher than reconsideration. Wait time for a hearing can be 6-12 months."
+            },
+            {
+              "q": "Level 3 - Appeals Council Review",
+              "a": "If the judge denies your case, you can request review by the Appeals Council. They look for legal errors. They either deny review, send the case back to the judge, or rarely reverse outright. This level takes 6-12 months."
+            },
+            {
+              "q": "Level 4 - Federal Court",
+              "a": "The final level. You file a lawsuit in federal district court. This is rare and usually requires an attorney. The court can order benefits or send the case back to the SSA."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why hiring an attorney matters at the Hearing stage",
+          "body": [
+            "Statistical research consistently shows that applicants represented by a Social Security disability attorney at the Hearing stage have significantly higher approval rates than those representing themselves — often 20+ percentage points higher. The reasons: attorneys know which medical evidence to gather, how to prepare you to testify, what arguments work with which judges, and how to cross-examine vocational experts.",
+            "Most Social Security disability attorneys work on contingency, meaning they only get paid if you win. The fee is federally capped at 25% of your back-benefits, up to a maximum dollar amount (around $7,200 in 2024). If you lose, you owe nothing. This makes hiring an attorney a low-risk decision for most denied applicants."
+          ]
+        },
+        {
+          "type": "checklist",
+          "heading": "How to maximize your chances on appeal",
+          "items": [
+            "File your appeal within 60 days — no exceptions for ordinary delays.",
+            "Get new medical evidence: updated records, new specialist evaluations, statements from your treating doctors.",
+            "Update the SSA on any new medical conditions or worsening symptoms.",
+            "Request your case file from the SSA so you know what the reviewer saw.",
+            "Hire an experienced Social Security disability attorney for the Hearing level.",
+            "Prepare your testimony — judges ask about daily activities, work history, limitations.",
+            "Bring a witness if possible (family member who can describe your limitations)."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "How long does the entire appeals process take?",
+              "a": "From initial denial through a Hearing decision, plan for 12-18 months in New York. Further appeals (Appeals Council, Federal Court) add many more months or years."
+            },
+            {
+              "q": "Can I work while my appeal is pending?",
+              "a": "You can earn up to the Substantial Gainful Activity threshold (~$1,550/month in 2024) without disqualifying yourself. Earning above that level is treated as evidence you are not disabled."
+            },
+            {
+              "q": "What happens if I get approved on appeal?",
+              "a": "You receive back-benefits dating from when you became eligible (often the application date or your established onset date), minus any waiting periods. This can amount to a substantial lump sum after a long appeals process."
+            },
+            {
+              "q": "Can I file a new application instead of appealing?",
+              "a": "You can, but it is usually a mistake. A new application restarts the clock and loses any back-benefits you would have earned with the original application date. Appeal the denial — do not start over unless an attorney tells you to."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

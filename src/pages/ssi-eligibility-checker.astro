@@ -1,0 +1,233 @@
+---
+import Base from '../layouts/Base.astro';
+
+const title = 'SSI Eligibility Checker for the Bronx (2026)';
+const meta = 'Quick eligibility checker for Supplemental Security Income (SSI) based on income, assets, age, and disability. Federal limits, New York supplement, and what to do next.';
+const schema = { "@context": "https://schema.org", "@type": "WebApplication", "name": "SSI Eligibility Checker", "applicationCategory": "FinanceApplication", "operatingSystem": "Web" };
+---
+<Base title={title} description={meta} schema={schema}>
+  <section class="container-narrow tool-page">
+    <a href="/" class="back-link">&larr; Back to home</a>
+    <span class="eyebrow">Free tool</span>
+    <h1>SSI Eligibility Checker</h1>
+    <p class="lead">Quick check whether you might qualify for <strong>Supplemental Security Income (SSI)</strong> based on the basic federal rules. This tool is informational only — the SSA makes the final determination. New York State adds a small supplement on top of the federal amount.</p>
+
+    <div class="tool-box">
+      <form id="ssi-form" class="tool-form" onsubmit="return false;">
+        <div class="field">
+          <label>Are you applying as an individual or a couple?</label>
+          <div class="radio-row">
+            <label class="radio-pill"><input type="radio" name="status" value="individual" checked> Individual</label>
+            <label class="radio-pill"><input type="radio" name="status" value="couple"> Couple</label>
+          </div>
+        </div>
+
+        <div class="field">
+          <label>Which category applies to you?</label>
+          <div class="radio-col">
+            <label class="radio-pill"><input type="radio" name="category" value="age" checked> Age 65 or older</label>
+            <label class="radio-pill"><input type="radio" name="category" value="disabled"> Disabled (medically determined)</label>
+            <label class="radio-pill"><input type="radio" name="category" value="blind"> Blind (statutorily blind)</label>
+            <label class="radio-pill"><input type="radio" name="category" value="child"> Child under 18 with disability</label>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="income">Monthly income before taxes (all sources)</label>
+          <div class="input-with-prefix">
+            <span class="prefix">$</span>
+            <input type="number" id="income" name="income" min="0" placeholder="0" />
+          </div>
+          <p class="help">Wages, Social Security, pensions, unemployment, child support — include everything. For couples, include both incomes.</p>
+        </div>
+
+        <div class="field">
+          <label for="assets">Total countable resources (assets)</label>
+          <div class="input-with-prefix">
+            <span class="prefix">$</span>
+            <input type="number" id="assets" name="assets" min="0" placeholder="0" />
+          </div>
+          <p class="help">Cash, bank accounts, stocks, second properties, additional vehicles. Your primary home and one vehicle generally do NOT count.</p>
+        </div>
+
+        <button type="button" id="check-btn" class="btn btn-blue">Check eligibility</button>
+      </form>
+
+      <div id="result" class="result hidden"></div>
+    </div>
+
+    <div class="content-section">
+      <h2>How the SSI rules work in 2024</h2>
+      <p>Supplemental Security Income is a needs-based federal program for people who are <strong>disabled, blind, or age 65 or older</strong>, and who have very limited income and resources. Unlike SSDI, it does not require any work history.</p>
+
+      <h3>The asset limits</h3>
+      <ul>
+        <li><strong>Individual:</strong> countable resources generally must be below <strong>$2,000</strong>.</li>
+        <li><strong>Couple:</strong> countable resources generally must be below <strong>$3,000</strong>.</li>
+      </ul>
+      <p>Your primary home, one vehicle, household goods, burial plots, and certain other items do NOT count toward the limit. Cash, additional vehicles, second properties, and investment accounts DO count.</p>
+
+      <h3>The federal maximum benefit</h3>
+      <ul>
+        <li><strong>Individual:</strong> up to about <strong>$943/month</strong> federal payment in 2024.</li>
+        <li><strong>Couple:</strong> up to about <strong>$1,415/month</strong> federal payment in 2024.</li>
+        <li><strong>New York supplement:</strong> small additional amount on top, varies by living arrangement.</li>
+      </ul>
+
+      <h3>How income reduces SSI</h3>
+      <p>Most income reduces SSI almost dollar-for-dollar after small monthly exclusions. Earned income (wages) is treated more favorably than unearned income (pensions, gifts). In-kind support — such as free housing or food from family — also reduces SSI.</p>
+
+      <h3>What happens if you qualify</h3>
+      <p>In New York, SSI eligibility generally conveys automatic Medicaid eligibility, which is one of the most important practical benefits. New York is a 1634 state, meaning you do not need to apply separately for Medicaid in most cases.</p>
+
+      <h3>Disclaimer</h3>
+      <p>This tool uses the basic federal eligibility rules to give a quick estimate. The SSA makes the final determination based on a detailed review of your specific situation, including any deductions, exclusions, and household composition rules. Get the full process at <a href="/apply-for-ssi-bronx/">how to apply for SSI in the Bronx</a> or visit <a href="https://www.ssa.gov/ssi/">ssa.gov/ssi</a> for the official application.</p>
+    </div>
+
+    <div class="cta-box">
+      <h3>Ready to apply for SSI?</h3>
+      <p>Start the application online at ssa.gov, by phone at 1-800-772-1213, or in person at any of the five Bronx SSA offices.</p>
+      <div class="cta-actions">
+        <a href="/apply-for-ssi-bronx/" class="btn btn-blue">How to apply (full guide)</a>
+        <a href="/social-security-office-bronx/" class="btn btn-ghost">Find a Bronx office</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<script is:inline>
+(function(){
+  const FEDERAL_INDIVIDUAL = 943;
+  const FEDERAL_COUPLE = 1415;
+  const RESOURCE_LIMIT_INDIVIDUAL = 2000;
+  const RESOURCE_LIMIT_COUPLE = 3000;
+  const NY_SUPPLEMENT_INDIVIDUAL = 87;
+  const NY_SUPPLEMENT_COUPLE = 104;
+  const GENERAL_INCOME_EXCLUSION = 20;
+  const EARNED_INCOME_EXCLUSION = 65;
+
+  document.getElementById('check-btn').addEventListener('click', function(){
+    const status = document.querySelector('input[name="status"]:checked').value;
+    const category = document.querySelector('input[name="category"]:checked').value;
+    const income = parseFloat(document.getElementById('income').value) || 0;
+    const assets = parseFloat(document.getElementById('assets').value) || 0;
+
+    const isCouple = status === 'couple';
+    const federalMax = isCouple ? FEDERAL_COUPLE : FEDERAL_INDIVIDUAL;
+    const nySupplement = isCouple ? NY_SUPPLEMENT_COUPLE : NY_SUPPLEMENT_INDIVIDUAL;
+    const resourceLimit = isCouple ? RESOURCE_LIMIT_COUPLE : RESOURCE_LIMIT_INDIVIDUAL;
+
+    const result = document.getElementById('result');
+    result.classList.remove('hidden');
+
+    // Asset check
+    if (assets > resourceLimit) {
+      result.innerHTML = `
+        <div class="result-card result-no">
+          <span class="result-tag">Likely not eligible</span>
+          <h3>Resources above the limit</h3>
+          <p>Your reported countable resources of <strong>$${assets.toLocaleString()}</strong> exceed the SSI limit of <strong>$${resourceLimit.toLocaleString()}</strong> for a${isCouple ? ' couple' : 'n individual'}. SSI requires resources at or below this limit.</p>
+          <p class="result-note">Remember: your primary home and one vehicle generally do NOT count toward this limit. If your $${assets.toLocaleString()} figure includes those, recalculate excluding them.</p>
+        </div>
+      `;
+      result.scrollIntoView({behavior:'smooth', block:'nearest'});
+      return;
+    }
+
+    // Income check - simplified SSI countable income
+    // Subtract general exclusion ($20) from unearned income first
+    // Assume mixed income: apply general exclusion
+    let countableIncome = Math.max(0, income - GENERAL_INCOME_EXCLUSION);
+    const estimatedBenefit = Math.max(0, federalMax - countableIncome);
+
+    if (estimatedBenefit <= 0) {
+      result.innerHTML = `
+        <div class="result-card result-no">
+          <span class="result-tag">Likely not eligible</span>
+          <h3>Income too high</h3>
+          <p>Your reported monthly income of <strong>$${income.toLocaleString()}</strong> reduces the SSI benefit to zero. The federal SSI maximum is $${federalMax}/month for a${isCouple ? ' couple' : 'n individual'}, and most income reduces SSI dollar-for-dollar after a small exclusion.</p>
+          <p class="result-note">If a substantial portion of your income comes from wages (earned income), the actual SSI calculation is more favorable. Apply through the SSA for a precise determination.</p>
+        </div>
+      `;
+      result.scrollIntoView({behavior:'smooth', block:'nearest'});
+      return;
+    }
+
+    const totalMonthly = estimatedBenefit + nySupplement;
+    const annualTotal = totalMonthly * 12;
+    const catLabel = {age: 'age 65 or older', disabled: 'disability', blind: 'statutory blindness', child: 'childhood disability'}[category];
+
+    result.innerHTML = `
+      <div class="result-card result-yes">
+        <span class="result-tag">Likely eligible</span>
+        <h3>You may qualify for SSI</h3>
+        <p>Based on your inputs (${isCouple ? 'couple' : 'individual'}, ${catLabel}, $${income}/mo income, $${assets} in resources), you appear to meet the basic SSI requirements.</p>
+        <div class="result-numbers">
+          <div class="num-box"><span class="num-label">Estimated federal benefit</span><span class="num-val">$${estimatedBenefit.toFixed(0)}/mo</span></div>
+          <div class="num-box"><span class="num-label">NY State supplement</span><span class="num-val">+$${nySupplement}/mo</span></div>
+          <div class="num-box num-total"><span class="num-label">Estimated total</span><span class="num-val">$${totalMonthly.toFixed(0)}/mo</span></div>
+        </div>
+        <p class="result-note"><strong>Approximately $${annualTotal.toLocaleString(undefined, {maximumFractionDigits:0})} per year</strong>, plus automatic Medicaid eligibility in New York. This is an estimate based on simplified federal rules — the SSA makes the final determination.</p>
+        <p>Next step: <a href="/apply-for-ssi-bronx/">read the full guide to applying for SSI in the Bronx</a>.</p>
+      </div>
+    `;
+    result.scrollIntoView({behavior:'smooth', block:'nearest'});
+  });
+})();
+</script>
+
+<style>
+  .tool-page { padding: var(--space-7) 0 var(--space-9); }
+  .back-link { display: inline-block; margin-bottom: var(--space-5); font-family: var(--font-display); font-weight: 600; font-size: 0.9rem; color: var(--color-text-muted); text-decoration: none; }
+  .back-link:hover { color: var(--color-ink); }
+  h1 { font-size: clamp(2rem, 4.5vw, 3.2rem); margin-bottom: var(--space-4); }
+  .lead { font-size: 1.15rem; line-height: 1.7; color: var(--color-text-muted); margin-bottom: var(--space-7); }
+  .lead strong { color: var(--color-ink); }
+  .tool-box { background: var(--color-surface); border: 2.5px solid var(--color-ink); border-radius: var(--radius-lg); padding: var(--space-7); box-shadow: var(--shadow-hard); margin-bottom: var(--space-8); }
+  .tool-form { display: flex; flex-direction: column; gap: var(--space-6); }
+  .field label { display: block; font-family: var(--font-display); font-weight: 700; font-size: 1rem; margin-bottom: var(--space-3); color: var(--color-ink); }
+  .field .help { font-size: 0.85rem; color: var(--color-text-muted); margin-top: var(--space-2); margin-bottom: 0; }
+  .radio-row { display: flex; gap: var(--space-3); flex-wrap: wrap; }
+  .radio-col { display: flex; flex-direction: column; gap: var(--space-2); }
+  .radio-pill { display: inline-flex; align-items: center; gap: var(--space-2); padding: 12px 18px; border: 2px solid var(--color-ink); border-radius: var(--radius-pill); font-family: var(--font-display); font-weight: 600; font-size: 0.95rem; cursor: pointer; transition: all 0.12s; background: var(--color-surface); user-select: none; }
+  .radio-pill:hover { background: var(--color-yellow); }
+  .radio-pill input { margin: 0; accent-color: var(--color-primary); }
+  .radio-pill:has(input:checked) { background: var(--color-primary); color: #fff; border-color: var(--color-primary); }
+  .input-with-prefix { position: relative; display: flex; align-items: center; }
+  .prefix { position: absolute; left: 16px; font-family: var(--font-display); font-weight: 700; font-size: 1.2rem; color: var(--color-text-muted); pointer-events: none; }
+  input[type="number"] { width: 100%; padding: 14px 16px 14px 36px; border: 2px solid var(--color-ink); border-radius: var(--radius-md); font-family: var(--font-body); font-size: 1.1rem; font-weight: 600; background: var(--color-bg); color: var(--color-ink); }
+  input[type="number"]:focus { outline: 3px solid var(--color-primary); outline-offset: 2px; }
+  #check-btn { align-self: flex-start; font-size: 1.05rem; padding: 16px 32px; }
+  .result.hidden { display: none; }
+  .result-card { margin-top: var(--space-6); padding: var(--space-6); border: 2.5px solid var(--color-ink); border-radius: var(--radius-md); box-shadow: var(--shadow-hard-sm); }
+  .result-yes { background: var(--color-yellow); }
+  .result-no { background: var(--color-bg-alt); }
+  .result-tag { display: inline-block; padding: 4px 12px; border: 2px solid var(--color-ink); border-radius: var(--radius-pill); font-family: var(--font-display); font-weight: 700; font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; background: var(--color-ink); color: #fff; margin-bottom: var(--space-3); }
+  .result-yes .result-tag { background: var(--color-success); }
+  .result-card h3 { font-size: 1.5rem; margin-bottom: var(--space-3); }
+  .result-numbers { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: var(--space-3); margin: var(--space-5) 0; }
+  .num-box { padding: var(--space-4); background: var(--color-surface); border: 2px solid var(--color-ink); border-radius: var(--radius-md); display: flex; flex-direction: column; gap: var(--space-1); }
+  .num-label { font-size: 0.78rem; color: var(--color-text-muted); font-family: var(--font-display); font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+  .num-val { font-family: var(--font-display); font-weight: 700; font-size: 1.3rem; color: var(--color-ink); }
+  .num-total { background: var(--color-ink); color: #fff; }
+  .num-total .num-label { color: rgba(255,255,255,0.7); }
+  .num-total .num-val { color: var(--color-yellow); }
+  .result-note { font-size: 0.92rem; line-height: 1.6; color: var(--color-text-muted); margin-top: var(--space-3); }
+  .result-note strong { color: var(--color-ink); }
+  .content-section { margin-bottom: var(--space-8); }
+  .content-section h2 { font-size: 1.8rem; margin: var(--space-7) 0 var(--space-4); }
+  .content-section h3 { font-size: 1.2rem; margin: var(--space-5) 0 var(--space-3); }
+  .content-section p { line-height: 1.7; margin-bottom: var(--space-4); }
+  .content-section ul { padding-left: var(--space-5); margin-bottom: var(--space-4); }
+  .content-section li { margin-bottom: var(--space-2); line-height: 1.7; }
+  .cta-box { background: var(--color-primary); color: #fff; border: 2.5px solid var(--color-ink); border-radius: var(--radius-lg); padding: var(--space-6); box-shadow: var(--shadow-hard); text-align: center; }
+  .cta-box h3 { font-size: 1.5rem; color: #fff; margin-bottom: var(--space-3); }
+  .cta-box p { color: rgba(255,255,255,0.9); margin-bottom: var(--space-5); }
+  .cta-actions { display: flex; gap: var(--space-3); justify-content: center; flex-wrap: wrap; }
+  .cta-box .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,0.5); box-shadow: none; }
+  .cta-box .btn-ghost:hover { background: rgba(255,255,255,0.1); color: #fff; }
+  @media (max-width: 680px) {
+    .tool-box { padding: var(--space-5); }
+    .result-numbers { grid-template-columns: 1fr; }
+  }
+</style>

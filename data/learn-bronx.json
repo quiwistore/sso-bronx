@@ -1,0 +1,243 @@
+{
+  "learn": [
+    {
+      "slug": "what-is-social-security",
+      "silo": "learn",
+      "h1": "What Is Social Security? A Plain-English Guide",
+      "title": "What Is Social Security? Complete Guide (2026)",
+      "meta": "What is Social Security and how does it work? A plain-English guide to the program, who qualifies, how benefits are calculated, and what it covers in 2026.",
+      "intro": "Social Security is the largest federal program in the United States, paying benefits to over 70 million people every month. Despite that, most workers do not really understand how it works until they need it. This guide explains the program in plain English: what it is, what it pays for, who qualifies, and the basic mechanics of how a benefit is calculated.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "In one sentence",
+          "body": "Social Security is a federal program funded by payroll taxes that pays monthly benefits to retired workers, disabled workers, and the families of deceased workers, with eligibility and benefit amounts based on your earnings history."
+        },
+        {
+          "type": "section",
+          "heading": "The four major programs Social Security runs",
+          "body": [
+            "<strong>Retirement Insurance</strong> is the largest and best-known program: monthly benefits to retired workers who paid into the system through payroll taxes. You can start as early as 62 (with reduced benefits) or wait until 70 (for maximum benefits).",
+            "<strong>Disability Insurance (SSDI)</strong> pays workers who cannot work due to a medically-determinable disability expected to last at least 12 months or result in death. It is funded by the same payroll taxes as retirement.",
+            "<strong>Survivors Insurance</strong> pays the spouse, ex-spouse, children, and sometimes parents of a deceased worker. This is the least-known major program but pays significant benefits to millions of families.",
+            "<strong>Supplemental Security Income (SSI)</strong> is administered by the SSA but is a separate, needs-based program funded by general tax revenue rather than payroll taxes. It pays disabled, blind, or elderly people with very limited income and resources. SSI is particularly relevant in the Bronx given the borough's demographics."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How your benefit is calculated",
+          "body": [
+            "Social Security calculates your benefit using your highest 35 years of earnings, indexed for inflation. The formula is progressive: lower earners replace a higher percentage of their working income than higher earners. This is why Social Security is sometimes called insurance against poverty in old age, rather than a pure investment return.",
+            "Your benefit is fixed at Full Retirement Age (between 66 and 67 depending on birth year). Starting earlier (as young as 62) permanently reduces your benefit by up to 30%. Delaying past FRA increases your benefit by about 8% per year until age 70. After 70 there is no additional gain from delaying."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How the program is funded",
+          "body": [
+            "Social Security is funded primarily by FICA payroll taxes: 6.2% from the employee and 6.2% from the employer (12.4% total), up to a wage base limit that adjusts each year. Self-employed people pay the full 12.4% themselves through SECA tax. There is also a small Medicare portion on top.",
+            "The taxes go into the Social Security Trust Funds, which currently hold enough reserves to keep paying full benefits for many years. Long-term funding challenges have been debated for decades; current projections show the trust funds depleting in the 2030s, after which incoming taxes would fund roughly 80% of scheduled benefits unless Congress acts. The program has been adjusted many times in its history and is widely expected to continue, though future benefits could change."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "How do I see my future Social Security benefits?",
+              "a": "Create an account at ssa.gov/myaccount. The SSA provides personalized estimates based on your actual earnings history and various claiming ages."
+            },
+            {
+              "q": "Will Social Security run out before I retire?",
+              "a": "The trust funds are projected to deplete in the 2030s unless Congress acts. Even in that scenario, incoming payroll taxes would still fund roughly 80% of scheduled benefits. Social Security itself does not 'go bankrupt' — but benefit levels could be adjusted."
+            },
+            {
+              "q": "Do I have to be a U.S. citizen?",
+              "a": "No. Lawful permanent residents and certain other legal residents can qualify based on their work history paying into Social Security. Citizenship is not required."
+            },
+            {
+              "q": "Can my Social Security benefit be taxed?",
+              "a": "Possibly. If your combined income (Social Security + other income) exceeds certain thresholds, up to 85% of your benefit may be subject to federal income tax. New York State exempts Social Security from state income tax, so most New York residents pay no state tax on Social Security benefits."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ssi-vs-ssdi-difference",
+      "silo": "learn",
+      "h1": "SSI vs SSDI: What Is the Difference?",
+      "title": "SSI vs SSDI: Differences, Eligibility, and Which You Qualify For (2026)",
+      "meta": "Confused about SSI vs SSDI? Plain-English guide to the two main Social Security disability programs, eligibility rules, and how to know which one applies to you in 2026.",
+      "intro": "SSI and SSDI both pay disability benefits, and both are run by the SSA, but they work very differently and have totally different eligibility rules. Mixing them up is one of the most common mistakes Bronx residents make when applying. This guide explains the differences clearly and helps you understand which program (or both) might apply to you.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "SSDI (Social Security Disability Insurance) is for people who became disabled and have a sufficient work history paying Social Security taxes. SSI (Supplemental Security Income) is for people who are disabled, blind, or 65+ and have very limited income and assets, regardless of work history. SSDI is based on what you paid in; SSI is needs-based. Some people qualify for both at the same time, which is called concurrent benefits."
+        },
+        {
+          "type": "troubleshoot",
+          "heading": "Side by side comparison",
+          "items": [
+            {
+              "q": "Funding",
+              "a": "SSDI is funded by Social Security payroll taxes (FICA). SSI is funded by general U.S. tax revenue, not payroll taxes."
+            },
+            {
+              "q": "Eligibility",
+              "a": "SSDI requires a substantial work history (generally 5 of the last 10 years for adults). SSI requires no work history but has strict income and asset limits."
+            },
+            {
+              "q": "Disability standard",
+              "a": "Both use the same medical standard for adults — a disability preventing substantial work, expected to last 12+ months or result in death. SSI for children uses a slightly different standard based on functional limitations."
+            },
+            {
+              "q": "Benefit amount",
+              "a": "SSDI is based on your past earnings (average around $1,500/month nationally). SSI federal maximum is about $943/month for an individual in 2024, plus a small New York State supplement."
+            },
+            {
+              "q": "Health coverage",
+              "a": "SSDI recipients become eligible for Medicare after a 24-month waiting period. SSI recipients in New York are generally automatically eligible for Medicaid."
+            },
+            {
+              "q": "Asset limits",
+              "a": "SSDI has no asset limit. SSI has strict limits (generally under $2,000 for individuals, $3,000 for couples)."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Who typically applies for SSDI",
+          "body": [
+            "SSDI is the right program for adults who became disabled after building a meaningful work history. The classic case: someone who worked for 10-20 years, then developed a serious illness or had an accident that prevents them from continuing to work. Because they paid into Social Security through their job, they qualify for SSDI regardless of how much money they have in the bank or whether they own their home.",
+            "SSDI benefits are also generally higher than SSI because they are based on past earnings rather than a fixed federal amount."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Who typically applies for SSI",
+          "body": [
+            "SSI is the right program for people without enough work history to qualify for SSDI, but who meet the financial limits. The classic cases: young adults who became disabled before working much, elderly people without enough Social Security credits, and children with disabilities in low-income families. The Bronx has one of the highest concentrations of SSI recipients in the United States, given the borough's demographics.",
+            "Because SSI is needs-based, it can be lost or reduced if your financial situation changes — receiving an inheritance, marrying someone with assets, or earning above the limits can all affect SSI."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Can you get both? (Concurrent benefits)",
+          "body": [
+            "Yes, you can sometimes qualify for both SSDI and SSI at the same time, which is called concurrent benefits. This typically happens when your SSDI benefit is low (because you had limited earnings before becoming disabled) and you also meet the SSI financial limits.",
+            "When you apply for disability, the SSA automatically evaluates you for both programs. You do not need to choose in advance. If you qualify for both, you receive the SSDI amount plus enough SSI to bring you up to the SSI maximum, and you get both Medicare (after the SSDI waiting period) and Medicaid coverage."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "Which program is faster to qualify for?",
+              "a": "Decisions on both programs take roughly the same time (3-6 months for the initial decision). SSI sometimes pays first because the 5-month waiting period that applies to SSDI does not apply to SSI."
+            },
+            {
+              "q": "Can I work while on SSDI or SSI?",
+              "a": "You can work small amounts under both programs without losing benefits. There are different rules — SSDI uses the Substantial Gainful Activity threshold (~$1,550/month in 2024), while SSI reduces your benefit gradually as you earn more."
+            },
+            {
+              "q": "Do SSI recipients automatically get Medicaid in New York?",
+              "a": "In most cases, yes. New York is a 1634 state, which means SSI eligibility automatically conveys Medicaid eligibility. This is one of the most important practical benefits of SSI in the Bronx."
+            },
+            {
+              "q": "Can my children get benefits if I qualify?",
+              "a": "Under SSDI, your minor children may qualify for dependent benefits on your record. SSI does not have a dependent benefit, but disabled children can qualify for SSI on their own based on the family's income and resources."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "how-to-appeal-disability-denial",
+      "silo": "learn",
+      "h1": "How to Appeal a Social Security Disability Denial",
+      "title": "How to Appeal a Disability Denial in New York (2026)",
+      "meta": "Step-by-step guide to appealing a Social Security disability denial in New York. 60-day deadline, four levels of appeal, and how to maximize your chances.",
+      "intro": "Around 65% of initial Social Security disability applications are denied — and many of those who eventually receive benefits were denied at first. A denial is not the end of the road. This guide walks through the four-stage appeals process, the strict 60-day deadlines, and how to maximize your chances of approval on appeal in New York.",
+      "sections": [
+        {
+          "type": "quick_answer",
+          "heading": "The quick answer",
+          "body": "If your Social Security disability application was denied, you have 60 days from the date of the denial letter to file an appeal. The appeals process has four levels: Reconsideration, Hearing before an Administrative Law Judge, Appeals Council Review, and Federal Court. Many denied applicants are eventually approved — especially at the Hearing stage. Hiring a disability attorney significantly improves your odds of winning, and most work on contingency (no payment if you lose)."
+        },
+        {
+          "type": "section",
+          "heading": "The 60-day deadline is critical",
+          "body": [
+            "The single most important fact about appealing a Social Security disability denial: you have <strong>60 days from the date on your denial letter</strong> to file your appeal. Missing this deadline almost always means starting over with a new application, losing months of potential back-benefits.",
+            "If you miss the deadline because of a genuine emergency (hospitalization, etc.), you can sometimes request an extension by showing good cause — but this is granted sparingly. The safer path is to file immediately or within a week of receiving the denial."
+          ]
+        },
+        {
+          "type": "troubleshoot",
+          "heading": "The four levels of appeal",
+          "items": [
+            {
+              "q": "Level 1 - Reconsideration",
+              "a": "A different SSA reviewer looks at your case along with any new evidence. About 13% of reconsiderations are approved. File within 60 days of denial. This level is fast but not where most cases are won."
+            },
+            {
+              "q": "Level 2 - Hearing before an Administrative Law Judge",
+              "a": "This is where many appeals are won. You appear (in person, by video, or by phone) before a federal judge who hears your case. Approval rates at hearings are around 45-55%, dramatically higher than reconsideration. Wait time for a hearing can be 6-12 months."
+            },
+            {
+              "q": "Level 3 - Appeals Council Review",
+              "a": "If the judge denies your case, you can request review by the Appeals Council. They look for legal errors. They either deny review, send the case back to the judge, or rarely reverse outright. This level takes 6-12 months."
+            },
+            {
+              "q": "Level 4 - Federal Court",
+              "a": "The final level. You file a lawsuit in federal district court. This is rare and usually requires an attorney. The court can order benefits or send the case back to the SSA."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why hiring an attorney matters at the Hearing stage",
+          "body": [
+            "Statistical research consistently shows that applicants represented by a Social Security disability attorney at the Hearing stage have significantly higher approval rates than those representing themselves — often 20+ percentage points higher. The reasons: attorneys know which medical evidence to gather, how to prepare you to testify, what arguments work with which judges, and how to cross-examine vocational experts.",
+            "Most Social Security disability attorneys work on contingency, meaning they only get paid if you win. The fee is federally capped at 25% of your back-benefits, up to a maximum dollar amount (around $7,200 in 2024). If you lose, you owe nothing. This makes hiring an attorney a low-risk decision for most denied applicants."
+          ]
+        },
+        {
+          "type": "checklist",
+          "heading": "How to maximize your chances on appeal",
+          "items": [
+            "File your appeal within 60 days — no exceptions for ordinary delays.",
+            "Get new medical evidence: updated records, new specialist evaluations, statements from your treating doctors.",
+            "Update the SSA on any new medical conditions or worsening symptoms.",
+            "Request your case file from the SSA so you know what the reviewer saw.",
+            "Hire an experienced Social Security disability attorney for the Hearing level.",
+            "Prepare your testimony — judges ask about daily activities, work history, limitations.",
+            "Bring a witness if possible (family member who can describe your limitations)."
+          ]
+        },
+        {
+          "type": "faq_extra",
+          "items": [
+            {
+              "q": "How long does the entire appeals process take?",
+              "a": "From initial denial through a Hearing decision, plan for 12-18 months in New York. Further appeals (Appeals Council, Federal Court) add many more months or years."
+            },
+            {
+              "q": "Can I work while my appeal is pending?",
+              "a": "You can earn up to the Substantial Gainful Activity threshold (~$1,550/month in 2024) without disqualifying yourself. Earning above that level is treated as evidence you are not disabled."
+            },
+            {
+              "q": "What happens if I get approved on appeal?",
+              "a": "You receive back-benefits dating from when you became eligible (often the application date or your established onset date), minus any waiting periods. This can amount to a substantial lump sum after a long appeals process."
+            },
+            {
+              "q": "Can I file a new application instead of appealing?",
+              "a": "You can, but it is usually a mistake. A new application restarts the clock and loses any back-benefits you would have earned with the original application date. Appeal the denial — do not start over unless an attorney tells you to."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+node_modules/
+.astro/
+.env
+.env.production
+*.log
+.vscode/
+.idea/
+.DS_Store
+scripts/.scrape-progress.json
+._*
+.AppleDouble

@@ -1,0 +1,290 @@
+# -*- coding: utf-8 -*-
+"""Dataset SERVICES para Social Security Bronx (8 paginas, contenido profundo)"""
+import json
+
+OFFICE_INFO = {
+    "main_address": "820 Concourse Village West, Bronx, NY 10451",
+    "main_neighborhood": "Concourse Village",
+    "phone_national": "1-800-772-1213",
+    "tty": "1-800-325-0778",
+    "offices_count": "five main",
+}
+
+services = [
+{"slug":"apply-for-social-security-card-bronx","silo":"services",
+ "h1":"How to Apply for a Social Security Card in the Bronx",
+ "title":"Apply for a Social Security Card in the Bronx, NY (2026 Guide)",
+ "meta":"Step-by-step guide to applying for a Social Security card in the Bronx, NY. Required documents, where to apply, and how long it takes in 2026.",
+ "intro":("Getting a Social Security Number (SSN) and card is one of the first administrative steps for new residents, new workers, and parents of newborns in the Bronx. Because New York is a major immigration gateway, this application is common across the borough. This guide walks through every step: what documents are required, which Bronx office to visit, and what to expect in 2026."),
+ "sections":[
+   {"type":"quick_answer","heading":"The quick answer",
+    "body":"To apply for a first-time Social Security card in the Bronx, complete Form SS-5, gather original documents proving identity, age, and U.S. citizenship or lawful immigration status, and visit any SSA office in the Bronx in person. The service is free and the card arrives by mail within 7-14 business days. First-time SSN applications cannot be done online — they must be in person. Spanish-speaking representatives are available at most Bronx offices."},
+   {"type":"section","heading":"Who needs to apply for an SSN in person",
+    "body":[
+      "Three groups of Bronx residents typically apply for a first-time Social Security card: U.S. citizens applying for the first time (often parents getting an SSN for a newborn), lawful permanent residents and work-authorized immigrants who need an SSN for employment, and individuals who have never been issued an SSN. Every initial application must be made in person — there is no online option for a first SSN, regardless of citizenship status.",
+      "If you already have an SSN and need a replacement card, the process is different — see our guide on replacing a Social Security card. This page covers first-time applications only."]},
+   {"type":"checklist","heading":"Required documents",
+    "items":[
+      "Completed Form SS-5 (download from ssa.gov or pick up at any Bronx SSA office).",
+      "Proof of U.S. citizenship for citizens: original birth certificate, U.S. passport, or Certificate of Naturalization (originals only).",
+      "Proof of identity: state-issued ID, driver's license, or U.S. passport.",
+      "For non-citizens: current immigration documents (Form I-551 green card, I-94 record, EAD card) and unexpired foreign passport.",
+      "For children under 12: birth certificate plus proof of the parent's identity.",
+      "For children age 12 or older: the child must be present at the interview."]},
+   {"type":"troubleshoot","heading":"The step-by-step process",
+    "items":[
+      {"q":"Step 1 - Complete Form SS-5","a":"Download the Application for a Social Security Card (Form SS-5) from ssa.gov, or pick one up at any Bronx office. Fill it out completely before the visit to save time. Forms are available in English and Spanish."},
+      {"q":"Step 2 - Gather original documents","a":"Bring ORIGINAL documents, not copies. SSA staff will photocopy them on site and hand the originals back the same day. Do not mail originals for a first-time application."},
+      {"q":"Step 3 - Visit a Bronx SSA office","a":"Walk in or call 1-800-772-1213 to schedule an appointment at the office that serves your address (Concourse Village, Tremont, Fordham, South Bronx, or White Plains Rd). Appointments reduce wait time significantly."},
+      {"q":"Step 4 - The interview","a":"An SSA representative will review the form and documents. The interview takes 15-30 minutes when paperwork is complete. Bilingual service is available — request a Spanish-speaking representative when you book or check in."},
+      {"q":"Step 5 - Receive your card by mail","a":"The Social Security card arrives by U.S. mail at the address provided on Form SS-5, typically within 7-14 business days. The SSA does not issue cards on the spot under any circumstance."}]},
+   {"type":"section","heading":"What if you are not a U.S. citizen",
+    "body":[
+      "Non-citizens can apply for an SSN if they are authorized to work in the United States. This includes lawful permanent residents (green card holders), work-authorized non-immigrants (H-1B, L-1, F-1 students with OPT authorization, and similar categories), and other specific groups. You must show your current immigration documents and unexpired foreign passport in addition to Form SS-5.",
+      "If you are not authorized to work but need an SSN for a specific federal benefit or state law requirement, a separate process applies. Most non-work-authorized individuals will not qualify for an SSN and should apply for an Individual Taxpayer Identification Number (ITIN) from the IRS instead."]},
+   {"type":"faq_extra","items":[
+     {"q":"How much does it cost to apply for a Social Security card?","a":"It is completely free. The Social Security Administration never charges a fee for issuing or replacing a card. Any third party that asks for payment to obtain an SSN is operating outside the official process."},
+     {"q":"Can I apply for my first SSN online?","a":"No. First-time SSN applications must be done in person at an SSA office. Only certain replacement cards (not first-time applications) can be requested online for qualifying applicants."},
+     {"q":"Are Spanish-speaking representatives available?","a":"Yes. Bronx SSA offices provide bilingual service in English and Spanish, given the borough's demographics. You can request a Spanish-speaking representative when scheduling your appointment or upon arrival."},
+     {"q":"What if my documents are in another language?","a":"Foreign documents must be accompanied by a certified English translation. Bronx offices have Spanish-language support but written documents in other languages still need certified translations."}]},
+ ]},
+
+{"slug":"apply-for-ssi-bronx","silo":"services",
+ "h1":"How to Apply for Supplemental Security Income (SSI) in the Bronx",
+ "title":"Apply for SSI in the Bronx, NY (2026 Guide)",
+ "meta":"Step-by-step guide to applying for Supplemental Security Income (SSI) in the Bronx, NY in 2026. Income limits, required documents, and the difference from SSDI.",
+ "intro":("The Bronx has one of the highest rates of SSI eligibility in the United States, given its demographics and median household income. Supplemental Security Income is a needs-based federal benefit for people who are disabled, blind, or age 65 and older with very limited income and resources. This guide explains how SSI works in the Bronx, who qualifies, and the application process — including the strict income and asset limits that catch many applicants by surprise."),
+ "sections":[
+   {"type":"quick_answer","heading":"The quick answer",
+    "body":"To apply for SSI in the Bronx, start the application at ssa.gov, call 1-800-772-1213, or visit any Bronx SSA office. SSI requires being disabled, blind, or age 65 or older, AND meeting strict financial limits: countable resources generally under $2,000 for an individual ($3,000 for a couple). The federal SSI maximum is about $943/month for an individual in 2024, often plus a New York State supplement. SSI recipients in New York are generally also eligible for Medicaid automatically."},
+   {"type":"section","heading":"How SSI differs from SSDI",
+    "body":[
+      "SSI and SSDI are often confused because both are administered by the SSA and both pay benefits to disabled people. The key difference: SSDI is based on work history and the Social Security taxes paid through employment; SSI is based on financial need with no work history requirement at all.",
+      "This distinction matters in the Bronx because many residents qualify for SSI but not SSDI, often because they were disabled before building substantial work history (young adults), they are elderly without enough Social Security credits, or they care for children with disabilities. Concurrent benefits — qualifying for both SSI and SSDI simultaneously — are also common when SSDI alone falls below the SSI maximum."]},
+   {"type":"checklist","heading":"The income and asset limits",
+    "items":[
+      "Countable resources must generally be below $2,000 for an individual or $3,000 for a couple.",
+      "Your home (if you own it) and one vehicle generally do not count toward the resource limit.",
+      "Most income reduces SSI dollar-for-dollar after a small monthly exclusion.",
+      "Non-cash support (such as free housing or food from family) is treated as 'in-kind support' and reduces SSI.",
+      "New York State pays a small SSI supplement on top of the federal amount.",
+      "Burial plots, household belongings, and certain other assets are excluded from the resource limit."]},
+   {"type":"section","heading":"How to apply step by step",
+    "body":[
+      "SSI applications cannot be completed entirely online. You can start the application on ssa.gov, but you must usually follow up with a phone interview or visit to an SSA office to complete the financial portion. Any Bronx SSA office can help walk you through the process — Concourse Village West, Tremont, Fordham, South Bronx, or White Plains Road.",
+      "When applying, be prepared to document not just your medical condition (if applying based on disability) but also your full financial picture: bank statements, property, vehicles, income sources, household composition, and any non-cash support you receive. SSI applications most often go wrong because financial disclosure was incomplete — leading to denials or, worse, later overpayment claims demanding money back."]},
+   {"type":"troubleshoot","heading":"The application process",
+    "items":[
+      {"q":"Step 1 - Confirm eligibility","a":"Verify you meet both medical criteria (disabled, blind, or 65+) and the financial criteria (limited income and resources). Use our SSI Eligibility Checker for a quick assessment."},
+      {"q":"Step 2 - Gather documentation","a":"Collect medical records, financial statements (bank, property, vehicles), and proof of income for everyone in your household. SSI requires far more financial documentation than SSDI."},
+      {"q":"Step 3 - Start the application","a":"Begin online at ssa.gov, call 1-800-772-1213, or visit any Bronx SSA office. SSI cannot be completed entirely online — you will need at least one phone or in-person interview."},
+      {"q":"Step 4 - The interview","a":"An SSA representative will go through your application in detail. Be honest and thorough about income and assets — undisclosed resources discovered later result in overpayment claims."},
+      {"q":"Step 5 - Wait for decision","a":"Disability-based SSI decisions take 3-6 months. Age-based SSI (for those 65+) is faster, often 1-3 months, because no medical review is needed."}]},
+   {"type":"faq_extra","items":[
+     {"q":"Can children get SSI?","a":"Yes. Disabled children whose family income and resources fall within SSI limits can qualify. The medical standard for children focuses on functional limitations in age-appropriate activities rather than work."},
+     {"q":"Will SSI automatically give me Medicaid in New York?","a":"In most cases, yes. New York is a 1634 state, meaning SSI eligibility generally confers automatic Medicaid eligibility. This is one of the most important practical benefits of receiving SSI in the Bronx."},
+     {"q":"What happens if my income changes?","a":"You must report changes in income, assets, household, or living situation to the SSA promptly. Unreported changes are the leading cause of SSI overpayments — which the SSA later demands back, often years after the fact."},
+     {"q":"How much will I receive?","a":"The federal maximum for an individual in 2024 was about $943/month, with New York adding a small state supplement. Earned and unearned income reduces this amount based on specific exclusion formulas."}]},
+ ]},
+
+{"slug":"replace-social-security-card-bronx","silo":"services",
+ "h1":"How to Replace a Lost Social Security Card in the Bronx",
+ "title":"Replace a Lost Social Security Card in the Bronx, NY (2026)",
+ "meta":"Lost your Social Security card in the Bronx? Learn how to replace it free in 2026, online or in person, and the lifetime limits on replacement cards.",
+ "intro":("Losing a Social Security card is common, and replacing it is free and straightforward. Many Bronx residents qualify to replace the card entirely online without visiting an SSA office, while others must apply in person. This guide explains both routes, the documents required, and the lifetime replacement limits that surprise many applicants."),
+ "sections":[
+   {"type":"quick_answer","heading":"The quick answer",
+    "body":"To replace a lost Social Security card in the Bronx, the fastest path is the online request through my Social Security at ssa.gov for those who qualify. If you cannot use the online option, visit any Bronx SSA office with proof of identity. Replacement is always free. You are limited to 3 replacement cards in a year and 10 over your lifetime, though legal name changes do not count toward these limits."},
+   {"type":"section","heading":"Who can replace their card online",
+    "body":[
+      "The SSA expanded online replacement substantially in recent years. You qualify for online replacement if you are a U.S. citizen age 18 or older, have a valid New York State driver's license or state-issued ID, have a U.S. mailing address, and are not requesting any changes to the card (a name change still requires an in-person visit).",
+      "If any of these conditions does not apply, you will need to visit a Bronx SSA office in person. Non-citizens, even with valid documents, generally cannot use the online process."]},
+   {"type":"troubleshoot","heading":"Two routes to replace your card",
+     "items":[
+       {"q":"Online (fastest, if you qualify)","a":"Sign in to your my Social Security account at ssa.gov/myaccount, request a replacement, and verify your identity with your driver's license or state ID. The card arrives by mail in 7-14 business days. No appointment, no documents to bring physically."},
+       {"q":"In person at a Bronx SSA office","a":"If you do not qualify for the online process, visit the office serving your area (Concourse Village West, Tremont, Fordham, South Bronx, or White Plains Rd). Bring original proof of identity. Form SS-5 is required but can be completed at the office. Scheduling an appointment by calling 1-800-772-1213 is strongly recommended."}]},
+   {"type":"section","heading":"The replacement limits most people do not know",
+    "body":[
+      "Federal regulations limit you to 3 replacement Social Security cards in any 12-month period and 10 cards over your lifetime. These limits exist to deter abuse and identity theft. Important exceptions exist — legal name changes and certain immigration status changes do NOT count toward the limit — but ordinary lost-or-stolen replacements do.",
+      "If you are approaching the lifetime limit, consider whether you actually need the physical card. For most uses (tax filing, opening a bank account, applying for jobs), you only need to know the number. Carrying the physical card in a wallet is widely discouraged because it raises identity theft risk substantially."]},
+   {"type":"checklist","heading":"Documents you need (in-person)",
+    "items":[
+      "Original proof of identity: unexpired New York driver's license, New York State ID, or U.S. passport.",
+      "Form SS-5, completed (can be filled at the office, but pre-filling at home saves time).",
+      "If your name has changed since your last card: legal name-change document (marriage certificate, divorce decree, or court order).",
+      "For non-citizens: current immigration documents in addition to identity proof."]},
+   {"type":"faq_extra","items":[
+     {"q":"How much does a replacement card cost?","a":"It is free. The SSA never charges for replacement cards. Any service charging a fee for this is a third party, not the SSA."},
+     {"q":"Do I really need the physical card?","a":"For most purposes, no. Tax forms, employer paperwork, and bank accounts ask for the SSN number, not the physical card. Keep your card secure at home and avoid carrying it in your wallet — identity theft risk in NYC is real."},
+     {"q":"What if my card was stolen and I am worried about identity theft?","a":"Replace the card normally and also place a fraud alert with all three credit bureaus. Monitor your credit reports. The SSA does not change your SSN simply because the card was stolen, but a new SSN can be requested in extreme cases of ongoing identity fraud."},
+     {"q":"How long does the replacement actually take?","a":"The card arrives 7-14 business days after the request is approved. Online requests are processed automatically; in-person requests are typically processed the same or next day."}]},
+ ]},
+
+{"slug":"apply-for-disability-benefits-bronx","silo":"services",
+ "h1":"How to Apply for Social Security Disability Benefits in the Bronx",
+ "title":"Apply for Disability Benefits (SSDI/SSI) in the Bronx, NY (2026)",
+ "meta":"Step-by-step guide to applying for Social Security disability benefits in the Bronx. SSDI vs SSI, required medical evidence, and what to expect in 2026.",
+ "intro":("Applying for Social Security disability benefits is one of the most consequential financial processes a Bronx resident can face. Many people who qualify never apply, and many who do are denied initially because of incomplete medical evidence. This guide explains how to apply from the Bronx, the difference between SSDI and SSI, what medical documentation matters most, and realistic expectations for timing."),
+ "sections":[
+   {"type":"quick_answer","heading":"The quick answer",
+    "body":"To apply for Social Security disability benefits in the Bronx, start online at ssa.gov/applyfordisability, by phone at 1-800-772-1213, or in person at any Bronx SSA office. The two main programs are SSDI (based on work history) and SSI (needs-based, no work history required). Both require strong medical evidence proving the disability prevents substantial work. Initial decisions take 3-6 months, and around 65% of initial applications are denied."},
+   {"type":"section","heading":"SSDI vs SSI: which one applies to you",
+    "body":[
+      "This is the first thing to understand, and where many Bronx applicants get tripped up. Social Security Disability Insurance (SSDI) is funded by payroll taxes and requires that you have worked enough recent quarters (typically 5 of the last 10 years) while paying Social Security taxes. The benefit amount depends on your earnings history.",
+      "Supplemental Security Income (SSI), by contrast, is needs-based. It does not require work history but does require very limited income and resources (generally under $2,000 for an individual). Many Bronx residents qualify for SSI rather than SSDI because of work history gaps or low recent earnings. Some qualify for both simultaneously — concurrent benefits.",
+      "When you apply, the SSA evaluates eligibility for both programs automatically. You do not need to choose in advance."]},
+   {"type":"troubleshoot","heading":"How to apply: three options",
+    "items":[
+      {"q":"Online (recommended for SSDI)","a":"The online application at ssa.gov/applyfordisability is the most convenient route. You can save progress and return. It takes most applicants 1-2 hours to complete. SSI applications can start online but generally require a follow-up phone or in-person interview."},
+      {"q":"By phone","a":"Call 1-800-772-1213 to begin a phone application. A representative will help complete the forms over the phone. This is useful if completing the online form is difficult due to health or technology barriers."},
+      {"q":"In person at a Bronx SSA office","a":"Visit any of the borough's SSA offices to apply with help from a representative. Appointments are strongly recommended — call ahead. Bring all your medical records, list of doctors, and employment history."}]},
+   {"type":"checklist","heading":"What you need to apply",
+    "items":[
+      "Medical records: every doctor, hospital, clinic that has treated your condition (names, addresses, dates of treatment).",
+      "Medications: full list with dosages and prescribing doctors.",
+      "Work history for the last 15 years: jobs, dates, duties, earnings.",
+      "Most recent W-2 or self-employment tax return.",
+      "Birth certificate or proof of U.S. citizenship/lawful status.",
+      "Bank account information for direct deposit.",
+      "For SSI: detailed financial information on income, assets, and living arrangements."]},
+   {"type":"section","heading":"Timing and the appeals process",
+    "body":[
+      "Initial disability decisions take 3-6 months in most cases, sometimes longer. Around 65% of initial applications are denied — often because of incomplete medical evidence rather than because the applicant is not actually disabled. This is the single most important fact to know: a denial is not the end of the road, and many people who eventually receive benefits were denied at the initial stage.",
+      "If denied, you have 60 days to file a Request for Reconsideration. If denied again, you can request a hearing before an Administrative Law Judge — where many cases are won. The full appeals process can take 1-2 years. Many Bronx applicants work with a Social Security disability attorney, who typically gets paid (a capped percentage of back-benefits) only if you win."]},
+   {"type":"faq_extra","items":[
+     {"q":"What conditions qualify for disability?","a":"There is no fixed list. The SSA evaluates whether your condition prevents substantial work and is expected to last at least 12 months or result in death. Conditions ranging from physical injuries to mental health disorders, cancer, chronic illnesses, and developmental disabilities can all qualify with sufficient medical evidence."},
+     {"q":"Can I work while my application is pending?","a":"You can earn up to a small amount (the Substantial Gainful Activity threshold, around $1,550/month in 2024) without disqualifying yourself. Earning above that level is treated as evidence you are not disabled."},
+     {"q":"Should I hire a disability attorney in the Bronx?","a":"For initial applications, many people apply on their own. For appeals — especially hearings — having an attorney significantly improves chances of success. Most work on contingency, capped at 25% of back-benefits up to a federal limit. No payment if you lose."},
+     {"q":"How much will I receive?","a":"For SSDI, the amount depends on work history (average around $1,500/month nationally). For SSI, the federal maximum is about $943/month for an individual in 2024, with a small New York State supplement."}]},
+ ]},
+
+{"slug":"apply-for-social-security-retirement-bronx","silo":"services",
+ "h1":"How to Apply for Social Security Retirement in the Bronx",
+ "title":"Apply for Social Security Retirement in the Bronx, NY (2026)",
+ "meta":"Step-by-step guide to applying for Social Security retirement benefits in the Bronx, NY. When to apply, how much you will receive, and online vs in-person options.",
+ "intro":("Applying for Social Security retirement is one of the most important financial decisions any Bronx resident will make — and the age at which you start benefits affects how much you receive for the rest of your life. This guide explains how to apply from the Bronx, the trade-offs between starting early and waiting, and what documents are required."),
+ "sections":[
+   {"type":"quick_answer","heading":"The quick answer",
+    "body":"You can apply for Social Security retirement online at ssa.gov, by phone at 1-800-772-1213, or in person at any Bronx SSA office. Apply 3-4 months before you want benefits to start. The earliest claiming age is 62 (with permanently reduced benefits), Full Retirement Age is 66-67 depending on your birth year, and waiting until 70 maximizes the monthly benefit at about 8% per year of delay between FRA and 70."},
+   {"type":"section","heading":"When to apply: the timing question",
+    "body":[
+      "The single most important retirement decision is when to start benefits, not how to apply. Starting at 62 permanently reduces the monthly benefit by 25-30% compared to Full Retirement Age. Waiting from FRA to age 70 increases the benefit by about 8% per year. Over a typical 20-30 year retirement, these differences add up to tens of thousands of dollars.",
+      "There is no universally right answer. Starting early can make sense for shorter-than-average life expectancy, immediate income needs, or specific tax-planning reasons. Waiting makes sense for healthy people with other income to bridge the gap and who want the largest possible inflation-protected monthly benefit. Use our retirement age calculator to find your Full Retirement Age."]},
+   {"type":"troubleshoot","heading":"How to apply in the Bronx",
+    "items":[
+      {"q":"Online (easiest)","a":"The online application at ssa.gov/retirement takes about 15 minutes if you already have a my Social Security account set up. You can save and return, and most applications are approved without an in-person visit."},
+      {"q":"By phone","a":"Call 1-800-772-1213. A representative will complete the application over the phone. Useful when you have questions or prefer not to use online forms."},
+      {"q":"In person at a Bronx SSA office","a":"Visit any of the Bronx offices (Concourse Village, Tremont, Fordham, South Bronx, White Plains Rd). Schedule an appointment in advance for shorter wait times. Most useful for complex situations involving spousal benefits, divorced-spouse benefits, or non-citizen status."}]},
+   {"type":"checklist","heading":"Documents you need",
+    "items":[
+      "Birth certificate or other proof of age.",
+      "Proof of U.S. citizenship or lawful immigration status.",
+      "W-2 or self-employment tax return from the previous year.",
+      "Military service papers if you served before 1968.",
+      "Marriage and divorce documents if applying for spousal benefits.",
+      "Bank account information for direct deposit (paper checks are no longer issued)."]},
+   {"type":"section","heading":"What about Medicare?",
+    "body":[
+      "If you are 65 or older and applying for Social Security retirement, Medicare enrollment is typically automatic when you apply for retirement benefits. If you want Medicare but plan to delay Social Security past 65, you need to enroll separately during your Initial Enrollment Period to avoid late-enrollment penalties.",
+      "See our guide on applying for Medicare in the Bronx for the full process, including Part A, Part B, and Part D enrollment details."]},
+   {"type":"faq_extra","items":[
+     {"q":"What is the maximum Social Security retirement benefit?","a":"In 2024 the maximum monthly benefit at Full Retirement Age was around $3,822. The maximum at age 70 was around $4,873. These figures are for high earners with 35+ years at the maximum taxable earnings, and they adjust each year with the cost-of-living adjustment."},
+     {"q":"Can I work while receiving retirement benefits?","a":"Yes. Before Full Retirement Age there is an annual earnings limit — earning above it reduces your benefit temporarily. Once you reach FRA, you can earn any amount with no reduction. See our guide on when to apply for Social Security retirement."},
+     {"q":"What if I am divorced — can I claim on my ex-spouse's record?","a":"Yes, if your marriage lasted at least 10 years, you are at least 62, and you are currently unmarried. You can claim up to 50% of your ex-spouse's full benefit. Your ex is not notified and your claim does not reduce their benefit."},
+     {"q":"How long does the application take to process?","a":"Most retirement applications are processed within a few weeks. Apply 3-4 months before you want benefits to start to ensure timely first payment."}]},
+ ]},
+
+{"slug":"apply-for-medicare-bronx","silo":"services",
+ "h1":"How to Apply for Medicare in the Bronx, NY",
+ "title":"Apply for Medicare in the Bronx, NY (2026 Enrollment Guide)",
+ "meta":"How to enroll in Medicare in the Bronx, NY. Initial enrollment period, automatic enrollment, Parts A, B, and D explained, and how to avoid late penalties.",
+ "intro":("Medicare is the federal health insurance program for people 65 and older, plus certain younger people with disabilities. The enrollment rules are surprisingly complex, and missing key deadlines can mean paying late-enrollment penalties for the rest of your life. This guide explains how to enroll from the Bronx, what is automatic versus what requires action, and the most common mistakes to avoid."),
+ "sections":[
+   {"type":"quick_answer","heading":"The quick answer",
+    "body":"Most people become eligible for Medicare at age 65. If you already receive Social Security retirement, enrollment in Medicare Part A and Part B is automatic — the card arrives by mail. If you are not yet on Social Security, you must actively enroll during your Initial Enrollment Period (a 7-month window around your 65th birthday) at ssa.gov/medicare or by calling 1-800-772-1213. Missing this window can mean lifelong late penalties."},
+   {"type":"section","heading":"Automatic enrollment vs active enrollment",
+    "body":[
+      "If you already collect Social Security retirement or SSDI when you turn 65, the SSA automatically enrolls you in Medicare Part A (hospital insurance) and Part B (medical insurance). Your Medicare card arrives in the mail about 3 months before your 65th birthday. No application required.",
+      "If you are not yet collecting Social Security at 65 — common for people who plan to delay benefits to age 67 or 70 — Medicare is NOT automatic. You must actively enroll. This is where many people get into trouble: they assume Medicare comes with turning 65, miss the enrollment window, and face permanent late-enrollment penalties added to their premiums for life."]},
+   {"type":"troubleshoot","heading":"The four parts of Medicare",
+    "items":[
+      {"q":"Part A (Hospital Insurance)","a":"Covers inpatient hospital care, skilled nursing facility care, and some home health care. Free for most people who paid Medicare taxes for at least 10 years. Enroll during your Initial Enrollment Period even with other coverage."},
+      {"q":"Part B (Medical Insurance)","a":"Covers doctor visits, outpatient care, preventive services, and durable medical equipment. The standard premium in 2024 was around $174.70/month. Late enrollment without qualifying alternative coverage adds 10% to your premium for each 12-month delay — permanently."},
+      {"q":"Part C (Medicare Advantage)","a":"Private plans that bundle Parts A, B, and usually D, often with extra benefits like dental or vision. Offered by private insurers approved by Medicare. You can switch between Original Medicare and Part C during annual open enrollment."},
+      {"q":"Part D (Prescription Drug Coverage)","a":"Optional but recommended for most people. Late enrollment without qualifying alternative drug coverage adds 1% to your premium for each month delayed — permanently."}]},
+   {"type":"section","heading":"Your Initial Enrollment Period",
+    "body":[
+      "The Initial Enrollment Period is a 7-month window: it begins 3 months before the month you turn 65, includes your birthday month, and continues for 3 months after. Enrolling in the first 3 months means coverage starts on the first day of your birthday month. Enrolling later means coverage starts later, and missing the entire window means waiting for the General Enrollment Period (January 1 - March 31) with coverage starting July 1, plus likely permanent late penalties.",
+      "If you are still working at 65 and have qualifying employer health insurance, you may qualify for a Special Enrollment Period when that coverage ends, with no late penalty. Confirm with the SSA before relying on this exception."]},
+   {"type":"faq_extra","items":[
+     {"q":"Can I apply for Medicare in person at a Bronx SSA office?","a":"Yes. You can also enroll online at ssa.gov/medicare or by phone at 1-800-772-1213. Online is fastest for straightforward cases. In-person is best for complex situations or when you have many questions."},
+     {"q":"What if I am still working at 65?","a":"If you have qualifying employer group health insurance through current employment (yours or your spouse's), you may delay Part B without penalty. Confirm this in advance and document it. When the employer coverage ends, you have an 8-month Special Enrollment Period."},
+     {"q":"Does Medicare cover everything?","a":"No. Original Medicare leaves significant gaps: copays, deductibles, no dental, vision, hearing aids, or long-term custodial care. Many people buy a Medicare Supplement (Medigap) policy or join a Medicare Advantage plan to fill these gaps."},
+     {"q":"How much does Medicare cost?","a":"Part A is free for most people who worked enough. Part B was about $174.70/month in 2024 (higher for high earners). Part D premiums vary by plan. Total monthly cost typically ranges from $174 to $400+ depending on coverage choices."}]},
+ ]},
+
+{"slug":"change-name-on-social-security-card-bronx","silo":"services",
+ "h1":"How to Change Your Name on a Social Security Card in the Bronx",
+ "title":"Change Your Name on Social Security Card in the Bronx (2026)",
+ "meta":"Got married, divorced, or legally changed your name? Step-by-step guide to updating your Social Security card in the Bronx in 2026.",
+ "intro":("Whether you got married, divorced, or completed a legal name change in court, updating your Social Security record is one of the most important administrative steps to take afterward. This guide walks through exactly how to change your name on the Social Security card from the Bronx, the documents required, and why doing this promptly matters for your tax return and Social Security earnings record."),
+ "sections":[
+   {"type":"quick_answer","heading":"The quick answer",
+    "body":"To change the name on your Social Security card in the Bronx, you must apply in person at any Bronx SSA office. Online and mail-in requests are not accepted for name changes. Bring Form SS-5, original proof of identity, and the original legal name-change document (marriage certificate, divorce decree, or court order). The new card is free and arrives by mail in 7-14 business days. A name change does not count toward your 10-lifetime replacement limit."},
+   {"type":"section","heading":"Why you should change it promptly",
+    "body":[
+      "Your name on file with the SSA must match the name on your W-2 and your tax return, or the IRS may reject your filing or your refund. If your name changed and you have not updated the SSA, your wages may not be properly credited to your earnings record — which can affect your future Social Security benefit amount.",
+      "There is no legal deadline to update the name, but the practical recommendation is to do it as soon as possible after the legal change, especially before tax season. Doing it within a month or two of the marriage or court order is common."]},
+   {"type":"checklist","heading":"Documents you need",
+    "items":[
+      "Completed Form SS-5.",
+      "Original or certified legal name-change document (marriage certificate, divorce decree showing name change, or court order).",
+      "Original proof of identity, ideally in your NEW name (driver's license, state ID, passport).",
+      "If your identity proof is still in the old name, you also need the legal name change document linking the two names.",
+      "Proof of U.S. citizenship if not already on file with the SSA.",
+      "For non-citizens: current immigration documents."]},
+   {"type":"section","heading":"Step by step",
+    "body":[
+      "Gather your original documents — not copies. The SSA will photocopy them at the office and hand the originals back the same day. Complete Form SS-5 in advance, available at ssa.gov.",
+      "Visit any Bronx SSA office (Concourse Village West, Tremont, Fordham, South Bronx, or White Plains Rd). Scheduling an appointment in advance significantly reduces wait time. A representative will review the documents and process the request. The new card with the updated name arrives by mail in 7-14 business days.",
+      "Important to know: the Social Security number itself stays the same. Only the name on file changes. Destroy the old card once the new one arrives to prevent confusion."]},
+   {"type":"faq_extra","items":[
+     {"q":"Does a name change count toward the 10-card lifetime limit?","a":"No. Cards issued due to legal name changes do not count toward the 10-replacement lifetime limit. Certain immigration-status-related changes also do not count."},
+     {"q":"What if I changed my name informally?","a":"The SSA only accepts legal name changes documented by marriage certificate, divorce decree, or court order. Simply going by a different name informally is not sufficient."},
+     {"q":"Do I need to change my name everywhere else first?","a":"No. The SSA does not require that your driver's license or other IDs already show the new name. Practically, however, it is often easier to update the SSA after your photo ID has been updated."},
+     {"q":"How long after marriage should I update it?","a":"There is no deadline, but doing it within a month or two after the wedding is common and avoids tax-season complications the following year."}]},
+ ]},
+
+{"slug":"get-social-security-number-for-newborn-bronx","silo":"services",
+ "h1":"How to Get a Social Security Number for a Newborn in the Bronx",
+ "title":"Social Security Number for Newborn in the Bronx, NY (2026)",
+ "meta":"How to get a Social Security number for a newborn in the Bronx. Hospital application process, what to do if you decline, and how long it takes in 2026.",
+ "intro":("Getting a Social Security number for a newborn is one of the first administrative tasks after birth — and it is easier than most parents expect, because in most cases the hospital handles the paperwork directly. This guide explains exactly what happens at Bronx hospitals, what to do if you declined at the hospital or were not asked, and why having the SSN early matters for your taxes."),
+ "sections":[
+   {"type":"quick_answer","heading":"The quick answer",
+    "body":"In most cases, you can apply for your newborn's Social Security number directly at the hospital when completing the birth registration paperwork. You check a box, provide your information, and the card arrives by mail in 6-12 weeks. If you declined at the hospital or need to apply later, visit any Bronx SSA office in person with the child's birth certificate and your own identification."},
+   {"type":"section","heading":"The hospital route (the easiest path)",
+    "body":[
+      "When you give birth at a Bronx hospital and complete the birth registration paperwork, one of the questions asks whether you want a Social Security number for the child. Saying yes is the simplest possible application: the hospital forwards the information to the New York State vital records office, which sends it to the SSA, which mails the card to the address you provided. No SSA office visit, no separate form, no fee.",
+      "The card typically arrives 6-12 weeks after birth — often slower than the birth certificate itself. The SSN is assigned during processing and printed on the card."]},
+   {"type":"section","heading":"If you did not apply at the hospital",
+    "body":[
+      "If you declined or were not asked at the hospital, you can still apply for your child's SSN later. This requires visiting a Bronx SSA office in person. You will need the child's certified birth certificate from the New York State Department of Health (not a hospital souvenir copy), proof of the child's identity (which can be challenging for very young children — medical records, daycare records, or a passport can work), and your own proof of identity as the parent.",
+      "If the child is age 12 or older, the child must be present at the interview for the SSA to verify identity."]},
+   {"type":"checklist","heading":"Why getting it early matters",
+    "items":[
+      "You need the child's SSN to claim them as a dependent on your federal tax return.",
+      "Many medical insurance plans require the SSN to add the child to coverage.",
+      "529 college savings plans and other financial accounts for the child require the SSN.",
+      "Getting it at the hospital avoids a later in-person visit to an SSA office.",
+      "There is no legal deadline, but doing it within the first few months simplifies tax season."]},
+   {"type":"faq_extra","items":[
+     {"q":"How much does it cost?","a":"It is free, like all SSN applications. Be wary of any service that charges to obtain an SSN for your child."},
+     {"q":"Can I apply online for my baby's SSN?","a":"No. First-time SSN applications cannot be done online for anyone, including newborns. The hospital route or in-person at an SSA office are the only options."},
+     {"q":"What if my baby was born outside the U.S.?","a":"A child born abroad to U.S. citizen parents typically gets a Consular Report of Birth Abroad (CRBA) and can then apply for an SSN. The process is more involved and is generally handled in person at an SSA office."},
+     {"q":"How long does it take to receive the card?","a":"From the hospital application, typically 6-12 weeks. From an in-person SSA office application, 7-14 business days like other applications."}]},
+ ]},
+]
+
+json.dump({"services": services}, open('data/services-bronx.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)
+print(f"OK SERVICES generadas: {len(services)} paginas")
