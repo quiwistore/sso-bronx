@@ -142,22 +142,26 @@ img { max-width: 100%; height: auto; display: block; }
   line-height: 1;
   letter-spacing: 0.005em;
 }
+a.btn-primary,
 .btn-primary {
   background: var(--color-primary);
   color: #fff;
   border-color: var(--color-primary);
   box-shadow: var(--shadow-hard-sm);
 }
+a.btn-primary:hover,
 .btn-primary:hover {
   color: #fff;
   transform: translate(-1px, -1px);
   box-shadow: var(--shadow-hard);
 }
+a.btn-dark,
 .btn-dark {
   background: var(--color-ink);
   color: #fff;
   box-shadow: var(--shadow-hard-sm);
 }
+a.btn-dark:hover,
 .btn-dark:hover { color: #fff; box-shadow: var(--shadow-hard); transform: translate(-1px, -1px); }
 .btn-ghost {
   background: transparent;

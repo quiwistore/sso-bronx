@@ -202,7 +202,14 @@ const nav = [
     border-bottom: 1px solid var(--color-border-soft);
   }
   .main-nav a.active { color: var(--color-primary); }
-  .main-nav .nav-btn { align-self: stretch; text-align: center; margin-top: var(--space-2); }
+  .main-nav .nav-btn,
+  .main-nav a.nav-btn {
+    align-self: stretch;
+    text-align: center;
+    margin-top: var(--space-2);
+    color: #fff;
+    background: var(--color-primary);
+  }
 
   @media (min-width: 760px) {
     .menu-toggle { display: none; }
@@ -231,7 +238,14 @@ const nav = [
     .main-nav a:hover, .main-nav a.active {
       border-bottom-color: var(--color-primary);
     }
-    .main-nav .nav-btn { margin-top: 0; padding: 9px 18px; font-size: 0.85rem; }
+    .main-nav .nav-btn,
+    .main-nav a.nav-btn {
+      margin-top: 0;
+      padding: 9px 18px;
+      font-size: 0.85rem;
+      color: #fff;
+      background: var(--color-primary);
+    }
   }
   @media (min-width: 1024px) {
     .main-nav ul { gap: var(--space-6); }
