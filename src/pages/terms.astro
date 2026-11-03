@@ -1,0 +1,29 @@
+---
+// generado por herramientas-investigacion/legales
+import L from '../data/legal.json';
+import LS from '../data/contacto.json';
+import Base from '../layouts/Base.astro';
+---
+<Base title="Terms of use" description="Terms of use of Social Security Bronx, an independent, unofficial site about Social Security offices in the Bronx.">
+  <div class="container article">
+    <h1>Terms of use</h1>
+<Fragment set:html={L['terms'].html.replaceAll('{{EMAIL}}', LS.email)} />
+
+  </div>
+</Base>
+
+
+<style>
+  .article-page { padding: var(--space-7) 0 var(--space-8); }
+  .article-page header { margin-bottom: var(--space-6); padding-bottom: var(--space-5); border-bottom: var(--border-w) solid var(--color-ink); }
+  .article-page h1 { font-family: var(--font-display); font-size: clamp(2rem, 6vw, 3rem); margin-bottom: var(--space-3); letter-spacing: -0.025em; }
+  .article-page .lead { font-family: var(--font-display); font-size: 1.15rem; line-height: 1.55; color: var(--color-text-muted); }
+  .article-page .body { font-size: 1rem; line-height: 1.75; }
+  .article-page .body h2 { font-family: var(--font-display); font-size: 1.4rem; margin-top: var(--space-6); margin-bottom: var(--space-3); padding-bottom: var(--space-2); border-bottom: 1.5px solid var(--color-ink); }
+  .article-page .body p { margin-bottom: var(--space-4); }
+  .article-page .body a { color: var(--color-primary); text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+  .article-page .body ul { padding-left: var(--space-5); }
+  .article-page .body li { margin-bottom: var(--space-2); }
+  .article-page .eyebrow-row { display: flex; gap: var(--space-3); margin-bottom: var(--space-4); flex-wrap: wrap; }
+</style>
+
